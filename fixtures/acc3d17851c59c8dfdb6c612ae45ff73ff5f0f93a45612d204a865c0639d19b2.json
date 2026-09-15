@@ -1,0 +1,8 @@
+{
+  "key": "acc3d17851c59c8dfdb6c612ae45ff73ff5f0f93a45612d204a865c0639d19b2",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\": \"POS terminal POS-01 located at the front counter is experiencing intermittent operation.\", \"vendorInstructions\": \"Inspect POS-01 at the front counter to diagnose and resolve the intermittent operation.\"}",
+  "tokens": 479,
+  "recordedAt": "2026-09-15T13:19:15.113Z"
+}

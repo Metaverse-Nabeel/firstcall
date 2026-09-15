@@ -1,0 +1,8 @@
+{
+  "key": "83b2e3410528badf451126918738c750ff174e289e3f6d295ff71fe22e0b22e2",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "realize/v1",
+  "responseText": "{\n  \"text\": \"Hi, so I am standing back here by prep and dealing with the massive line at the register, but I just wanted to let someone know about the dishwasher, DSH-01. It is acting really strange today. The thermostat reading on it is completely off from what we actually have it set to, and honestly, it just is not coming up to temperature at all. Could someone take a look when they get a minute between rushes?\"\n}",
+  "tokens": 494,
+  "recordedAt": "2026-09-15T13:11:15.485Z"
+}

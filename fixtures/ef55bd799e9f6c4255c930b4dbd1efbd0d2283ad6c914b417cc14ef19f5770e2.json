@@ -1,0 +1,8 @@
+{
+  "key": "ef55bd799e9f6c4255c930b4dbd1efbd0d2283ad6c914b417cc14ef19f5770e2",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "realize/v1",
+  "responseText": "{\n  \"text\": \"The reach in freezer in the back prep area, FRZ-02, is running way hotter than normal today. Please send someone out to take a look at it as soon as possible so we can get our backstock temperatures back down.\"\n}",
+  "tokens": 438,
+  "recordedAt": "2026-09-15T13:11:43.468Z"
+}

@@ -1,0 +1,8 @@
+{
+  "key": "f27298f09b61405d6700da312714a7ed8ab37c467d5c620b2b6d7867e85a5f26",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\": \"The Toast TT-300 POS terminal located at drive-thru is experiencing a control board error and a display error. Asset tag is POS-02.\", \"vendorInstructions\": \"Inspect the POS terminal for control board and display errors.\"}",
+  "tokens": 484,
+  "recordedAt": "2026-09-15T13:19:06.105Z"
+}

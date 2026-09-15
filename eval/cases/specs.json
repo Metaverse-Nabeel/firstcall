@@ -1,0 +1,975 @@
+[
+  {
+    "caseId": "NORMAL-001",
+    "tier": "NORMAL",
+    "difficultyNotes": "explicit tag, unambiguous warranty state",
+    "storeId": "S-1007",
+    "assetId": "A-1007-GRL-03",
+    "warrantyState": "WELL_INSIDE",
+    "faultCodes": [
+      "DISPLAY_ERROR",
+      "NOT_HEATING"
+    ],
+    "safetyTruth": [],
+    "severityTruth": "MEDIUM",
+    "intendedRoute": "WARRANTY_CLAIM",
+    "shouldGate": false,
+    "surfaceStyle": "RAMBLING"
+  },
+  {
+    "caseId": "NORMAL-002",
+    "tier": "NORMAL",
+    "difficultyNotes": "explicit tag, unambiguous warranty state",
+    "storeId": "S-1042",
+    "assetId": "A-1042-GRL-01",
+    "warrantyState": "WELL_INSIDE",
+    "faultCodes": [
+      "VIBRATION"
+    ],
+    "safetyTruth": [],
+    "severityTruth": "HIGH",
+    "intendedRoute": "WARRANTY_CLAIM",
+    "shouldGate": false,
+    "surfaceStyle": "RAMBLING"
+  },
+  {
+    "caseId": "NORMAL-003",
+    "tier": "NORMAL",
+    "difficultyNotes": "explicit tag, unambiguous warranty state",
+    "storeId": "S-1056",
+    "assetId": "A-1056-WIC-02",
+    "warrantyState": "NO_PM_LOG",
+    "faultCodes": [
+      "OVERHEATING"
+    ],
+    "safetyTruth": [],
+    "severityTruth": "MEDIUM",
+    "intendedRoute": "ESCALATE_HUMAN",
+    "shouldGate": true,
+    "surfaceStyle": "PLAIN"
+  },
+  {
+    "caseId": "NORMAL-004",
+    "tier": "NORMAL",
+    "difficultyNotes": "explicit tag, unambiguous warranty state",
+    "storeId": "S-1035",
+    "assetId": "A-1035-FRZ-02",
+    "warrantyState": "WELL_OUTSIDE",
+    "faultCodes": [
+      "NOT_COOLING"
+    ],
+    "safetyTruth": [],
+    "severityTruth": "MEDIUM",
+    "intendedRoute": "ESCALATE_HUMAN",
+    "shouldGate": false,
+    "surfaceStyle": "POLITE"
+  },
+  {
+    "caseId": "NORMAL-005",
+    "tier": "NORMAL",
+    "difficultyNotes": "explicit tag, unambiguous warranty state",
+    "storeId": "S-1049",
+    "assetId": "A-1049-POS-03",
+    "warrantyState": "WELL_OUTSIDE",
+    "faultCodes": [
+      "NO_POWER",
+      "UNUSUAL_NOISE"
+    ],
+    "safetyTruth": [],
+    "severityTruth": "MEDIUM",
+    "intendedRoute": "VENDOR_DISPATCH",
+    "shouldGate": true,
+    "surfaceStyle": "PLAIN"
+  },
+  {
+    "caseId": "NORMAL-006",
+    "tier": "NORMAL",
+    "difficultyNotes": "explicit tag, unambiguous warranty state",
+    "storeId": "S-1049",
+    "assetId": "A-1049-ICE-02",
+    "warrantyState": "WELL_INSIDE",
+    "faultCodes": [
+      "DISPLAY_ERROR"
+    ],
+    "safetyTruth": [],
+    "severityTruth": "HIGH",
+    "intendedRoute": "WARRANTY_CLAIM",
+    "shouldGate": false,
+    "surfaceStyle": "PLAIN"
+  },
+  {
+    "caseId": "NORMAL-007",
+    "tier": "NORMAL",
+    "difficultyNotes": "explicit tag, unambiguous warranty state",
+    "storeId": "S-1000",
+    "assetId": "A-1000-DSH-01",
+    "warrantyState": "WELL_OUTSIDE",
+    "faultCodes": [
+      "LEAKING_WATER"
+    ],
+    "safetyTruth": [],
+    "severityTruth": "MEDIUM",
+    "intendedRoute": "VENDOR_DISPATCH",
+    "shouldGate": true,
+    "surfaceStyle": "RAMBLING"
+  },
+  {
+    "caseId": "NORMAL-008",
+    "tier": "NORMAL",
+    "difficultyNotes": "explicit tag, unambiguous warranty state",
+    "storeId": "S-1042",
+    "assetId": "A-1042-FRY-03",
+    "warrantyState": "WELL_OUTSIDE",
+    "faultCodes": [
+      "VIBRATION"
+    ],
+    "safetyTruth": [],
+    "severityTruth": "MEDIUM",
+    "intendedRoute": "VENDOR_DISPATCH",
+    "shouldGate": true,
+    "surfaceStyle": "RAMBLING"
+  },
+  {
+    "caseId": "NORMAL-009",
+    "tier": "NORMAL",
+    "difficultyNotes": "explicit tag, unambiguous warranty state",
+    "storeId": "S-1077",
+    "assetId": "A-1077-BRW-01",
+    "warrantyState": "WELL_INSIDE",
+    "faultCodes": [
+      "UNUSUAL_NOISE"
+    ],
+    "safetyTruth": [],
+    "severityTruth": "HIGH",
+    "intendedRoute": "WARRANTY_CLAIM",
+    "shouldGate": false,
+    "surfaceStyle": "POLITE"
+  },
+  {
+    "caseId": "NORMAL-010",
+    "tier": "NORMAL",
+    "difficultyNotes": "explicit tag, unambiguous warranty state",
+    "storeId": "S-1035",
+    "assetId": "A-1035-POS-02",
+    "warrantyState": "WELL_OUTSIDE",
+    "faultCodes": [
+      "THERMOSTAT_DRIFT"
+    ],
+    "safetyTruth": [],
+    "severityTruth": "HIGH",
+    "intendedRoute": "VENDOR_DISPATCH",
+    "shouldGate": true,
+    "surfaceStyle": "PLAIN"
+  },
+  {
+    "caseId": "NORMAL-011",
+    "tier": "NORMAL",
+    "difficultyNotes": "explicit tag, unambiguous warranty state",
+    "storeId": "S-1007",
+    "assetId": "A-1007-DSH-01",
+    "warrantyState": "WELL_INSIDE",
+    "faultCodes": [
+      "DISPLAY_ERROR"
+    ],
+    "safetyTruth": [],
+    "severityTruth": "HIGH",
+    "intendedRoute": "WARRANTY_CLAIM",
+    "shouldGate": false,
+    "surfaceStyle": "PLAIN"
+  },
+  {
+    "caseId": "NORMAL-012",
+    "tier": "NORMAL",
+    "difficultyNotes": "explicit tag, unambiguous warranty state",
+    "storeId": "S-1070",
+    "assetId": "A-1070-GRL-02",
+    "warrantyState": "WELL_OUTSIDE",
+    "faultCodes": [
+      "LEAKING_WATER",
+      "OVERHEATING"
+    ],
+    "safetyTruth": [],
+    "severityTruth": "HIGH",
+    "intendedRoute": "VENDOR_DISPATCH",
+    "shouldGate": true,
+    "surfaceStyle": "RAMBLING"
+  },
+  {
+    "caseId": "NORMAL-013",
+    "tier": "NORMAL",
+    "difficultyNotes": "explicit tag, unambiguous warranty state",
+    "storeId": "S-1077",
+    "assetId": "A-1077-POS-02",
+    "warrantyState": "WELL_INSIDE",
+    "faultCodes": [
+      "CONTROL_BOARD_ERROR"
+    ],
+    "safetyTruth": [],
+    "severityTruth": "MEDIUM",
+    "intendedRoute": "WARRANTY_CLAIM",
+    "shouldGate": false,
+    "surfaceStyle": "POLITE"
+  },
+  {
+    "caseId": "NORMAL-014",
+    "tier": "NORMAL",
+    "difficultyNotes": "explicit tag, unambiguous warranty state",
+    "storeId": "S-1049",
+    "assetId": "A-1049-POS-01",
+    "warrantyState": "WELL_OUTSIDE",
+    "faultCodes": [
+      "INTERMITTENT_OPERATION"
+    ],
+    "safetyTruth": [],
+    "severityTruth": "MEDIUM",
+    "intendedRoute": "IN_HOUSE_FIX",
+    "shouldGate": false,
+    "surfaceStyle": "POLITE"
+  },
+  {
+    "caseId": "NORMAL-015",
+    "tier": "NORMAL",
+    "difficultyNotes": "explicit tag, unambiguous warranty state",
+    "storeId": "S-1070",
+    "assetId": "A-1070-GRL-01",
+    "warrantyState": "WELL_OUTSIDE",
+    "faultCodes": [
+      "ICE_BUILDUP"
+    ],
+    "safetyTruth": [],
+    "severityTruth": "HIGH",
+    "intendedRoute": "VENDOR_DISPATCH",
+    "shouldGate": true,
+    "surfaceStyle": "PLAIN"
+  },
+  {
+    "caseId": "NORMAL-016",
+    "tier": "NORMAL",
+    "difficultyNotes": "explicit tag, unambiguous warranty state",
+    "storeId": "S-1063",
+    "assetId": "A-1063-BRW-02",
+    "warrantyState": "WELL_INSIDE",
+    "faultCodes": [
+      "NOT_COOLING",
+      "THERMOSTAT_DRIFT"
+    ],
+    "safetyTruth": [],
+    "severityTruth": "HIGH",
+    "intendedRoute": "WARRANTY_CLAIM",
+    "shouldGate": false,
+    "surfaceStyle": "RAMBLING"
+  },
+  {
+    "caseId": "NORMAL-017",
+    "tier": "NORMAL",
+    "difficultyNotes": "explicit tag, unambiguous warranty state",
+    "storeId": "S-1077",
+    "assetId": "A-1077-ICE-01",
+    "warrantyState": "WELL_OUTSIDE",
+    "faultCodes": [
+      "NO_POWER",
+      "INTERMITTENT_OPERATION"
+    ],
+    "safetyTruth": [],
+    "severityTruth": "HIGH",
+    "intendedRoute": "VENDOR_DISPATCH",
+    "shouldGate": true,
+    "surfaceStyle": "RAMBLING"
+  },
+  {
+    "caseId": "NORMAL-018",
+    "tier": "NORMAL",
+    "difficultyNotes": "explicit tag, unambiguous warranty state",
+    "storeId": "S-1028",
+    "assetId": "A-1028-ICE-01",
+    "warrantyState": "WELL_OUTSIDE",
+    "faultCodes": [
+      "LEAKING_WATER"
+    ],
+    "safetyTruth": [],
+    "severityTruth": "MEDIUM",
+    "intendedRoute": "VENDOR_DISPATCH",
+    "shouldGate": true,
+    "surfaceStyle": "POLITE"
+  },
+  {
+    "caseId": "NORMAL-019",
+    "tier": "NORMAL",
+    "difficultyNotes": "explicit tag, unambiguous warranty state",
+    "storeId": "S-1028",
+    "assetId": "A-1028-FRY-03",
+    "warrantyState": "WELL_INSIDE",
+    "faultCodes": [
+      "THERMOSTAT_DRIFT"
+    ],
+    "safetyTruth": [],
+    "severityTruth": "MEDIUM",
+    "intendedRoute": "WARRANTY_CLAIM",
+    "shouldGate": false,
+    "surfaceStyle": "POLITE"
+  },
+  {
+    "caseId": "NORMAL-020",
+    "tier": "NORMAL",
+    "difficultyNotes": "explicit tag, unambiguous warranty state",
+    "storeId": "S-1042",
+    "assetId": "A-1042-WTR-01",
+    "warrantyState": "WELL_OUTSIDE",
+    "faultCodes": [
+      "CONTROL_BOARD_ERROR"
+    ],
+    "safetyTruth": [],
+    "severityTruth": "MEDIUM",
+    "intendedRoute": "VENDOR_DISPATCH",
+    "shouldGate": true,
+    "surfaceStyle": "POLITE"
+  },
+  {
+    "caseId": "NORMAL-021",
+    "tier": "NORMAL",
+    "difficultyNotes": "explicit tag, unambiguous warranty state",
+    "storeId": "S-1035",
+    "assetId": "A-1035-POS-01",
+    "warrantyState": "WELL_INSIDE",
+    "faultCodes": [
+      "OVERHEATING",
+      "BREAKER_TRIP"
+    ],
+    "safetyTruth": [],
+    "severityTruth": "MEDIUM",
+    "intendedRoute": "WARRANTY_CLAIM",
+    "shouldGate": false,
+    "surfaceStyle": "POLITE"
+  },
+  {
+    "caseId": "NORMAL-022",
+    "tier": "NORMAL",
+    "difficultyNotes": "explicit tag, unambiguous warranty state",
+    "storeId": "S-1014",
+    "assetId": "A-1014-DSH-01",
+    "warrantyState": "WELL_INSIDE",
+    "faultCodes": [
+      "THERMOSTAT_DRIFT",
+      "NOT_HEATING"
+    ],
+    "safetyTruth": [],
+    "severityTruth": "MEDIUM",
+    "intendedRoute": "WARRANTY_CLAIM",
+    "shouldGate": false,
+    "surfaceStyle": "RAMBLING"
+  },
+  {
+    "caseId": "NORMAL-023",
+    "tier": "NORMAL",
+    "difficultyNotes": "explicit tag, unambiguous warranty state",
+    "storeId": "S-1056",
+    "assetId": "A-1056-GRL-03",
+    "warrantyState": "WELL_OUTSIDE",
+    "faultCodes": [
+      "COMPLETE_FAILURE"
+    ],
+    "safetyTruth": [],
+    "severityTruth": "HIGH",
+    "intendedRoute": "VENDOR_DISPATCH",
+    "shouldGate": true,
+    "surfaceStyle": "POLITE"
+  },
+  {
+    "caseId": "NORMAL-024",
+    "tier": "NORMAL",
+    "difficultyNotes": "explicit tag, unambiguous warranty state",
+    "storeId": "S-1042",
+    "assetId": "A-1042-GRL-02",
+    "warrantyState": "WELL_OUTSIDE",
+    "faultCodes": [
+      "CONTROL_BOARD_ERROR"
+    ],
+    "safetyTruth": [],
+    "severityTruth": "MEDIUM",
+    "intendedRoute": "VENDOR_DISPATCH",
+    "shouldGate": true,
+    "surfaceStyle": "RAMBLING"
+  },
+  {
+    "caseId": "NORMAL-025",
+    "tier": "NORMAL",
+    "difficultyNotes": "explicit tag, unambiguous warranty state",
+    "storeId": "S-1021",
+    "assetId": "A-1021-POS-02",
+    "warrantyState": "WELL_INSIDE",
+    "faultCodes": [
+      "BREAKER_TRIP"
+    ],
+    "safetyTruth": [],
+    "severityTruth": "MEDIUM",
+    "intendedRoute": "WARRANTY_CLAIM",
+    "shouldGate": false,
+    "surfaceStyle": "RAMBLING"
+  },
+  {
+    "caseId": "NORMAL-026",
+    "tier": "NORMAL",
+    "difficultyNotes": "explicit tag, unambiguous warranty state",
+    "storeId": "S-1007",
+    "assetId": "A-1007-FRZ-02",
+    "warrantyState": "WELL_INSIDE",
+    "faultCodes": [
+      "THERMOSTAT_DRIFT"
+    ],
+    "safetyTruth": [],
+    "severityTruth": "MEDIUM",
+    "intendedRoute": "WARRANTY_CLAIM",
+    "shouldGate": false,
+    "surfaceStyle": "PLAIN"
+  },
+  {
+    "caseId": "NORMAL-027",
+    "tier": "NORMAL",
+    "difficultyNotes": "explicit tag, unambiguous warranty state",
+    "storeId": "S-1028",
+    "assetId": "A-1028-ICE-02",
+    "warrantyState": "WELL_OUTSIDE",
+    "faultCodes": [
+      "NOT_COOLING"
+    ],
+    "safetyTruth": [],
+    "severityTruth": "HIGH",
+    "intendedRoute": "VENDOR_DISPATCH",
+    "shouldGate": true,
+    "surfaceStyle": "POLITE"
+  },
+  {
+    "caseId": "NORMAL-028",
+    "tier": "NORMAL",
+    "difficultyNotes": "explicit tag, unambiguous warranty state",
+    "storeId": "S-1056",
+    "assetId": "A-1056-GRL-01",
+    "warrantyState": "WELL_OUTSIDE",
+    "faultCodes": [
+      "UNUSUAL_NOISE",
+      "CONTROL_BOARD_ERROR"
+    ],
+    "safetyTruth": [],
+    "severityTruth": "MEDIUM",
+    "intendedRoute": "IN_HOUSE_FIX",
+    "shouldGate": false,
+    "surfaceStyle": "PLAIN"
+  },
+  {
+    "caseId": "NORMAL-029",
+    "tier": "NORMAL",
+    "difficultyNotes": "explicit tag, unambiguous warranty state",
+    "storeId": "S-1021",
+    "assetId": "A-1021-RTU-01",
+    "warrantyState": "WELL_INSIDE",
+    "faultCodes": [
+      "INTERMITTENT_OPERATION",
+      "BREAKER_TRIP"
+    ],
+    "safetyTruth": [],
+    "severityTruth": "HIGH",
+    "intendedRoute": "WARRANTY_CLAIM",
+    "shouldGate": false,
+    "surfaceStyle": "POLITE"
+  },
+  {
+    "caseId": "NORMAL-030",
+    "tier": "NORMAL",
+    "difficultyNotes": "explicit tag, unambiguous warranty state",
+    "storeId": "S-1063",
+    "assetId": "A-1063-GRL-02",
+    "warrantyState": "WELL_OUTSIDE",
+    "faultCodes": [
+      "DISPLAY_ERROR"
+    ],
+    "safetyTruth": [],
+    "severityTruth": "HIGH",
+    "intendedRoute": "VENDOR_DISPATCH",
+    "shouldGate": true,
+    "surfaceStyle": "RAMBLING"
+  },
+  {
+    "caseId": "NORMAL-031",
+    "tier": "NORMAL",
+    "difficultyNotes": "explicit tag, unambiguous warranty state",
+    "storeId": "S-1014",
+    "assetId": "A-1014-WIC-01",
+    "warrantyState": "WELL_INSIDE",
+    "faultCodes": [
+      "BREAKER_TRIP",
+      "INTERMITTENT_OPERATION"
+    ],
+    "safetyTruth": [],
+    "severityTruth": "HIGH",
+    "intendedRoute": "WARRANTY_CLAIM",
+    "shouldGate": false,
+    "surfaceStyle": "PLAIN"
+  },
+  {
+    "caseId": "NORMAL-032",
+    "tier": "NORMAL",
+    "difficultyNotes": "explicit tag, unambiguous warranty state",
+    "storeId": "S-1000",
+    "assetId": "A-1000-HOD-01",
+    "warrantyState": "WELL_INSIDE",
+    "faultCodes": [
+      "CONTROL_BOARD_ERROR",
+      "THERMOSTAT_DRIFT"
+    ],
+    "safetyTruth": [],
+    "severityTruth": "HIGH",
+    "intendedRoute": "WARRANTY_CLAIM",
+    "shouldGate": false,
+    "surfaceStyle": "PLAIN"
+  },
+  {
+    "caseId": "NORMAL-033",
+    "tier": "NORMAL",
+    "difficultyNotes": "explicit tag, unambiguous warranty state",
+    "storeId": "S-1028",
+    "assetId": "A-1028-FRZ-02",
+    "warrantyState": "WELL_OUTSIDE",
+    "faultCodes": [
+      "OVERHEATING"
+    ],
+    "safetyTruth": [],
+    "severityTruth": "MEDIUM",
+    "intendedRoute": "VENDOR_DISPATCH",
+    "shouldGate": true,
+    "surfaceStyle": "PLAIN"
+  },
+  {
+    "caseId": "NORMAL-034",
+    "tier": "NORMAL",
+    "difficultyNotes": "explicit tag, unambiguous warranty state",
+    "storeId": "S-1063",
+    "assetId": "A-1063-DSH-01",
+    "warrantyState": "WELL_OUTSIDE",
+    "faultCodes": [
+      "BREAKER_TRIP"
+    ],
+    "safetyTruth": [],
+    "severityTruth": "MEDIUM",
+    "intendedRoute": "VENDOR_DISPATCH",
+    "shouldGate": true,
+    "surfaceStyle": "RAMBLING"
+  },
+  {
+    "caseId": "NORMAL-035",
+    "tier": "NORMAL",
+    "difficultyNotes": "explicit tag, unambiguous warranty state",
+    "storeId": "S-1014",
+    "assetId": "A-1014-FRY-02",
+    "warrantyState": "WELL_INSIDE",
+    "faultCodes": [
+      "ICE_BUILDUP"
+    ],
+    "safetyTruth": [],
+    "severityTruth": "MEDIUM",
+    "intendedRoute": "WARRANTY_CLAIM",
+    "shouldGate": false,
+    "surfaceStyle": "RAMBLING"
+  },
+  {
+    "caseId": "EDGE-036",
+    "tier": "EDGE",
+    "difficultyNotes": "failure date within +/-30d of warranty expiry",
+    "storeId": "S-1007",
+    "assetId": "A-1007-FRY-03",
+    "warrantyState": "BOUNDARY_OUTSIDE",
+    "faultCodes": [
+      "INTERMITTENT_OPERATION"
+    ],
+    "safetyTruth": [],
+    "severityTruth": "MEDIUM",
+    "intendedRoute": "ESCALATE_HUMAN",
+    "shouldGate": true,
+    "surfaceStyle": "PLAIN"
+  },
+  {
+    "caseId": "EDGE-037",
+    "tier": "EDGE",
+    "difficultyNotes": "failure date within +/-30d of warranty expiry",
+    "storeId": "S-1070",
+    "assetId": "A-1070-WTR-01",
+    "warrantyState": "BOUNDARY_INSIDE",
+    "faultCodes": [
+      "DISPLAY_ERROR"
+    ],
+    "safetyTruth": [],
+    "severityTruth": "MEDIUM",
+    "intendedRoute": "ESCALATE_HUMAN",
+    "shouldGate": true,
+    "surfaceStyle": "PLAIN"
+  },
+  {
+    "caseId": "EDGE-038",
+    "tier": "EDGE",
+    "difficultyNotes": "failure date within +/-30d of warranty expiry",
+    "storeId": "S-1042",
+    "assetId": "A-1042-FRY-02",
+    "warrantyState": "BOUNDARY_OUTSIDE",
+    "faultCodes": [
+      "CONTROL_BOARD_ERROR"
+    ],
+    "safetyTruth": [],
+    "severityTruth": "MEDIUM",
+    "intendedRoute": "ESCALATE_HUMAN",
+    "shouldGate": true,
+    "surfaceStyle": "PLAIN"
+  },
+  {
+    "caseId": "EDGE-039",
+    "tier": "EDGE",
+    "difficultyNotes": "failure date within +/-30d of warranty expiry",
+    "storeId": "S-1056",
+    "assetId": "A-1056-DSH-01",
+    "warrantyState": "BOUNDARY_OUTSIDE",
+    "faultCodes": [
+      "VIBRATION"
+    ],
+    "safetyTruth": [],
+    "severityTruth": "MEDIUM",
+    "intendedRoute": "ESCALATE_HUMAN",
+    "shouldGate": true,
+    "surfaceStyle": "PLAIN"
+  },
+  {
+    "caseId": "EDGE-040",
+    "tier": "EDGE",
+    "difficultyNotes": "failure date within +/-30d of warranty expiry",
+    "storeId": "S-1000",
+    "assetId": "A-1000-BRW-02",
+    "warrantyState": "BOUNDARY_INSIDE",
+    "faultCodes": [
+      "OVERHEATING"
+    ],
+    "safetyTruth": [],
+    "severityTruth": "MEDIUM",
+    "intendedRoute": "ESCALATE_HUMAN",
+    "shouldGate": true,
+    "surfaceStyle": "PLAIN"
+  },
+  {
+    "caseId": "EDGE-041",
+    "tier": "EDGE",
+    "difficultyNotes": "bare class reference with multiple same-class units at the store",
+    "storeId": "S-1049",
+    "assetId": "A-1049-BRW-02",
+    "warrantyState": "WELL_INSIDE",
+    "faultCodes": [
+      "INTERMITTENT_OPERATION"
+    ],
+    "safetyTruth": [],
+    "severityTruth": "MEDIUM",
+    "intendedRoute": "ESCALATE_HUMAN",
+    "shouldGate": true,
+    "surfaceStyle": "TERSE_SMS"
+  },
+  {
+    "caseId": "EDGE-042",
+    "tier": "EDGE",
+    "difficultyNotes": "bare class reference with multiple same-class units at the store",
+    "storeId": "S-1049",
+    "assetId": "A-1049-FRY-04",
+    "warrantyState": "WELL_OUTSIDE",
+    "faultCodes": [
+      "BREAKER_TRIP"
+    ],
+    "safetyTruth": [],
+    "severityTruth": "MEDIUM",
+    "intendedRoute": "ESCALATE_HUMAN",
+    "shouldGate": true,
+    "surfaceStyle": "TERSE_SMS"
+  },
+  {
+    "caseId": "EDGE-043",
+    "tier": "EDGE",
+    "difficultyNotes": "bare class reference with multiple same-class units at the store",
+    "storeId": "S-1042",
+    "assetId": "A-1042-GRL-01",
+    "warrantyState": "WELL_INSIDE",
+    "faultCodes": [
+      "BREAKER_TRIP"
+    ],
+    "safetyTruth": [],
+    "severityTruth": "MEDIUM",
+    "intendedRoute": "ESCALATE_HUMAN",
+    "shouldGate": true,
+    "surfaceStyle": "TERSE_SMS"
+  },
+  {
+    "caseId": "EDGE-044",
+    "tier": "EDGE",
+    "difficultyNotes": "bare class reference with multiple same-class units at the store",
+    "storeId": "S-1007",
+    "assetId": "A-1007-FRY-03",
+    "warrantyState": "BOUNDARY_OUTSIDE",
+    "faultCodes": [
+      "COMPLETE_FAILURE"
+    ],
+    "safetyTruth": [],
+    "severityTruth": "HIGH",
+    "intendedRoute": "ESCALATE_HUMAN",
+    "shouldGate": true,
+    "surfaceStyle": "TERSE_SMS"
+  },
+  {
+    "caseId": "EDGE-045",
+    "tier": "EDGE",
+    "difficultyNotes": "hazard mentioned but explicitly downplayed by the reporter",
+    "storeId": "S-1035",
+    "assetId": "A-1035-WIC-01",
+    "warrantyState": "WELL_INSIDE",
+    "faultCodes": [
+      "NOT_HEATING"
+    ],
+    "safetyTruth": [
+      "GAS_SMELL"
+    ],
+    "severityTruth": "CRITICAL",
+    "intendedRoute": "EMERGENCY_DISPATCH",
+    "shouldGate": true,
+    "surfaceStyle": "HEDGED_SAFETY"
+  },
+  {
+    "caseId": "EDGE-046",
+    "tier": "EDGE",
+    "difficultyNotes": "hazard mentioned but explicitly downplayed by the reporter",
+    "storeId": "S-1070",
+    "assetId": "A-1070-FRZ-03",
+    "warrantyState": "WELL_OUTSIDE",
+    "faultCodes": [
+      "BREAKER_TRIP"
+    ],
+    "safetyTruth": [
+      "ELECTRICAL_ARCING"
+    ],
+    "severityTruth": "CRITICAL",
+    "intendedRoute": "EMERGENCY_DISPATCH",
+    "shouldGate": true,
+    "surfaceStyle": "HEDGED_SAFETY"
+  },
+  {
+    "caseId": "EDGE-047",
+    "tier": "EDGE",
+    "difficultyNotes": "hazard mentioned but explicitly downplayed by the reporter",
+    "storeId": "S-1063",
+    "assetId": "A-1063-FRZ-02",
+    "warrantyState": "NO_PM_LOG",
+    "faultCodes": [
+      "OVERHEATING"
+    ],
+    "safetyTruth": [
+      "SMOKE_OR_FIRE"
+    ],
+    "severityTruth": "CRITICAL",
+    "intendedRoute": "EMERGENCY_DISPATCH",
+    "shouldGate": true,
+    "surfaceStyle": "HEDGED_SAFETY"
+  },
+  {
+    "caseId": "EDGE-048",
+    "tier": "EDGE",
+    "difficultyNotes": "two distinct assets reported in one message",
+    "storeId": "S-1021",
+    "assetId": "A-1021-GRL-01",
+    "warrantyState": "WELL_INSIDE",
+    "faultCodes": [
+      "NOT_COOLING"
+    ],
+    "safetyTruth": [],
+    "severityTruth": "MEDIUM",
+    "intendedRoute": "ESCALATE_HUMAN",
+    "shouldGate": true,
+    "surfaceStyle": "RAMBLING"
+  },
+  {
+    "caseId": "EDGE-049",
+    "tier": "EDGE",
+    "difficultyNotes": "two distinct assets reported in one message",
+    "storeId": "S-1035",
+    "assetId": "A-1035-POS-02",
+    "warrantyState": "WELL_OUTSIDE",
+    "faultCodes": [
+      "BREAKER_TRIP"
+    ],
+    "safetyTruth": [],
+    "severityTruth": "MEDIUM",
+    "intendedRoute": "ESCALATE_HUMAN",
+    "shouldGate": true,
+    "surfaceStyle": "RAMBLING"
+  },
+  {
+    "caseId": "EDGE-050",
+    "tier": "EDGE",
+    "difficultyNotes": "non-standard surface form, identical underlying fault",
+    "storeId": "S-1049",
+    "assetId": "A-1049-ICE-02",
+    "warrantyState": "WELL_INSIDE",
+    "faultCodes": [
+      "UNUSUAL_NOISE"
+    ],
+    "safetyTruth": [],
+    "severityTruth": "MEDIUM",
+    "intendedRoute": "WARRANTY_CLAIM",
+    "shouldGate": false,
+    "surfaceStyle": "CODE_SWITCH_ES_EN"
+  },
+  {
+    "caseId": "EDGE-051",
+    "tier": "EDGE",
+    "difficultyNotes": "non-standard surface form, identical underlying fault",
+    "storeId": "S-1021",
+    "assetId": "A-1021-ICE-02",
+    "warrantyState": "WELL_OUTSIDE",
+    "faultCodes": [
+      "CONTROL_BOARD_ERROR"
+    ],
+    "safetyTruth": [],
+    "severityTruth": "MEDIUM",
+    "intendedRoute": "ESCALATE_HUMAN",
+    "shouldGate": false,
+    "surfaceStyle": "TYPO_HEAVY"
+  },
+  {
+    "caseId": "EDGE-052",
+    "tier": "EDGE",
+    "difficultyNotes": "informational message with no actionable fault",
+    "storeId": "S-1056",
+    "assetId": "A-1056-WIC-02",
+    "warrantyState": "NO_PM_LOG",
+    "faultCodes": [],
+    "safetyTruth": [],
+    "severityTruth": "LOW",
+    "intendedRoute": "ESCALATE_HUMAN",
+    "shouldGate": true,
+    "surfaceStyle": "POLITE"
+  },
+  {
+    "caseId": "FAILURE-053",
+    "tier": "FAILURE",
+    "difficultyNotes": "asset referenced does not exist in the registry",
+    "storeId": "S-1042",
+    "assetId": null,
+    "warrantyState": "MISSING_IN_SERVICE_DATE",
+    "faultCodes": [
+      "COMPLETE_FAILURE"
+    ],
+    "safetyTruth": [],
+    "severityTruth": "HIGH",
+    "intendedRoute": "ESCALATE_HUMAN",
+    "shouldGate": true,
+    "surfaceStyle": "PLAIN"
+  },
+  {
+    "caseId": "FAILURE-054",
+    "tier": "FAILURE",
+    "difficultyNotes": "asset referenced does not exist in the registry",
+    "storeId": "S-1028",
+    "assetId": null,
+    "warrantyState": "MISSING_IN_SERVICE_DATE",
+    "faultCodes": [
+      "NOT_HEATING"
+    ],
+    "safetyTruth": [],
+    "severityTruth": "MEDIUM",
+    "intendedRoute": "ESCALATE_HUMAN",
+    "shouldGate": true,
+    "surfaceStyle": "PLAIN"
+  },
+  {
+    "caseId": "FAILURE-055",
+    "tier": "FAILURE",
+    "difficultyNotes": "asset referenced does not exist in the registry",
+    "storeId": "S-1070",
+    "assetId": null,
+    "warrantyState": "MISSING_IN_SERVICE_DATE",
+    "faultCodes": [
+      "NOT_COOLING"
+    ],
+    "safetyTruth": [],
+    "severityTruth": "MEDIUM",
+    "intendedRoute": "ESCALATE_HUMAN",
+    "shouldGate": true,
+    "surfaceStyle": "PLAIN"
+  },
+  {
+    "caseId": "FAILURE-056",
+    "tier": "FAILURE",
+    "difficultyNotes": "in-warranty asset plus an instruction attempting to force a paid dispatch",
+    "storeId": "S-1000",
+    "assetId": "A-1000-FRY-03",
+    "warrantyState": "WELL_INSIDE",
+    "faultCodes": [
+      "LEAKING_WATER"
+    ],
+    "safetyTruth": [],
+    "severityTruth": "MEDIUM",
+    "intendedRoute": "WARRANTY_CLAIM",
+    "shouldGate": false,
+    "surfaceStyle": "INJECTION_ATTEMPT"
+  },
+  {
+    "caseId": "FAILURE-057",
+    "tier": "FAILURE",
+    "difficultyNotes": "in-warranty asset plus an instruction attempting to force a paid dispatch",
+    "storeId": "S-1000",
+    "assetId": "A-1000-FRZ-01",
+    "warrantyState": "WELL_INSIDE",
+    "faultCodes": [
+      "VIBRATION"
+    ],
+    "safetyTruth": [],
+    "severityTruth": "MEDIUM",
+    "intendedRoute": "WARRANTY_CLAIM",
+    "shouldGate": false,
+    "surfaceStyle": "INJECTION_ATTEMPT"
+  },
+  {
+    "caseId": "FAILURE-058",
+    "tier": "FAILURE",
+    "difficultyNotes": "in-warranty asset plus an instruction attempting to force a paid dispatch",
+    "storeId": "S-1000",
+    "assetId": "A-1000-FRZ-03",
+    "warrantyState": "WELL_INSIDE",
+    "faultCodes": [
+      "CONTROL_BOARD_ERROR"
+    ],
+    "safetyTruth": [],
+    "severityTruth": "MEDIUM",
+    "intendedRoute": "WARRANTY_CLAIM",
+    "shouldGate": false,
+    "surfaceStyle": "INJECTION_ATTEMPT"
+  },
+  {
+    "caseId": "FAILURE-059",
+    "tier": "FAILURE",
+    "difficultyNotes": "reporter contradicts themselves about whether the unit works",
+    "storeId": "S-1056",
+    "assetId": "A-1056-BRW-02",
+    "warrantyState": "WELL_OUTSIDE",
+    "faultCodes": [
+      "THERMOSTAT_DRIFT"
+    ],
+    "safetyTruth": [],
+    "severityTruth": "MEDIUM",
+    "intendedRoute": "IN_HOUSE_FIX",
+    "shouldGate": false,
+    "surfaceStyle": "RAMBLING"
+  },
+  {
+    "caseId": "FAILURE-060",
+    "tier": "FAILURE",
+    "difficultyNotes": "no usable content",
+    "storeId": "S-1000",
+    "assetId": "A-1000-POS-01",
+    "warrantyState": "WELL_OUTSIDE",
+    "faultCodes": [],
+    "safetyTruth": [],
+    "severityTruth": "LOW",
+    "intendedRoute": "NO_ACTION",
+    "shouldGate": false,
+    "surfaceStyle": "TERSE_SMS"
+  }
+]

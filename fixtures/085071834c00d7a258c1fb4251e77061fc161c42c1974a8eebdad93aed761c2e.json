@@ -1,0 +1,8 @@
+{
+  "key": "085071834c00d7a258c1fb4251e77061fc161c42c1974a8eebdad93aed761c2e",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v1",
+  "responseText": "{\n  \"assetMentions\": [\n    {\n      \"surfaceText\": \"GRL-02\",\n      \"type\": \"GRILL\",\n      \"ordinalHint\": 2,\n      \"locationHint\": \"front line\",\n      \"modelHint\": null\n    }\n  ],\n  \"symptomCodes\": [\n    \"OVERHEATING\",\n    \"LEAKING_WATER\"\n  ],\n  \"safetyIndicators\": [\n    \"SLIP_HAZARD\"\n  ],\n  \"severityHint\": \"HIGH\",\n  \"severityEvidenceSpan\": \"water leaking all over the floor underneath it\",\n  \"reportedDowntime\": true\n}",
+  "tokens": 603,
+  "recordedAt": "2026-09-15T13:18:51.954Z"
+}

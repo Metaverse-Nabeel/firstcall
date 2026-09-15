@@ -1,0 +1,8 @@
+{
+  "key": "74a7f74b9b39bcb2c2552516726df8d97388922753d0b0ac6029880bfb2380a4",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "realize/v1",
+  "responseText": "{\n  \"text\": \"Hi team, I am standing here trying to get through this morning rush with the line wrapping all the way back to aisle four, and I really need help with GRL-01 on the front line because it is shaking badly when it runs and honestly we had to stop using it completely since nobody can work like that right now.\"\n}",
+  "tokens": 457,
+  "recordedAt": "2026-09-15T13:09:46.837Z"
+}

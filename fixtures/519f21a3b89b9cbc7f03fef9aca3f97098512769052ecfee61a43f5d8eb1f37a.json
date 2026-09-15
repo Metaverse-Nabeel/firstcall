@@ -1,0 +1,8 @@
+{
+  "key": "519f21a3b89b9cbc7f03fef9aca3f97098512769052ecfee61a43f5d8eb1f37a",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "realize/v1",
+  "responseText": "{\n  \"text\": \"Hi, so we are having a really crazy morning here with the register line backed up all the way to aisle three, and on top of that I just wanted to let you know about POS-02 since it keeps tripping the breaker, and honestly FRY-01 is doing the exact same thing with the breaker tripping constantly every time we try to use it today.\"\n}",
+  "tokens": 463,
+  "recordedAt": "2026-09-15T13:12:04.263Z"
+}

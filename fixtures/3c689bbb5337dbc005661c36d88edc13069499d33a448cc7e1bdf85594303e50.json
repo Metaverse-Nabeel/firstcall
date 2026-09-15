@@ -1,0 +1,8 @@
+{
+  "key": "3c689bbb5337dbc005661c36d88edc13069499d33a448cc7e1bdf85594303e50",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "realize/v1",
+  "responseText": "{\n  \"text\": \"Hola, necesito help con el ice machine en el drive-thru ICE-02. Está haciendo un ruido bien feo, como un grinding bien fuerte cuando gira. Please manden a alguien pronto.\"\n}",
+  "tokens": 435,
+  "recordedAt": "2026-09-15T13:13:29.204Z"
+}

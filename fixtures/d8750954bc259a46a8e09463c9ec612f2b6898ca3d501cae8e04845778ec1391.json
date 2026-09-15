@@ -1,0 +1,8 @@
+{
+  "key": "d8750954bc259a46a8e09463c9ec612f2b6898ca3d501cae8e04845778ec1391",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\": \"The coffee brewer is not heating, the thermostat is drifting, operation is intermittent, and the drain is clogged on asset BRW-02 at the front counter.\", \"vendorInstructions\": \"Inspect the coffee brewer upon arrival to diagnose the heating, thermostat, operation, and drainage issues.\"}",
+  "tokens": 547,
+  "recordedAt": "2026-09-15T13:19:32.165Z"
+}

@@ -1,0 +1,8 @@
+{
+  "key": "01b3ea3f38cf59dcffb5df34adb3658b3054b3605360868590b2913a861a8c63",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\": \"The unit experiences intermittent operation and complete failure with no power.\", \"vendorInstructions\": \"Inspect the unit on arrival to diagnose the power failure and intermittent operation.\"}",
+  "tokens": 490,
+  "recordedAt": "2026-09-15T13:19:43.798Z"
+}

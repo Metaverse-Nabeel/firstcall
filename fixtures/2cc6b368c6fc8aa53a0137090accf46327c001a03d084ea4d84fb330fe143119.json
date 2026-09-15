@@ -1,0 +1,8 @@
+{
+  "key": "2cc6b368c6fc8aa53a0137090accf46327c001a03d084ea4d84fb330fe143119",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\n  \"symptomSummary\": \"The front line grill GRL-03 has complete failure with no power and is currently out of service.\",\n  \"vendorInstructions\": \"Inspect the grill on arrival to diagnose and repair the power failure issue.\"\n}",
+  "tokens": 480,
+  "recordedAt": "2026-09-15T13:20:38.378Z"
+}

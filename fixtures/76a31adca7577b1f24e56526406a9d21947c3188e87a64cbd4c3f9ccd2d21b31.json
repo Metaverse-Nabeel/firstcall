@@ -1,0 +1,8 @@
+{
+  "key": "76a31adca7577b1f24e56526406a9d21947c3188e87a64cbd4c3f9ccd2d21b31",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "realize/v1",
+  "responseText": "{\n  \"text\": \"The water heater in the back of house, WTR-01, has a blank display and is completely unresponsive. Please send someone to take a look at it as soon as possible.\"\n}",
+  "tokens": 427,
+  "recordedAt": "2026-09-15T13:11:49.476Z"
+}

@@ -1,0 +1,8 @@
+{
+  "key": "17adb271df634b74ba1c2f5c80bd7ac922063ea83601e94b7409503996f9891f",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "realize/v1",
+  "responseText": "{\n  \"text\": \"Hi there, I am so sorry to bother you, but could someone please take a look at the water heater in the back of house (WTR-01)? The control board is showing an error and we just cannot seem to get it to clear. Thank you so much for your help!\"\n}",
+  "tokens": 454,
+  "recordedAt": "2026-09-15T13:11:00.588Z"
+}

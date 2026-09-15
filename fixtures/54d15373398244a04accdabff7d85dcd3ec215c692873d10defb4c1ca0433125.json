@@ -1,0 +1,8 @@
+{
+  "key": "54d15373398244a04accdabff7d85dcd3ec215c692873d10defb4c1ca0433125",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\n  \"symptomSummary\": \"Asset FRZ-02, a True reach-in freezer located on the front line, is not cooling and has experienced a food safety temperature breach.\",\n  \"vendorInstructions\": \"Inspect asset FRZ-02 on the front line to diagnose and repair the cooling failure.\"\n}",
+  "tokens": 504,
+  "recordedAt": "2026-09-15T13:17:44.559Z"
+}

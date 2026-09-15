@@ -1,0 +1,8 @@
+{
+  "key": "2ae7384b4af6c88e304f257863c89e75e98436e6dfe79b28e4bd5d981f4921fa",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v1",
+  "responseText": "{\"assetMentions\":[{\"surfaceText\":\"FRZ-02\",\"type\":\"REACH_IN_FREEZER\",\"ordinalHint\":2,\"locationHint\":\"front line\",\"modelHint\":null}],\"symptomCodes\":[\"THERMOSTAT_DRIFT\"],\"safetyIndicators\":[],\"severityHint\":null,\"severityEvidenceSpan\":null,\"reportedDowntime\":false}",
+  "tokens": 494,
+  "recordedAt": "2026-09-15T13:21:01.028Z"
+}

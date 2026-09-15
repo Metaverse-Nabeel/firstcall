@@ -1,0 +1,8 @@
+{
+  "key": "ad1902b5c73628a4390ea155c4ead5067a3c3406fa200a62f62e024662e1c0bf",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "realize/v1",
+  "responseText": "{\n  \"text\": \"Unit XZY-90 is completely dead and out of service. We had to stop using it immediately. Please send someone to look at it as soon as possible.\"\n}",
+  "tokens": 418,
+  "recordedAt": "2026-09-15T13:13:42.143Z"
+}

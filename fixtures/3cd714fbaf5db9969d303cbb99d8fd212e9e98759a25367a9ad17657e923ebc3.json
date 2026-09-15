@@ -1,0 +1,8 @@
+{
+  "key": "3cd714fbaf5db9969d303cbb99d8fd212e9e98759a25367a9ad17657e923ebc3",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v1",
+  "responseText": "{\n  \"assetMentions\": [\n    {\n      \"surfaceText\": \"FRZ-02\",\n      \"type\": \"REACH_IN_FREEZER\",\n      \"ordinalHint\": 2,\n      \"locationHint\": \"front line\",\n      \"modelHint\": null\n    }\n  ],\n  \"symptomCodes\": [\n    \"NOT_COOLING\"\n  ],\n  \"safetyIndicators\": [\n    \"FOOD_SAFETY_TEMP_BREACH\"\n  ],\n  \"severityHint\": \"HIGH\",\n  \"severityEvidenceSpan\": \"it is not holding temperature and the inside is currently warm\",\n  \"reportedDowntime\": false\n}",
+  "tokens": 580,
+  "recordedAt": "2026-09-15T13:17:40.117Z"
+}

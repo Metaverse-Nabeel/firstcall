@@ -1,0 +1,8 @@
+{
+  "key": "91e56aa5b705092d0746cc5cdf4b90f179cf9321aed24976c1f97ad3ee11ee69",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v1",
+  "responseText": "{\n  \"assetMentions\": [\n    {\n      \"surfaceText\": \"POS-03\",\n      \"type\": \"POS_TERMINAL\",\n      \"ordinalHint\": 3,\n      \"locationHint\": \"drive-thru\",\n      \"modelHint\": null\n    }\n  ],\n  \"symptomCodes\": [\n    \"NO_POWER\",\n    \"UNUSUAL_NOISE\",\n    \"COMPLETE_FAILURE\"\n  ],\n  \"safetyIndicators\": [],\n  \"severityHint\": \"HIGH\",\n  \"severityEvidenceSpan\": \"won't turn on at all\",\n  \"reportedDowntime\": true\n}",
+  "tokens": 565,
+  "recordedAt": "2026-09-15T13:17:48.911Z"
+}

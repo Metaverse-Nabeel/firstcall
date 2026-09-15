@@ -1,0 +1,8 @@
+{
+  "key": "ecdb43cab67c18c17b9f023b6b3e020a13d6c11674341f9816b4b1c28a9736cc",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "realize/v1",
+  "responseText": "{\n  \"text\": \"So I am standing here trying to get through this morning rush with the line wrapping all the way past checkout three, and I look over at FRY-02 on the front line and notice there is heavy ice building up inside it for some reason. Not sure how that even happens on a fryer, but we need someone to take a look when they get a chance.\"\n}",
+  "tokens": 465,
+  "recordedAt": "2026-09-15T13:11:47.498Z"
+}

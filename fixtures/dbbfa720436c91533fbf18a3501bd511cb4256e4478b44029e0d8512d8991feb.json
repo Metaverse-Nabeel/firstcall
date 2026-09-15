@@ -1,0 +1,8 @@
+{
+  "key": "dbbfa720436c91533fbf18a3501bd511cb4256e4478b44029e0d8512d8991feb",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\n  \"symptomSummary\": \"Garland grill asset tag GRL-03 on the front line has no power, is not heating, and shows a display error.\",\n  \"vendorInstructions\": \"Inspect grill GRL-03 on the front line to diagnose and repair the power, heating, and display issues.\"\n}",
+  "tokens": 523,
+  "recordedAt": "2026-09-15T13:17:17.237Z"
+}

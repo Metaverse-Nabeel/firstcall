@@ -1,0 +1,8 @@
+{
+  "key": "4498192b82de0d784b0bb7f02dbe8653a5c5020d2586d9963a17f5eed4a7e41e",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v1",
+  "responseText": "{\n  \"assetMentions\": [\n    {\n      \"surfaceText\": \"POS-02\",\n      \"type\": \"POS_TERMINAL\",\n      \"ordinalHint\": 2,\n      \"locationHint\": \"drive-thru\",\n      \"modelHint\": null\n    }\n  ],\n  \"symptomCodes\": [\n    \"CONTROL_BOARD_ERROR\",\n    \"DISPLAY_ERROR\"\n  ],\n  \"safetyIndicators\": [],\n  \"severityHint\": \"LOW\",\n  \"severityEvidenceSpan\": \"control board is throwing an error code that we just cannot seem to clear\",\n  \"reportedDowntime\": false\n}",
+  "tokens": 576,
+  "recordedAt": "2026-09-15T13:19:00.868Z"
+}

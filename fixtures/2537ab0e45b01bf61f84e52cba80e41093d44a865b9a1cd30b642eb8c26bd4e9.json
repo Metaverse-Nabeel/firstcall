@@ -1,0 +1,8 @@
+{
+  "key": "2537ab0e45b01bf61f84e52cba80e41093d44a865b9a1cd30b642eb8c26bd4e9",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\": \"The Garland ME-24 grill, asset tag GRL-02, located on the front line is experiencing a control board error and display error.\", \"vendorInstructions\": \"Inspect the control board and display on the front line grill to diagnose the error.\"}",
+  "tokens": 495,
+  "recordedAt": "2026-09-15T13:20:47.462Z"
+}

@@ -1,0 +1,8 @@
+{
+  "key": "6c924fbe01288a0788d83f4242b4a61b25d01958aea73563507882809672f2f2",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "realize/v1",
+  "responseText": "{\n  \"text\": \"The front line grill GRL-01 is having a major issue with heavy ice building up inside the unit. We had to shut it down and stop using it during the morning rush because it is not cooking right.\"\n}",
+  "tokens": 432,
+  "recordedAt": "2026-09-15T13:10:07.958Z"
+}

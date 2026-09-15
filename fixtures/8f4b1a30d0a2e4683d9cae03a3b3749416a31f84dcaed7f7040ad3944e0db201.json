@@ -1,0 +1,8 @@
+{
+  "key": "8f4b1a30d0a2e4683d9cae03a3b3749416a31f84dcaed7f7040ad3944e0db201",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "realize/v1",
+  "responseText": "{\n  \"text\": \"Hi team, I am just standing here during the middle of this crazy rush trying to figure out the front line grill GRL-02. The control board is throwing some kind of error code and it just will not clear no matter what I try. Can someone please take a look when you get a second?\"\n}",
+  "tokens": 457,
+  "recordedAt": "2026-09-15T13:11:17.616Z"
+}

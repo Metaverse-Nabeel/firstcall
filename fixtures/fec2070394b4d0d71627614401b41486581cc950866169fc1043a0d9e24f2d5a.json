@@ -1,0 +1,8 @@
+{
+  "key": "fec2070394b4d0d71627614401b41486581cc950866169fc1043a0d9e24f2d5a",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "realize/v1",
+  "responseText": "{\n  \"text\": \"Hello, I am so sorry to bother you, but the front line grill GRL-03 appears to be completely dead and is currently out of service. Whenever you have a moment, could someone please come take a look at it? Thank you so much for your help.\"\n}",
+  "tokens": 446,
+  "recordedAt": "2026-09-15T13:11:16.375Z"
+}

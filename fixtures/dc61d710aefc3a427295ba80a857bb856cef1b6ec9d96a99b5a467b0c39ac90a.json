@@ -1,0 +1,8 @@
+{
+  "key": "dc61d710aefc3a427295ba80a857bb856cef1b6ec9d96a99b5a467b0c39ac90a",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\n  \"symptomSummary\": \"The Rheem water heater, asset WTR-01 located in the back of house, is experiencing a control board error.\",\n  \"vendorInstructions\": \"Inspect the water heater at the back of house to diagnose and resolve the control board error.\"\n}",
+  "tokens": 492,
+  "recordedAt": "2026-09-15T13:20:11.405Z"
+}

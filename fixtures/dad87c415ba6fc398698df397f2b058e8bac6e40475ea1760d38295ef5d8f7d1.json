@@ -1,0 +1,8 @@
+{
+  "key": "dad87c415ba6fc398698df397f2b058e8bac6e40475ea1760d38295ef5d8f7d1",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "realize/v1",
+  "responseText": "{\n  \"text\": \"The front line fryer FRY-03 is acting up again. It works fine sometimes and then just cuts out randomly in the middle of the rush. Please take a look at it when you get a chance.\"\n}",
+  "tokens": 432,
+  "recordedAt": "2026-09-15T13:11:48.563Z"
+}

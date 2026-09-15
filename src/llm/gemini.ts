@@ -5,8 +5,16 @@
 
 const API_BASE = "https://generativelanguage.googleapis.com/v1beta/models";
 
-/** Free tier is request-rate limited, so calls are serialised with a floor interval. */
-const MIN_INTERVAL_MS = 1100;
+/**
+ * Free tier is limited per MINUTE, not per day — measured the hard way: a 1.1s floor
+ * (~54 rpm) exhausted quota after 49 calls, while total tokens were nowhere near any
+ * limit. ~4.5s (~13 rpm) sits under the observed ceiling with headroom for retries.
+ *
+ * This is the constraint that actually governs the eval budget, which is the whole
+ * argument for the fixture cache: a re-run at zero requests is not an optimisation here,
+ * it is the difference between a suite you can iterate on and one you cannot.
+ */
+const MIN_INTERVAL_MS = Number(process.env.GEMINI_MIN_INTERVAL_MS ?? 4500);
 let lastCallAt = 0;
 
 async function throttle(): Promise<void> {
@@ -79,8 +87,11 @@ export async function callGemini(req: GeminiRequest): Promise<GeminiResponse> {
     }
 
     if (RETRYABLE.has(res.status)) {
-      lastErr = `${res.status} ${(await res.text()).slice(0, 200)}`;
-      await backoff(attempt);
+      const bodyText = await res.text();
+      lastErr = `${res.status} ${bodyText.slice(0, 200)}`;
+      // Honour the server's own RetryInfo when it gives one — guessing shorter than the
+      // service asked for is how a retry storm turns a transient 429 into a hard failure.
+      await backoff(attempt, parseRetryDelay(bodyText));
       continue;
     }
     if (!res.ok) {
@@ -107,7 +118,13 @@ export async function callGemini(req: GeminiRequest): Promise<GeminiResponse> {
 }
 
 /** Exponential with jitter — unjittered backoff resynchronises retries into a new spike. */
-async function backoff(attempt: number): Promise<void> {
-  const base = Math.min(1000 * 2 ** (attempt - 1), 16000);
-  await new Promise((r) => setTimeout(r, base + Math.random() * 400));
+async function backoff(attempt: number, serverHintMs = 0): Promise<void> {
+  const base = Math.min(1000 * 2 ** (attempt - 1), 32000);
+  await new Promise((r) => setTimeout(r, Math.max(base, serverHintMs) + Math.random() * 500));
+}
+
+/** Google returns RetryInfo as `"retryDelay": "27s"` inside error.details. */
+function parseRetryDelay(body: string): number {
+  const m = body.match(/"retryDelay"\s*:\s*"(\d+(?:\.\d+)?)s"/);
+  return m ? Math.ceil(Number(m[1]) * 1000) : 0;
 }

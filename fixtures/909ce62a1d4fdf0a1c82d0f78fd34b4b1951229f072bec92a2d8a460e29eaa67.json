@@ -1,0 +1,8 @@
+{
+  "key": "909ce62a1d4fdf0a1c82d0f78fd34b4b1951229f072bec92a2d8a460e29eaa67",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v1",
+  "responseText": "{\"assetMentions\":[{\"surfaceText\":\"POS-02\",\"type\":\"POS_TERMINAL\",\"ordinalHint\":2,\"locationHint\":\"front counter\",\"modelHint\":null}],\"symptomCodes\":[\"BREAKER_TRIP\"],\"safetyIndicators\":[],\"severityHint\":\"HIGH\",\"severityEvidenceSpan\":\"POS-02 at the front counter keeps tripping the breaker every time we try to ring someone up\",\"reportedDowntime\":false}",
+  "tokens": 530,
+  "recordedAt": "2026-09-15T13:20:51.873Z"
+}

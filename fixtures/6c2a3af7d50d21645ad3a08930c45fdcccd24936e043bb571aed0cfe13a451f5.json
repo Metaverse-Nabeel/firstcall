@@ -1,0 +1,8 @@
+{
+  "key": "6c2a3af7d50d21645ad3a08930c45fdcccd24936e043bb571aed0cfe13a451f5",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "realize/v1",
+  "responseText": "{\n  \"text\": \"The front line hood exhaust control board, HOD-01, is throwing an error code that will not clear at all. Also, the thermostat reading is completely off from what it is actually set to. We had to stop using it.\"\n}",
+  "tokens": 457,
+  "recordedAt": "2026-09-15T13:11:39.934Z"
+}

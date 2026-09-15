@@ -1,0 +1,8 @@
+{
+  "key": "103e0a22d2c4faa2aa1faa1def8da47ecf7b2fd8a53c811587b72fd054a004b6",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v1",
+  "responseText": "{\n  \"assetMentions\": [\n    {\n      \"surfaceText\": \"POS-01\",\n      \"type\": \"POS_TERMINAL\",\n      \"ordinalHint\": 1,\n      \"locationHint\": \"front counter\",\n      \"modelHint\": null\n    }\n  ],\n  \"symptomCodes\": [\n    \"INTERMITTENT_OPERATION\"\n  ],\n  \"safetyIndicators\": [],\n  \"severityHint\": \"LOW\",\n  \"severityEvidenceSpan\": \"causing a bit of a backup for us\",\n  \"reportedDowntime\": false\n}",
+  "tokens": 569,
+  "recordedAt": "2026-09-15T13:19:10.050Z"
+}

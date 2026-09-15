@@ -1,0 +1,8 @@
+{
+  "key": "a782c7df6a7bc9e7a6906b77812f7cb81eafb2478bb810092bf7e6a8bb359449",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v1",
+  "responseText": "{\n  \"assetMentions\": [\n    {\n      \"surfaceText\": \"POS-01\",\n      \"type\": \"POS_TERMINAL\",\n      \"ordinalHint\": 1,\n      \"locationHint\": \"drive-thru\",\n      \"modelHint\": null\n    }\n  ],\n  \"symptomCodes\": [\n    \"OVERHEATING\",\n    \"BREAKER_TRIP\"\n  ],\n  \"safetyIndicators\": [],\n  \"severityHint\": \"MEDIUM\",\n  \"severityEvidenceSpan\": \"It has been running much hotter than normal lately and it keeps tripping the breaker.\",\n  \"reportedDowntime\": false\n}",
+  "tokens": 579,
+  "recordedAt": "2026-09-15T13:20:16.040Z"
+}

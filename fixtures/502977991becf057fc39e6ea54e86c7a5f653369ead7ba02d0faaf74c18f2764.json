@@ -1,0 +1,8 @@
+{
+  "key": "502977991becf057fc39e6ea54e86c7a5f653369ead7ba02d0faaf74c18f2764",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v1",
+  "responseText": "{\n  \"assetMentions\": [\n    {\n      \"surfaceText\": \"BRW-01\",\n      \"type\": \"COFFEE_BREWER\",\n      \"ordinalHint\": 1,\n      \"locationHint\": \"front counter\",\n      \"modelHint\": null\n    }\n  ],\n  \"symptomCodes\": [\n    \"UNUSUAL_NOISE\"\n  ],\n  \"safetyIndicators\": [],\n  \"severityHint\": null,\n  \"severityEvidenceSpan\": null,\n  \"reportedDowntime\": true\n}",
+  "tokens": 576,
+  "recordedAt": "2026-09-15T13:18:25.105Z"
+}

@@ -1,0 +1,8 @@
+{
+  "key": "e445b06c523361927bc6798c9d94fb7e03db04655e604dc71fe255a441ef4510",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\n  \"symptomSummary\": \"Water is pooling on the floor underneath the Jackson TempStar dishwasher, asset tag DSH-01, located in the back prep area, creating a slip hazard.\",\n  \"vendorInstructions\": \"Inspect the dishwasher upon arrival to identify the source of the water leak and perform necessary repairs.\"\n}",
+  "tokens": 522,
+  "recordedAt": "2026-09-15T13:18:11.249Z"
+}

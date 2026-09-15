@@ -1,0 +1,8 @@
+{
+  "key": "80c4d0748fef4c847b8c5b269de50b01e7e0814bf8935bc06377f0a5c3f06b41",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v1",
+  "responseText": "{\"assetMentions\":[{\"surfaceText\":\"ICE-01\",\"type\":\"ICE_MACHINE\",\"ordinalHint\":1,\"locationHint\":\"drive-thru\",\"modelHint\":null}],\"symptomCodes\":[\"LEAKING_WATER\"],\"safetyIndicators\":[\"SLIP_HAZARD\"],\"severityHint\":\"MEDIUM\",\"severityEvidenceSpan\":\"water leaking all over the floor underneath it\",\"reportedDowntime\":false}",
+  "tokens": 512,
+  "recordedAt": "2026-09-15T13:19:46.976Z"
+}

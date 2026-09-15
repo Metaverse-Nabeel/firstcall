@@ -1,0 +1,8 @@
+{
+  "key": "07db12b8ff8878c5124da9d408b97f49e4f744a674875822eb5d1fa2f23a3ede",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\n  \"symptomSummary\": \"The Toast XR7 POS terminal located at the drive-thru, asset tag POS-01, is overheating and repeatedly tripping the breaker.\",\n  \"vendorInstructions\": \"Inspect the POS terminal for overheating issues and check the breaker connection.\"\n}",
+  "tokens": 486,
+  "recordedAt": "2026-09-15T13:20:20.515Z"
+}

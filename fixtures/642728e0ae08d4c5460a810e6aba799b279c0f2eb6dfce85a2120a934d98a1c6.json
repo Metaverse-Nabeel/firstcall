@@ -1,0 +1,8 @@
+{
+  "key": "642728e0ae08d4c5460a810e6aba799b279c0f2eb6dfce85a2120a934d98a1c6",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\n  \"symptomSummary\": \"The Taylor ME-24 grill, asset tag GRL-01 on the front line, is experiencing severe vibration and complete failure.\",\n  \"vendorInstructions\": \"Inspect the grill on the front line to diagnose and repair the vibration and complete failure issues.\"\n}",
+  "tokens": 501,
+  "recordedAt": "2026-09-15T13:17:26.170Z"
+}

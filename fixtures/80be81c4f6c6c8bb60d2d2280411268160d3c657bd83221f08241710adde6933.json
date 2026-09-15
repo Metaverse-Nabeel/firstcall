@@ -1,0 +1,8 @@
+{
+  "key": "80be81c4f6c6c8bb60d2d2280411268160d3c657bd83221f08241710adde6933",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "realize/v1",
+  "responseText": "{\n  \"text\": \"Hi there, I am so sorry to bother you, but our front counter coffee brewer, BRW-01, has started making a really loud grinding noise today. We had to go ahead and stop using it for now so we don't break it completely. Could someone please take a look at it when they have a quick moment? Thank you so much!\"\n}",
+  "tokens": 463,
+  "recordedAt": "2026-09-15T13:09:54.609Z"
+}

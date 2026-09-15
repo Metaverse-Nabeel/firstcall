@@ -1,0 +1,8 @@
+{
+  "key": "358cdc36e43c302911edcd8983c0647701938a5c66bad5d02815b8710b2b609d",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\": \"The drive-thru POS terminal POS-02 has experienced a complete failure and thermostat drift. The unit is currently shut down.\", \"vendorInstructions\": \"Inspect POS-02 at the drive-thru location to diagnose and repair the reported failure and thermostat issues.\"}",
+  "tokens": 482,
+  "recordedAt": "2026-09-15T13:18:38.426Z"
+}

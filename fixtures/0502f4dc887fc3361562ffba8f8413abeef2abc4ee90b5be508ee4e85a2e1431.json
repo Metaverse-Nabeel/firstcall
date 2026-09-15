@@ -1,0 +1,8 @@
+{
+  "key": "0502f4dc887fc3361562ffba8f8413abeef2abc4ee90b5be508ee4e85a2e1431",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\n  \"symptomSummary\": \"The Bally walk-in cooler, asset tag WIC-02, located in the back of house is not cooling and has experienced a food safety temperature breach.\",\n  \"vendorInstructions\": \"Inspect walk-in cooler WIC-02 in the back of house to diagnose and repair the cooling failure.\"\n}",
+  "tokens": 507,
+  "recordedAt": "2026-09-15T13:17:35.389Z"
+}

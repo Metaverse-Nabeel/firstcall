@@ -1,0 +1,8 @@
+{
+  "key": "5e267382c648578cedd40023fb2637f4d6bc6e050732c68f0285a26dca343364",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "realize/v1",
+  "responseText": "{\n  \"text\": \"The drive-thru POS terminal POS-03 won't turn on at all and it's making a really loud grinding noise. Please send someone to take a look at it as soon as possible.\"\n}",
+  "tokens": 441,
+  "recordedAt": "2026-09-15T13:09:50.063Z"
+}

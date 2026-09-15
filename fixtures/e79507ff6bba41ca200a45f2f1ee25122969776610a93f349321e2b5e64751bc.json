@@ -1,0 +1,8 @@
+{
+  "key": "e79507ff6bba41ca200a45f2f1ee25122969776610a93f349321e2b5e64751bc",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "realize/v1",
+  "responseText": "{\n  \"text\": \"Hi team, I am so sorry to bother you, but could someone please take a look at FRY-03 on the front line? The thermostat reading seems to be way off compared to what it is actually set to. Thank you so much for your help!\"\n}",
+  "tokens": 448,
+  "recordedAt": "2026-09-15T13:10:38.376Z"
+}

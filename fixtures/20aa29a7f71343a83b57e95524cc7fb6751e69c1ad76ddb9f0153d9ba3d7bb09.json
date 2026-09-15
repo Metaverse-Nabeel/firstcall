@@ -1,0 +1,8 @@
+{
+  "key": "20aa29a7f71343a83b57e95524cc7fb6751e69c1ad76ddb9f0153d9ba3d7bb09",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v1",
+  "responseText": "{\n  \"assetMentions\": [\n    {\n      \"surfaceText\": \"DSH-01\",\n      \"type\": \"DISHWASHER\",\n      \"ordinalHint\": 1,\n      \"locationHint\": \"back prep area\",\n      \"modelHint\": null\n    }\n  ],\n  \"symptomCodes\": [\n    \"LEAKING_WATER\"\n  ],\n  \"safetyIndicators\": [\n    \"SLIP_HAZARD\"\n  ],\n  \"severityHint\": \"MEDIUM\",\n  \"severityEvidenceSpan\": \"water pooling all over the floor underneath it\",\n  \"reportedDowntime\": false\n}",
+  "tokens": 599,
+  "recordedAt": "2026-09-15T13:18:06.973Z"
+}

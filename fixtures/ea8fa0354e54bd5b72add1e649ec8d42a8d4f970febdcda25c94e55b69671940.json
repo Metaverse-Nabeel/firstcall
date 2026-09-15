@@ -1,0 +1,8 @@
+{
+  "key": "ea8fa0354e54bd5b72add1e649ec8d42a8d4f970febdcda25c94e55b69671940",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "realize/v1",
+  "responseText": "{\n  \"text\": \"Hi there, I am so sorry to bother you, but could someone please take a look at POS-01 at the front counter? It seems to work sometimes and then just cuts out other times, which is causing a bit of a backup for us. Thank you so much for your help!\"\n}",
+  "tokens": 449,
+  "recordedAt": "2026-09-15T13:10:06.900Z"
+}

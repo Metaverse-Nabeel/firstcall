@@ -1,0 +1,8 @@
+{
+  "key": "ce9ae997bc4405576c369ffb267d6a0b3ca305d0afc99d110f0b442e0a14e826",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "realize/v1",
+  "responseText": "{\n  \"text\": \"The back prep dishwasher DSH-01 is completely dead. The display is blank and won't respond to anything at all when we try to press the buttons. We had to stop using it since we can't run any racks through right now.\"\n}",
+  "tokens": 438,
+  "recordedAt": "2026-09-15T13:10:03.459Z"
+}

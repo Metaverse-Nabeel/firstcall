@@ -1,0 +1,8 @@
+{
+  "key": "e9a49d0d199b6a47551caccaaaf171e13fe329c6b93748ced613b1ecebf77387",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "realize/v1",
+  "responseText": "{\n  \"text\": \"The front line reach in freezer FRZ-02 is running way too hot today. There is a tiny bit of smoke coming from the unit, but honestly it is probably just nothing and probably not even worth a real callout, just thought I would mention it.\"\n}",
+  "tokens": 482,
+  "recordedAt": "2026-09-15T13:12:01.325Z"
+}

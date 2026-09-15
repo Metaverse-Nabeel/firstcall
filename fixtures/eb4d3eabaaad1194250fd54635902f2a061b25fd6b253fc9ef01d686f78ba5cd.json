@@ -1,0 +1,8 @@
+{
+  "key": "eb4d3eabaaad1194250fd54635902f2a061b25fd6b253fc9ef01d686f78ba5cd",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\": \"The Jackson dishwasher tagged as DSH-01 in the back prep area has complete failure with no power and a blank display.\", \"vendorInstructions\": \"Inspect the unit for power and check the display error to diagnose the cause of the failure.\"}",
+  "tokens": 485,
+  "recordedAt": "2026-09-15T13:18:47.236Z"
+}

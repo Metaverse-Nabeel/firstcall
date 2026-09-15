@@ -1,0 +1,8 @@
+{
+  "key": "910c59704b0073d1172c625db4b303e24a4b3eb4789a725d1daaaca7cc5087d2",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "realize/v1",
+  "responseText": "{\n  \"text\": \"The thermostat on FRZ-02, our front line reach-in freezer, is way off. The reading doesn't match what the temperature is actually set to. Please send someone to check it out.\"\n}",
+  "tokens": 437,
+  "recordedAt": "2026-09-15T13:11:19.652Z"
+}

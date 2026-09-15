@@ -1,0 +1,8 @@
+{
+  "key": "d837cc8ad30b8e9a364ee07954baa5801c2f35955700eadb52f3407d28d31770",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "realize/v1",
+  "responseText": "{\"text\": \"Hey so I am standing here trying to get through the lunch rush with a line backed up all the way to registers and FRY-03 on the front line is acting up again. It is literally shaking so badly every time it runs that I am afraid it is going to walk right across the floor. Can someone please come take a look at it when you get a second today?\"}",
+  "tokens": 464,
+  "recordedAt": "2026-09-15T13:09:53.510Z"
+}

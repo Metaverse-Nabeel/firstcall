@@ -1,0 +1,8 @@
+{
+  "key": "9272f6f6cc83c0aaa7477d0c4ac2d711d64f1ca34aec10ce6e4b05d2fd23e0ae",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\n  \"symptomSummary\": \"Dishwasher DSH-01 in the back prep area is not heating and the thermostat is drifting.\",\n  \"vendorInstructions\": \"Inspect dishwasher DSH-01 to diagnose and repair the heating and thermostat issues.\"\n}",
+  "tokens": 534,
+  "recordedAt": "2026-09-15T13:20:29.668Z"
+}

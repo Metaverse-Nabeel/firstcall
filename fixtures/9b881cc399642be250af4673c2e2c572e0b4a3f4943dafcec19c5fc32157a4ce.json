@@ -1,0 +1,8 @@
+{
+  "key": "9b881cc399642be250af4673c2e2c572e0b4a3f4943dafcec19c5fc32157a4ce",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "realize/v1",
+  "responseText": "{\n  \"text\": \"The reach in freezer in back prep keeps tripping the breaker. There are some little sparks coming from the connection when it happens, but honestly it is probably nothing to worry about and probably not worth a real callout.\"\n}",
+  "tokens": 469,
+  "recordedAt": "2026-09-15T13:12:00.212Z"
+}

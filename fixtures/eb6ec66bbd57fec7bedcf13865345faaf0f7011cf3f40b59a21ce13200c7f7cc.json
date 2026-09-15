@@ -1,0 +1,8 @@
+{
+  "key": "eb6ec66bbd57fec7bedcf13865345faaf0f7011cf3f40b59a21ce13200c7f7cc",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v1",
+  "responseText": "{\n  \"assetMentions\": [\n    {\n      \"surfaceText\": \"ice machine\",\n      \"type\": \"ICE_MACHINE\",\n      \"ordinalHint\": null,\n      \"locationHint\": \"back prep area\",\n      \"modelHint\": null\n    }\n  ],\n  \"symptomCodes\": [\n    \"NO_POWER\",\n    \"INTERMITTENT_OPERATION\",\n    \"COMPLETE_FAILURE\"\n  ],\n  \"safetyIndicators\": [],\n  \"severityHint\": \"HIGH\",\n  \"severityEvidenceSpan\": \"we had to stop using it completely\",\n  \"reportedDowntime\": true\n}",
+  "tokens": 602,
+  "recordedAt": "2026-09-15T13:19:36.968Z"
+}

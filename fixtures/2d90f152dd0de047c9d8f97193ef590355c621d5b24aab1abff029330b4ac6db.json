@@ -1,0 +1,8 @@
+{
+  "key": "2d90f152dd0de047c9d8f97193ef590355c621d5b24aab1abff029330b4ac6db",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "realize/v1",
+  "responseText": "{\n  \"text\": \"Hey, unit XZY-92 is acting up again. It is not holding temperature and the inside is completely warm. We need someone to take a look at it as soon as possible because we have stock inside that is going to spoil.\"\n}",
+  "tokens": 435,
+  "recordedAt": "2026-09-15T13:13:52.924Z"
+}

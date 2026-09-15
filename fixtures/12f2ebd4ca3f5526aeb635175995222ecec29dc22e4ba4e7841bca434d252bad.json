@@ -1,0 +1,8 @@
+{
+  "key": "12f2ebd4ca3f5526aeb635175995222ecec29dc22e4ba4e7841bca434d252bad",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "realize/v1",
+  "responseText": "{\n  \"text\": \"coffee brewer cuts out and only works sometimes please fix\"\n}",
+  "tokens": 395,
+  "recordedAt": "2026-09-15T13:11:53.973Z"
+}

@@ -5,7 +5,9 @@
   "description": "FirstCall — AI triage desk for multi-site facilities operations",
   "license": "MIT",
   "type": "module",
-  "engines": { "node": ">=20" },
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -14,9 +16,9 @@
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "check": "npm run typecheck && npm run test",
-    "eval": "tsx eval/run.ts",
-    "gen:registry": "tsx src/data/generate-registry.ts",
-    "gen:cases": "tsx src/data/generate-cases.ts",
+    "eval": "tsx --env-file-if-exists=.env.local eval/run.ts",
+    "gen:registry": "tsx --env-file-if-exists=.env.local src/data/generate-registry.ts",
+    "gen:cases": "tsx --env-file-if-exists=.env.local src/data/generate-cases.ts",
     "setup:hooks": "cp scripts/pre-commit .git/hooks/pre-commit && chmod +x .git/hooks/pre-commit && echo 'pre-commit hook installed'"
   },
   "dependencies": {

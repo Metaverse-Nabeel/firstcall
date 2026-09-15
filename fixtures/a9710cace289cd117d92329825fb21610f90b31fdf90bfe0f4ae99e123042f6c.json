@@ -1,0 +1,8 @@
+{
+  "key": "a9710cace289cd117d92329825fb21610f90b31fdf90bfe0f4ae99e123042f6c",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v1",
+  "responseText": "{\n  \"assetMentions\": [\n    {\n      \"surfaceText\": \"FRY-03\",\n      \"type\": \"FRYER\",\n      \"ordinalHint\": 3,\n      \"locationHint\": \"front line\",\n      \"modelHint\": null\n    }\n  ],\n  \"symptomCodes\": [\n    \"THERMOSTAT_DRIFT\"\n  ],\n  \"safetyIndicators\": [],\n  \"severityHint\": \"LOW\",\n  \"severityEvidenceSpan\": \"The thermostat reading seems to be way off compared to what it is actually set to.\",\n  \"reportedDowntime\": false\n}",
+  "tokens": 570,
+  "recordedAt": "2026-09-15T13:19:56.746Z"
+}

@@ -1,0 +1,8 @@
+{
+  "key": "eac81091438b5591185a27aab1c5e13ef796c3f9b2073da1ad9e8bb817bb9364",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "realize/v1",
+  "responseText": "{\n  \"text\": \"The back prep dishwasher DSH-01 is shaking really badly whenever we run a cycle. Please send someone out to take a look at it as soon as possible.\"\n}",
+  "tokens": 421,
+  "recordedAt": "2026-09-15T13:11:51.760Z"
+}

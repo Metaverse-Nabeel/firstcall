@@ -1,0 +1,8 @@
+{
+  "key": "5b9ce0ec79d23b5168182165955940fca9e7714c1c6e1e4093526178e6ee9144",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "realize/v1",
+  "responseText": "{\n  \"text\": \"Hi, so I am standing here trying to get the front counter coffee brewer ready and the line is already backing up because morning shift is crazy busy right now. BRW-02 is acting up again. It is not holding temperature at all and the inside is just warm instead of hot. Also the thermostat reading is completely off from what it is actually set to. We had to stop using it. Please send someone out.\"\n}",
+  "tokens": 495,
+  "recordedAt": "2026-09-15T13:10:09.416Z"
+}

@@ -1,0 +1,8 @@
+{
+  "key": "207570d940b8afdd3944b2d868297ca67c765b6c082d04d80032161442801dbf",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "realize/v1",
+  "responseText": "{\n  \"text\": \"Hi team, hope you are having a decent shift today because it is super busy over here with the weekend rush and long lines at the register. Anyway, I need to put in a ticket for GRL-01 and also FRY-01 because neither one of them is holding temperature properly and when you open them up the inside is really warm. Please send someone out when you can.\"\n}",
+  "tokens": 474,
+  "recordedAt": "2026-09-15T13:12:02.939Z"
+}

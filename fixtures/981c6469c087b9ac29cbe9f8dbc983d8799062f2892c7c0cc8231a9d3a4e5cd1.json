@@ -1,0 +1,8 @@
+{
+  "key": "981c6469c087b9ac29cbe9f8dbc983d8799062f2892c7c0cc8231a9d3a4e5cd1",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\": \"The Hoshizaki ice machine, asset tag ICE-02 located in the drive-thru, has experienced a complete failure with no power and a display error. The unit is currently not functioning.\", \"vendorInstructions\": \"Inspect the Hoshizaki ice machine in the drive-thru to diagnose and repair the power and display issues.\"}",
+  "tokens": 510,
+  "recordedAt": "2026-09-15T13:18:02.242Z"
+}

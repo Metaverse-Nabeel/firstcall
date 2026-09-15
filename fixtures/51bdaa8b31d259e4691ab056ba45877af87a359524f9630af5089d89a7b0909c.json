@@ -1,0 +1,8 @@
+{
+  "key": "51bdaa8b31d259e4691ab056ba45877af87a359524f9630af5089d89a7b0909c",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\n  \"symptomSummary\": \"The Taylor ME-24 grill designated as asset GRL-02 on the front line is overheating and leaking water, creating a slip hazard.\",\n  \"vendorInstructions\": \"Inspect the grill to diagnose the overheating and water leak issues.\"\n}",
+  "tokens": 520,
+  "recordedAt": "2026-09-15T13:18:56.237Z"
+}

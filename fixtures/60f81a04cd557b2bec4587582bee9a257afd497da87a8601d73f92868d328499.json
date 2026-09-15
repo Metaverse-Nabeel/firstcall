@@ -1,0 +1,8 @@
+{
+  "key": "60f81a04cd557b2bec4587582bee9a257afd497da87a8601d73f92868d328499",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v1",
+  "responseText": "{\n  \"assetMentions\": [\n    {\n      \"surfaceText\": \"GRL-02\",\n      \"type\": \"GRILL\",\n      \"ordinalHint\": 2,\n      \"locationHint\": \"front line\",\n      \"modelHint\": null\n    }\n  ],\n  \"symptomCodes\": [\n    \"CONTROL_BOARD_ERROR\",\n    \"DISPLAY_ERROR\"\n  ],\n  \"safetyIndicators\": [],\n  \"severityHint\": \"MEDIUM\",\n  \"severityEvidenceSpan\": \"The control board is throwing some kind of error code and it just will not clear no matter what I try.\",\n  \"reportedDowntime\": false\n}",
+  "tokens": 591,
+  "recordedAt": "2026-09-15T13:20:42.963Z"
+}

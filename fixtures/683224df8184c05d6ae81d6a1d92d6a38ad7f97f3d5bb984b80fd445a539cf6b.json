@@ -1,0 +1,8 @@
+{
+  "key": "683224df8184c05d6ae81d6a1d92d6a38ad7f97f3d5bb984b80fd445a539cf6b",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v1",
+  "responseText": "{\n  \"assetMentions\": [\n    {\n      \"surfaceText\": \"GRL-03\",\n      \"type\": \"GRILL\",\n      \"ordinalHint\": 3,\n      \"locationHint\": null,\n      \"modelHint\": null\n    }\n  ],\n  \"symptomCodes\": [\n    \"NO_POWER\",\n    \"NOT_HEATING\",\n    \"DISPLAY_ERROR\"\n  ],\n  \"safetyIndicators\": [],\n  \"severityHint\": \"MEDIUM\",\n  \"severityEvidenceSpan\": \"display is completely blank and unresponsive, plus it is not coming up to temperature at all\",\n  \"reportedDowntime\": true\n}",
+  "tokens": 602,
+  "recordedAt": "2026-09-15T13:17:13.630Z"
+}

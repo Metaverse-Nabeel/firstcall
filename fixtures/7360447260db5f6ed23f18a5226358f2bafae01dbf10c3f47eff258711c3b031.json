@@ -1,0 +1,8 @@
+{
+  "key": "7360447260db5f6ed23f18a5226358f2bafae01dbf10c3f47eff258711c3b031",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "realize/v1",
+  "responseText": "{\n  \"text\": \"Hello, I am so sorry to bother you with this, but could someone please take a look at our drive-thru POS terminal (POS-01)? It has been running much hotter than normal lately and it keeps tripping the breaker. Thank you so much for your help!\"\n}",
+  "tokens": 454,
+  "recordedAt": "2026-09-15T13:11:14.287Z"
+}

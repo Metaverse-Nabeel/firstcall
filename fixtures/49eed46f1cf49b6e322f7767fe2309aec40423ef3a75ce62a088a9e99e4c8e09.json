@@ -1,0 +1,8 @@
+{
+  "key": "49eed46f1cf49b6e322f7767fe2309aec40423ef3a75ce62a088a9e99e4c8e09",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\n  \"symptomSummary\": \"The drive-thru POS terminal POS-03 has complete power failure and is making an unusual noise.\",\n  \"vendorInstructions\": \"Inspect POS-03 at the drive-thru location to diagnose and repair the power and noise issues.\"\n}",
+  "tokens": 484,
+  "recordedAt": "2026-09-15T13:17:54.005Z"
+}
