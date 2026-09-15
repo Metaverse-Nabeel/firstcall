@@ -1,0 +1,9 @@
+{
+  "key": "ea96c2a749b342083dbdbf7a6f744c3cfcf42a0e9fc3da1279028064cf925dfa",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v2",
+  "responseText": "{\n  \"assetMentions\": [\n    {\n      \"surfaceText\": \"ICE-02\",\n      \"type\": \"ICE_MACHINE\",\n      \"ordinalHint\": 2,\n      \"locationHint\": \"drive-thru\",\n      \"modelHint\": null\n    }\n  ],\n  \"symptomCodes\": [\n    \"NOT_COOLING\",\n    \"COMPLETE_FAILURE\"\n  ],\n  \"safetyEvidence\": [],\n  \"severityHint\": null,\n  \"severityEvidenceSpan\": null,\n  \"reportedDowntime\": true\n}",
+  "tokens": 620,
+  "latencyMs": 1201,
+  "recordedAt": "2026-09-15T13:32:21.555Z"
+}

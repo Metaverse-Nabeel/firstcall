@@ -1,0 +1,9 @@
+{
+  "key": "d50eac4820e5055db242a38a7b303dfe3cfd4ca4a85c0ec5b94f46d17d76bc43",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\n  \"symptomSummary\": \"The coffee brewer asset BRW-02 at the front counter is not heating and is experiencing thermostat drift.\",\n  \"vendorInstructions\": \"Inspect the unit to diagnose and repair the heating and thermostat issues.\"\n}",
+  "tokens": 516,
+  "latencyMs": 1109,
+  "recordedAt": "2026-09-15T13:31:07.502Z"
+}

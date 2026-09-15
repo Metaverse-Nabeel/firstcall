@@ -1,0 +1,9 @@
+{
+  "key": "818a89840eb04381951ccbbb807a9558f229c6b5c7cc5603b2e278d0e25a605a",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v2",
+  "responseText": "{\"assetMentions\":[{\"surfaceText\":\"FRY-03\",\"type\":\"FRYER\",\"ordinalHint\":3,\"locationHint\":\"front line\",\"modelHint\":null}],\"symptomCodes\":[\"VIBRATION\"],\"safetyEvidence\":[{\"indicator\":\"STRUCTURAL_HAZARD\",\"span\":\"It is literally shaking so badly every time it runs that I am afraid it is going to walk right across the floor.\"}],\"severityHint\":null,\"severityEvidenceSpan\":null,\"reportedDowntime\":false}",
+  "tokens": 614,
+  "latencyMs": 1104,
+  "recordedAt": "2026-09-15T13:30:13.476Z"
+}

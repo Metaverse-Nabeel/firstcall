@@ -1,0 +1,9 @@
+{
+  "key": "65bf65a7b4a6902ed2cf6bf9a11dfe1505d0b5835bb2ba8cdca134921fcf8639",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v2",
+  "responseText": "{\n  \"assetMentions\": [\n    {\n      \"surfaceText\": \"back walk in cooler\",\n      \"type\": \"WALK_IN_COOLER\",\n      \"ordinalHint\": null,\n      \"locationHint\": \"back\",\n      \"modelHint\": null\n    }\n  ],\n  \"symptomCodes\": [\n    \"NOT_COOLING\"\n  ],\n  \"safetyEvidence\": [\n    {\n      \"indicator\": \"GAS_SMELL\",\n      \"span\": \"there is a bit of a gas smell back there\"\n    }\n  ],\n  \"severityHint\": \"HIGH\",\n  \"severityEvidenceSpan\": \"there is a bit of a gas smell back there\",\n  \"reportedDowntime\": false\n}",
+  "tokens": 649,
+  "latencyMs": 1431,
+  "recordedAt": "2026-09-15T13:34:34.044Z"
+}

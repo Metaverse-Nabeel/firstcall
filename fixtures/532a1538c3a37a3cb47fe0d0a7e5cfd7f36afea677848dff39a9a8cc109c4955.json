@@ -1,0 +1,9 @@
+{
+  "key": "532a1538c3a37a3cb47fe0d0a7e5cfd7f36afea677848dff39a9a8cc109c4955",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\n  \"symptomSummary\": \"Coffee brewer BRW-02 at the front counter is overheating.\",\n  \"vendorInstructions\": \"Inspect coffee brewer BRW-02 upon arrival to diagnose the overheating issue.\"\n}",
+  "tokens": 443,
+  "latencyMs": 1187,
+  "recordedAt": "2026-09-15T13:34:02.272Z"
+}

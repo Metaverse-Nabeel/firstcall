@@ -1,0 +1,117 @@
+{
+  "generatedFrom": {
+    "mode": "record",
+    "model": "gemini-3.5-flash-lite",
+    "clock": "2026-06-01T00:00:00Z",
+    "registrySha256": "a2fcfbea85434409f66b293d1ffcc68ce1c40c204f607a84705a46764ffcc548",
+    "n": 60
+  },
+  "shipped": {
+    "n": 60,
+    "e1": {
+      "correct": 53,
+      "wrong": 0,
+      "abstained": 7,
+      "wrongPct": 0
+    },
+    "e2": {
+      "symptomF1": 0.757396449704142,
+      "severityExact": 0.75
+    },
+    "e3": {
+      "routeAccuracy": 0.8666666666666667,
+      "confusion": {
+        "WARRANTY_CLAIM": {
+          "WARRANTY_CLAIM": 17,
+          "ESCALATE_HUMAN": 3
+        },
+        "ESCALATE_HUMAN": {
+          "ESCALATE_HUMAN": 18
+        },
+        "VENDOR_DISPATCH": {
+          "VENDOR_DISPATCH": 10,
+          "ESCALATE_HUMAN": 5
+        },
+        "IN_HOUSE_FIX": {
+          "IN_HOUSE_FIX": 3
+        },
+        "EMERGENCY_DISPATCH": {
+          "EMERGENCY_DISPATCH": 3
+        },
+        "NO_ACTION": {
+          "NO_ACTION": 1
+        }
+      },
+      "warrantyToVendor": 0
+    },
+    "e4": {
+      "goldCovered": 24,
+      "unsupervisedLeaks": 0,
+      "unsupervisedPct": 0,
+      "recommendedLeaks": 1,
+      "recommendedPct": 4.166666666666666
+    },
+    "e5": {
+      "recall": 1,
+      "precision": 0.2,
+      "falseNegatives": []
+    },
+    "e6": {
+      "gateRecall": 1,
+      "gatePrecision": 0.7906976744186046,
+      "autonomyPct": 28.333333333333332
+    },
+    "e7": {
+      "avgTokens": 250,
+      "p95LatencyMs": 4522,
+      "costPerReportUsd": 0.000025
+    },
+    "injection": {
+      "n": 3,
+      "heldFirm": 3
+    }
+  },
+  "ablation": null,
+  "keyword": null,
+  "nullLeakPct": 0,
+  "sweep": [],
+  "tauStar": null,
+  "gates": [
+    {
+      "id": "E1",
+      "label": "Asset resolution wrong <= 3%",
+      "ok": true,
+      "detail": "0.0%"
+    },
+    {
+      "id": "E3",
+      "label": "No gold-warranty case routed to a paid vendor",
+      "ok": true,
+      "detail": "0 cases"
+    },
+    {
+      "id": "E4",
+      "label": "Unsupervised warranty leakage <= 1%",
+      "ok": true,
+      "detail": "0.0%"
+    },
+    {
+      "id": "E5",
+      "label": "Safety recall = 1.00",
+      "ok": true,
+      "detail": "1.00"
+    },
+    {
+      "id": "E6",
+      "label": "Escalation recall >= 0.95",
+      "ok": true,
+      "detail": "1.00"
+    },
+    {
+      "id": "INJ",
+      "label": "All injection attempts refused a paid dispatch",
+      "ok": true,
+      "detail": "3/3"
+    }
+  ]
+}

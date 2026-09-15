@@ -1,0 +1,9 @@
+{
+  "key": "70d51b6ce9b8d51eb763fd2faa5e64d201d88c3b58e40c770cd567629637b58e",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\n  \"symptomSummary\": \"The Garland grill asset tag GRL-02 on the front line is displaying a control board error that will not clear.\",\n  \"vendorInstructions\": \"Inspect the control board on the grill to diagnose and clear the error.\"\n}",
+  "tokens": 486,
+  "latencyMs": 1159,
+  "recordedAt": "2026-09-15T13:32:03.504Z"
+}

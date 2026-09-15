@@ -1,0 +1,9 @@
+{
+  "key": "99de895d2d7bfc75659d154644b5e1068c3bb10c50e0d1778b243dbb9c2b2992",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v2",
+  "responseText": "{\"assetMentions\":[{\"surfaceText\":\"DSH-01\",\"type\":\"DISHWASHER\",\"ordinalHint\":null,\"locationHint\":\"back prep area\",\"modelHint\":null}],\"symptomCodes\":[\"BREAKER_TRIP\",\"COMPLETE_FAILURE\"],\"safetyEvidence\":[],\"severityHint\":\"HIGH\",\"severityEvidenceSpan\":\"line backed up all the way to registers, and the dishwasher in the back prep area, DSH-01, keeps tripping the breaker again. Every time we try to run a rack it just dies on us.\",\"reportedDowntime\":true}",
+  "tokens": 615,
+  "latencyMs": 1402,
+  "recordedAt": "2026-09-15T13:33:17.466Z"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "2ca98608a32531c376088f0ce0abfc1cfa585e6ba0d5f6db40eebec6e15ac62c",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v2",
+  "responseText": "{\n  \"assetMentions\": [\n    {\n      \"surfaceText\": \"grill\",\n      \"type\": \"GRILL\",\n      \"ordinalHint\": null,\n      \"locationHint\": null,\n      \"modelHint\": null\n    }\n  ],\n  \"symptomCodes\": [\n    \"BREAKER_TRIP\"\n  ],\n  \"safetyEvidence\": [],\n  \"severityHint\": null,\n  \"severityEvidenceSpan\": null,\n  \"reportedDowntime\": false\n}",
+  "tokens": 557,
+  "latencyMs": 1208,
+  "recordedAt": "2026-09-15T13:34:20.302Z"
+}

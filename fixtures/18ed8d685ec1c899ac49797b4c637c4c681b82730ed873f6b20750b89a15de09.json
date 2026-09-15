@@ -1,0 +1,8 @@
+{
+  "key": "18ed8d685ec1c899ac49797b4c637c4c681b82730ed873f6b20750b89a15de09",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\": \"The Toast TT-300 POS terminal located at drive-thru is malfunctioning.\", \"vendorInstructions\": \"Inspect the POS terminal at drive-thru and perform necessary repairs.\"}",
+  "tokens": 401,
+  "recordedAt": "2026-09-15T13:26:11.315Z"
+}

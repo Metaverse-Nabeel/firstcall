@@ -1,0 +1,8 @@
+{
+  "key": "8cf67af499e6cd08345b6763eace6b43c55f2ab5e73c19f9b8f0f3f45577179c",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\n  \"symptomSummary\": \"FRY-03 on the front line is leaking water onto the floor underneath, creating a slip hazard.\",\n  \"vendorInstructions\": \"Inspect the unit upon arrival to identify the source of the leak and perform necessary repairs.\"\n}",
+  "tokens": 475,
+  "recordedAt": "2026-09-15T13:25:35.634Z"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "eb3bab5d0fbbc4fa616a59b7e883389e4e2c1bca469a1af089b2d4540ab5e5ff",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\n  \"symptomSummary\": \"Walk-in cooler WIC-02 in the back of house is not cooling and is running hotter than normal.\",\n  \"vendorInstructions\": \"Inspect walk-in cooler WIC-02 to diagnose the cooling failure.\"\n}",
+  "tokens": 476,
+  "latencyMs": 843,
+  "recordedAt": "2026-09-15T13:29:41.697Z"
+}

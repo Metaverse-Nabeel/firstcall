@@ -29,6 +29,8 @@ export interface CachedResponse {
   /** Raw JSON text the model returned, before zod parsing. */
   responseText: string;
   tokens: number;
+  /** Real model latency at record time. Lets replay report a truthful E7 instead of ~0ms. */
+  latencyMs?: number;
   recordedAt: string;
 }
 

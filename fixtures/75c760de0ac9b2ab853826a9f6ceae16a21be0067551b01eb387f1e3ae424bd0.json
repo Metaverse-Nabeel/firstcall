@@ -1,0 +1,8 @@
+{
+  "key": "75c760de0ac9b2ab853826a9f6ceae16a21be0067551b01eb387f1e3ae424bd0",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\n  \"symptomSummary\": \"The cooler is not cooling properly and a gas smell has been reported.\",\n  \"vendorInstructions\": \"Inspect the unit for cooling failure and investigate the reported gas smell immediately.\"\n}",
+  "tokens": 457,
+  "recordedAt": "2026-09-15T13:28:09.671Z"
+}

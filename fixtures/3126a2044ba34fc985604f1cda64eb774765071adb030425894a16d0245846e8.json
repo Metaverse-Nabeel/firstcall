@@ -1,0 +1,9 @@
+{
+  "key": "3126a2044ba34fc985604f1cda64eb774765071adb030425894a16d0245846e8",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\": \"The CaptiveAire hood exhaust asset HOD-01 located on the front line is experiencing a control board error and thermostat drift.\", \"vendorInstructions\": \"Inspect the control board and thermostat on the front line hood exhaust unit.\"}",
+  "tokens": 483,
+  "latencyMs": 1026,
+  "recordedAt": "2026-09-15T13:32:57.394Z"
+}

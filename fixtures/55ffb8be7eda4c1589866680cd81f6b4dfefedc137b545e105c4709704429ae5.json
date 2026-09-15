@@ -1,0 +1,9 @@
+{
+  "key": "55ffb8be7eda4c1589866680cd81f6b4dfefedc137b545e105c4709704429ae5",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\": \"The Toast POS terminal, asset tag POS-02, located in the drive-thru is experiencing a control board error and a display error.\", \"vendorInstructions\": \"Inspect the POS terminal to diagnose and repair the control board and display errors.\"}",
+  "tokens": 484,
+  "latencyMs": 1092,
+  "recordedAt": "2026-09-15T13:30:44.979Z"
+}

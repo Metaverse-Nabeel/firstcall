@@ -1,0 +1,9 @@
+{
+  "key": "0d0b427ba53889b0830bc47c4986bfa4e256279a49e2345ce393f3e1160bd97a",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v2",
+  "responseText": "{\n  \"assetMentions\": [\n    {\n      \"surfaceText\": \"POS-02\",\n      \"type\": \"POS_TERMINAL\",\n      \"ordinalHint\": 2,\n      \"locationHint\": \"drive-thru\",\n      \"modelHint\": null\n    }\n  ],\n  \"symptomCodes\": [\n    \"THERMOSTAT_DRIFT\",\n    \"COMPLETE_FAILURE\"\n  ],\n  \"safetyEvidence\": [],\n  \"severityHint\": null,\n  \"severityEvidenceSpan\": null,\n  \"reportedDowntime\": true\n}",
+  "tokens": 612,
+  "latencyMs": 1182,
+  "recordedAt": "2026-09-15T13:30:27.063Z"
+}

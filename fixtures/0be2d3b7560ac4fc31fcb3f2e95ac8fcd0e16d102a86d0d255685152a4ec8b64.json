@@ -1,0 +1,8 @@
+{
+  "key": "0be2d3b7560ac4fc31fcb3f2e95ac8fcd0e16d102a86d0d255685152a4ec8b64",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\n  \"symptomSummary\": \"The Manitowoc ice machine, asset tag ICE-02 located at the drive-thru, is experiencing a control board error and a display error that will not clear.\",\n  \"vendorInstructions\": \"Arrive on-site to inspect the ice machine and diagnose the control board and display errors.\"\n}",
+  "tokens": 495,
+  "recordedAt": "2026-09-15T13:28:23.156Z"
+}

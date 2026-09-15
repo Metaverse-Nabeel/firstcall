@@ -1,0 +1,8 @@
+{
+  "key": "d5e65fd33cafb630fc40d7ed2a7fa954d03110537fea2ca056ba0ba3317bcb07",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\n  \"symptomSummary\": \"The Traulsen reach-in freezer, asset tag FRZ-02, located in the front line, is not cooling and is emitting smoke.\",\n  \"vendorInstructions\": \"Inspect the front line reach-in freezer, asset tag FRZ-02, for cooling failure and the reported smoke condition.\"\n}",
+  "tokens": 520,
+  "recordedAt": "2026-09-15T13:28:14.060Z"
+}

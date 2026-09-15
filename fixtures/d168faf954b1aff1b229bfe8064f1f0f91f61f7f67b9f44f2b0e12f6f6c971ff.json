@@ -1,0 +1,9 @@
+{
+  "key": "d168faf954b1aff1b229bfe8064f1f0f91f61f7f67b9f44f2b0e12f6f6c971ff",
+  "modelId": "gemini-3.6-flash",
+  "promptVersion": "decide-llm/v1",
+  "responseText": "{\"verdict\":\"COVERED\",\"expiresOn\":\"2028-03-20\",\"reasoning\":\"The repair is covered as the failure occurred within the 60-month warranty term ending on 2028-03-20 and does not involve excluded wear items.\"}",
+  "tokens": 1099,
+  "latencyMs": 5139,
+  "recordedAt": "2026-09-15T13:38:38.490Z"
+}

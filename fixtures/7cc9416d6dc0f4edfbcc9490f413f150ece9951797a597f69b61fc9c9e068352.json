@@ -1,0 +1,9 @@
+{
+  "key": "7cc9416d6dc0f4edfbcc9490f413f150ece9951797a597f69b61fc9c9e068352",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v2",
+  "responseText": "{\n  \"assetMentions\": [\n    {\n      \"surfaceText\": \"POS-02\",\n      \"type\": \"POS_TERMINAL\",\n      \"ordinalHint\": 2,\n      \"locationHint\": \"drive-thru\",\n      \"modelHint\": null\n    }\n  ],\n  \"symptomCodes\": [\n    \"CONTROL_BOARD_ERROR\",\n    \"DISPLAY_ERROR\"\n  ],\n  \"safetyEvidence\": [],\n  \"severityHint\": null,\n  \"severityEvidenceSpan\": null,\n  \"reportedDowntime\": false\n}",
+  "tokens": 618,
+  "latencyMs": 1697,
+  "recordedAt": "2026-09-15T13:30:41.081Z"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "8ff98a96fbce1611fe1faacacd768ae44778767e666d8fa7ea3cb02fdc2d132a",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v2",
+  "responseText": "{\"assetMentions\":[{\"surfaceText\":\"BRW-02\",\"type\":\"COFFEE_BREWER\",\"ordinalHint\":2,\"locationHint\":\"front counter\",\"modelHint\":null}],\"symptomCodes\":[\"NO_POWER\",\"THERMOSTAT_DRIFT\"],\"safetyEvidence\":[],\"severityHint\":null,\"severityEvidenceSpan\":null,\"reportedDowntime\":false}",
+  "tokens": 601,
+  "latencyMs": 1114,
+  "recordedAt": "2026-09-15T13:35:54.762Z"
+}

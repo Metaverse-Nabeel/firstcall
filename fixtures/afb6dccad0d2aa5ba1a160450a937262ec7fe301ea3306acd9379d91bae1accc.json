@@ -1,0 +1,9 @@
+{
+  "key": "afb6dccad0d2aa5ba1a160450a937262ec7fe301ea3306acd9379d91bae1accc",
+  "modelId": "gemini-3.6-flash",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\":\"The Garland grill model L810 with asset tag GRL-03 on the front line has a display error and is not heating.\",\"vendorInstructions\":\"Locate asset GRL-03 on the front line upon arrival and inspect the unit to resolve the display and heating issues.\"}",
+  "tokens": 1642,
+  "latencyMs": 7317,
+  "recordedAt": "2026-09-15T13:38:45.810Z"
+}

@@ -1,0 +1,8 @@
+{
+  "key": "33fa62fb995245892be7176af13078cc9ed01f2d75c0632fe1e6af2f466ca534",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\": \"The front counter coffee brewer, asset BRW-02, is not heating properly, experiencing thermostat drift, and operating intermittently. The unit is currently out of service.\", \"vendorInstructions\": \"Inspect the Bunn ICB-DV brewer at the front counter to diagnose and repair the heating and thermostat issues.\"}",
+  "tokens": 541,
+  "recordedAt": "2026-09-15T13:28:00.645Z"
+}

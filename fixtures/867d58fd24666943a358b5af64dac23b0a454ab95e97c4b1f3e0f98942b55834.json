@@ -1,0 +1,8 @@
+{
+  "key": "867d58fd24666943a358b5af64dac23b0a454ab95e97c4b1f3e0f98942b55834",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\n  \"symptomSummary\": \"The unit has experienced a complete failure and has no power, resulting in reported downtime.\",\n  \"vendorInstructions\": \"Inspect the unit on arrival to diagnose the cause of the power failure.\"\n}",
+  "tokens": 442,
+  "recordedAt": "2026-09-15T13:25:08.848Z"
+}

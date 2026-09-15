@@ -1,0 +1,9 @@
+{
+  "key": "37e5a6d29265dcfc9e0126b5ce24c8f29679578a87f4456ad4810d89aabf63a2",
+  "modelId": "gemini-3.6-flash",
+  "promptVersion": "extract/v2",
+  "responseText": "{\"assetMentions\":[{\"surfaceText\":\"back of house walk-in cooler, WIC-02\",\"type\":\"WALK_IN_COOLER\",\"ordinalHint\":2,\"locationHint\":\"back of house\",\"modelHint\":null}],\"symptomCodes\":[\"NOT_COOLING\"],\"safetyEvidence\":[],\"severityHint\":null,\"severityEvidenceSpan\":null,\"reportedDowntime\":false}",
+  "tokens": 5954,
+  "latencyMs": 30122,
+  "recordedAt": "2026-09-15T13:40:04.438Z"
+}

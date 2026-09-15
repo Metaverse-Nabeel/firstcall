@@ -1,0 +1,9 @@
+{
+  "key": "ef6d9c5859115b3aa2d3f98d8a24011857cfb6aa4ff601974fd21ff7285cade5",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\": \"The Pitco fryer, asset tag FRY-03 located on the front line, is experiencing thermostat drift.\", \"vendorInstructions\": \"Inspect the thermostat on asset FRY-03 and calibrate or repair as needed.\"}",
+  "tokens": 473,
+  "latencyMs": 1108,
+  "recordedAt": "2026-09-15T13:31:25.510Z"
+}

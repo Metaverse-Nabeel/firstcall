@@ -153,11 +153,24 @@ export const ExtractionResult = z.object({
 });
 export type ExtractionResult = z.infer<typeof ExtractionResult>;
 
-/** Exactly what is sent to the model. Deliberately omits cExtract and the fallback flag. */
-export const ExtractionLLMOutput = ExtractionResult.omit({
-  cExtract: true,
-  usedLexiconFallback: true,
+/**
+ * A hazard claim with the text that justifies it.
+ *
+ * v2: the model must quote the report verbatim for every safety indicator it raises, the
+ * same rule severity already followed. An unevidenced claim is dropped. This does not
+ * weaken recall — the deterministic lexicon is still unioned in and needs no span, because
+ * a lexicon hit IS a span match.
+ */
+export const SafetyEvidence = z.object({
+  indicator: SafetyIndicator,
+  span: z.string(),
 });
+export type SafetyEvidence = z.infer<typeof SafetyEvidence>;
+
+/** Exactly what is sent to the model. Deliberately omits cExtract and the fallback flag. */
+export const ExtractionLLMOutput = ExtractionResult
+  .omit({ cExtract: true, usedLexiconFallback: true, safetyIndicators: true })
+  .extend({ safetyEvidence: z.array(SafetyEvidence) });
 export type ExtractionLLMOutput = z.infer<typeof ExtractionLLMOutput>;
 
 /* ------------------------------------------------------------------ 2. RETRIEVE */
@@ -291,6 +304,8 @@ export const TriageResult = z.object({
     clockNow: z.string(),
     registrySha256: z.string(),
     llmCalls: z.number().int(),
+    /** Sum of real model latencies, replayed from fixtures. Distinct from wall-clock. */
+    modelLatencyMs: z.number(),
     cacheHits: z.number().int(),
     latencyMs: z.number(),
   }),

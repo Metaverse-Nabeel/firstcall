@@ -5,8 +5,10 @@ description: Spend free-tier Gemini quota deliberately — model pinning, thinki
 
 # Gemini free-tier budget
 
-The key is **free tier**. **Requests per day is the binding constraint, not tokens** — calls
-run ~45–200 tokens each. The whole design point of the fixture cache is that an unchanged
+The key is **free tier**. **Requests per MINUTE is the binding constraint** — not per day,
+and not tokens; calls run ~45–200 tokens each and never approach a token limit. Measured:
+a 1.1s interval (~54 rpm) exhausted quota at call 49. The client throttles to ~13 rpm via
+`GEMINI_MIN_INTERVAL_MS`. The whole design point of the fixture cache is that an unchanged
 prompt version costs **zero** requests.
 
 ## Pinned configuration — verified live, do not re-derive
@@ -45,6 +47,9 @@ Three findings that cost real time to establish:
   keyless run honest — if it quietly fell back to live, the reproducibility claim is false.
 - Live calls are legitimate in exactly three places: `record` mode populating fixtures, the
   E8 flip-rate run (`--repeat 3`), and one-off probes during prompt iteration.
+- **A prompt edit is not free to re-evaluate.** The cache key covers the full user prompt,
+  so changing an upstream stage's output changes the downstream stage's key too. Editing
+  EXTRACT's output shape re-records DRAFT as well.
 - **Budget: ~800 requests across Days 2–4.** Data-gen realizer ~60, cases 60 x 2 calls x 3
   prompt versions, ablation ~120, flip-rate ~180. Spread across days it fits comfortably.
   Day 5 re-runs cost nothing.

@@ -1,0 +1,8 @@
+{
+  "key": "3521917d84ddf82d2d80c77a06225506193dac25edf4b790dae002064e5765c1",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\n  \"symptomSummary\": \"The unit is not cooling and is failing to hold temperature, resulting in a food safety temperature breach.\",\n  \"vendorInstructions\": \"Inspect the unit upon arrival to diagnose and repair the cooling failure.\"\n}",
+  "tokens": 468,
+  "recordedAt": "2026-09-15T13:25:26.443Z"
+}

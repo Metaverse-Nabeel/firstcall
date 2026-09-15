@@ -1,0 +1,9 @@
+{
+  "key": "2a056b5c638d2d65912c1f554fe554d2b398150f23e1ce58e6bab6624760230e",
+  "modelId": "gemini-3.6-flash",
+  "promptVersion": "extract/v2",
+  "responseText": "{\"assetMentions\":[{\"surfaceText\":\"register three\",\"type\":\"POS_TERMINAL\",\"ordinalHint\":3,\"locationHint\":\"front line\",\"modelHint\":null},{\"surfaceText\":\"GRL-03\",\"type\":\"GRILL\",\"ordinalHint\":3,\"locationHint\":null,\"modelHint\":null}],\"symptomCodes\":[\"DISPLAY_ERROR\",\"NOT_HEATING\"],\"safetyEvidence\":[],\"severityHint\":null,\"severityEvidenceSpan\":null,\"reportedDowntime\":true}",
+  "tokens": 11601,
+  "latencyMs": 57962,
+  "recordedAt": "2026-09-15T13:38:33.343Z"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "540fa471c1e09403da1757dcaec8e8c6c8380c4b72ca23ff39d2384cfa3917af",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v2",
+  "responseText": "{\n  \"assetMentions\": [\n    {\n      \"surfaceText\": \"GRL-01\",\n      \"type\": \"GRILL\",\n      \"ordinalHint\": 1,\n      \"locationHint\": \"front line\",\n      \"modelHint\": null\n    }\n  ],\n  \"symptomCodes\": [\n    \"ICE_BUILDUP\",\n    \"NOT_HEATING\",\n    \"COMPLETE_FAILURE\"\n  ],\n  \"safetyEvidence\": [],\n  \"severityHint\": \"HIGH\",\n  \"severityEvidenceSpan\": \"We had to shut it down and stop using it during the morning rush because it is not cooking right.\",\n  \"reportedDowntime\": true\n}",
+  "tokens": 635,
+  "latencyMs": 1491,
+  "recordedAt": "2026-09-15T13:30:58.881Z"
+}

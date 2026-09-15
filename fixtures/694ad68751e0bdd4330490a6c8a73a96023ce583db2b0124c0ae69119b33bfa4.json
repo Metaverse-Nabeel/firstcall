@@ -1,0 +1,9 @@
+{
+  "key": "694ad68751e0bdd4330490a6c8a73a96023ce583db2b0124c0ae69119b33bfa4",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\n  \"symptomSummary\": \"Water is pooling underneath the Jackson dishwasher tagged DSH-01 located in the back prep area, creating a slip hazard.\",\n  \"vendorInstructions\": \"Inspect dishwasher DSH-01 in the back prep area to diagnose and repair the water leak.\"\n}",
+  "tokens": 516,
+  "latencyMs": 1087,
+  "recordedAt": "2026-09-15T13:30:08.957Z"
+}

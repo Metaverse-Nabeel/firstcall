@@ -1,0 +1,9 @@
+{
+  "key": "17c257c7cd5466a6204400db20bbe3a122258dcd21e0bd4ce13cc0565159e90c",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v2",
+  "responseText": "{\n  \"assetMentions\": [\n    {\n      \"surfaceText\": \"FRZ-03\",\n      \"type\": \"REACH_IN_FREEZER\",\n      \"ordinalHint\": 3,\n      \"locationHint\": \"back prep area\",\n      \"modelHint\": null\n    }\n  ],\n  \"symptomCodes\": [\n    \"CONTROL_BOARD_ERROR\",\n    \"DISPLAY_ERROR\"\n  ],\n  \"safetyEvidence\": [],\n  \"severityHint\": null,\n  \"severityEvidenceSpan\": null,\n  \"reportedDowntime\": false\n}",
+  "tokens": 615,
+  "latencyMs": 1268,
+  "recordedAt": "2026-09-15T13:35:50.413Z"
+}

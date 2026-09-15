@@ -1,0 +1,9 @@
+{
+  "key": "0d665fc70976331fd4c047db45cd46cd94f77496ea0435109f1b65e6b7cfb617",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\n  \"symptomSummary\": \"The fryer has suffered a complete failure and is currently unusable, causing reported downtime.\",\n  \"vendorInstructions\": \"Inspect the unit upon arrival to diagnose the cause of the failure and perform necessary repairs.\"\n}",
+  "tokens": 411,
+  "latencyMs": 908,
+  "recordedAt": "2026-09-15T13:34:29.018Z"
+}

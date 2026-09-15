@@ -1,0 +1,8 @@
+{
+  "key": "b1235cf0d79543ac98c7b57b9457bfb22435218c4e27118ee6c7b4080bab4936",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\": \"The front line grill has heavy ice building up inside the unit and is not heating.\", \"vendorInstructions\": \"Inspect the grill on the front line to diagnose and repair the ice buildup and heating failure.\"}",
+  "tokens": 464,
+  "recordedAt": "2026-09-15T13:27:56.272Z"
+}

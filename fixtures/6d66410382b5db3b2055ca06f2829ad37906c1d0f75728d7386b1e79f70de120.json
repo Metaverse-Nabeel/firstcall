@@ -1,0 +1,9 @@
+{
+  "key": "6d66410382b5db3b2055ca06f2829ad37906c1d0f75728d7386b1e79f70de120",
+  "modelId": "gemini-3.6-flash",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\":\"The Taylor grill model ME-24, asset tag GRL-01, on the front line is currently down due to excessive vibration and complete failure.\",\"vendorInstructions\":\"Upon arrival, locate asset tag GRL-01 on the front line to inspect and repair the unit.\"}",
+  "tokens": 1349,
+  "latencyMs": 5987,
+  "recordedAt": "2026-09-15T13:39:34.313Z"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "081cf502c22096a3faf9a14013cb5f33c4e32cfd183abcd2b8ec075502b18973",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v2",
+  "responseText": "{\"assetMentions\":[{\"surfaceText\":\"FRY-03\",\"type\":\"FRYER\",\"ordinalHint\":3,\"locationHint\":\"front line\",\"modelHint\":null}],\"symptomCodes\":[\"LEAKING_WATER\"],\"safetyEvidence\":[{\"indicator\":\"SLIP_HAZARD\",\"span\":\"leaking water onto the floor underneath it\"}],\"severityHint\":\"MEDIUM\",\"severityEvidenceSpan\":\"leaking water onto the floor underneath it\",\"reportedDowntime\":false}",
+  "tokens": 568,
+  "latencyMs": 1027,
+  "recordedAt": "2026-09-15T13:35:41.168Z"
+}

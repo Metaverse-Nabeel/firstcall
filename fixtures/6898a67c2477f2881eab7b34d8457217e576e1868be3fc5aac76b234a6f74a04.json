@@ -1,0 +1,9 @@
+{
+  "key": "6898a67c2477f2881eab7b34d8457217e576e1868be3fc5aac76b234a6f74a04",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\n  \"symptomSummary\": \"The Garland L810 grill located on the front line with asset tag GRL-03 is completely unresponsive and not heating.\",\n  \"vendorInstructions\": \"Inspect the unit to diagnose the cause of the complete failure and lack of heat.\"\n}",
+  "tokens": 507,
+  "latencyMs": 1062,
+  "recordedAt": "2026-09-15T13:29:23.907Z"
+}

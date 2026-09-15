@@ -1,0 +1,8 @@
+{
+  "key": "7f0fc738f6ab5913d480d9d97a4781f8fae0073b353376c24ede470f85ac8f85",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v1",
+  "responseText": "{\n  \"assetMentions\": [\n    {\n      \"surfaceText\": \"XZY-92\",\n      \"type\": \"REACH_IN_FREEZER\",\n      \"ordinalHint\": null,\n      \"locationHint\": null,\n      \"modelHint\": null\n    }\n  ],\n  \"symptomCodes\": [\n    \"NOT_COOLING\"\n  ],\n  \"safetyIndicators\": [\n    \"FOOD_SAFETY_TEMP_BREACH\"\n  ],\n  \"severityHint\": \"HIGH\",\n  \"severityEvidenceSpan\": \"we have stock inside that is going to spoil\",\n  \"reportedDowntime\": false\n}",
+  "tokens": 573,
+  "recordedAt": "2026-09-15T13:25:22.074Z"
+}

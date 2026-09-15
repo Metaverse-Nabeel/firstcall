@@ -121,7 +121,10 @@ export function score(rows: Scored[], cases: Map<string, EvalCase>): Scorecard {
   }
 
   /* E7 — cost and latency */
-  const latencies = rows.map((r) => r.result.trace.latencyMs).sort((a, b) => a - b);
+    // Model latency, not wall clock. Wall clock in record mode includes our own free-tier
+  // throttle (~4.5s/call), which is an artifact of the quota tier and not a property of
+  // the product. Reporting that as p95 would be dishonest in the flattering direction.
+  const latencies = rows.map((r) => r.result.trace.modelLatencyMs).sort((a, b) => a - b);
   const p95 = latencies[Math.min(latencies.length - 1, Math.floor(latencies.length * 0.95))] ?? 0;
   const avgTokens = rows.reduce((s, r) => s + estimateTokens(r), 0) / Math.max(1, n);
   // gemini-3.5-flash-lite published list price, recomputed at write-up time.

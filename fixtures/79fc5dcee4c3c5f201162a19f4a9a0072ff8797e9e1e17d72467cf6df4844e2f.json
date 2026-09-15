@@ -1,0 +1,9 @@
+{
+  "key": "79fc5dcee4c3c5f201162a19f4a9a0072ff8797e9e1e17d72467cf6df4844e2f",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v2",
+  "responseText": "{\n  \"assetMentions\": [\n    {\n      \"surfaceText\": \"ICE-01\",\n      \"type\": \"ICE_MACHINE\",\n      \"ordinalHint\": 1,\n      \"locationHint\": \"drive-thru\",\n      \"modelHint\": null\n    }\n  ],\n  \"symptomCodes\": [\n    \"LEAKING_WATER\"\n  ],\n  \"safetyEvidence\": [\n    {\n      \"indicator\": \"SLIP_HAZARD\",\n      \"span\": \"water leaking all over the floor underneath it\"\n    }\n  ],\n  \"severityHint\": \"MEDIUM\",\n  \"severityEvidenceSpan\": \"water leaking all over the floor underneath it\",\n  \"reportedDowntime\": false\n}",
+  "tokens": 655,
+  "latencyMs": 1557,
+  "recordedAt": "2026-09-15T13:31:16.955Z"
+}

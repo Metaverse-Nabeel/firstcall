@@ -1,0 +1,8 @@
+{
+  "key": "a722a3c713639fb9e35d7c444f454981d53e8d14310fa0398bad9ba5dda41c9f",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\": \"POS terminal POS-02 located at the drive-thru keeps tripping the breaker.\", \"vendorInstructions\": \"Inspect POS-02 and the associated breaker to resolve the tripping issue.\"}",
+  "tokens": 486,
+  "recordedAt": "2026-09-15T13:28:18.855Z"
+}

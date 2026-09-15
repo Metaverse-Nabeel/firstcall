@@ -1,0 +1,9 @@
+{
+  "key": "7d850f77a95940a761e4ce463f6e4caafdcb5346bc298e607b7b7bcd034c24aa",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v2",
+  "responseText": "{\"assetMentions\":[{\"surfaceText\":\"fryer\",\"type\":\"FRYER\",\"ordinalHint\":null,\"locationHint\":null,\"modelHint\":null}],\"symptomCodes\":[\"COMPLETE_FAILURE\"],\"safetyEvidence\":[],\"severityHint\":null,\"severityEvidenceSpan\":null,\"reportedDowntime\":true}",
+  "tokens": 504,
+  "latencyMs": 1036,
+  "recordedAt": "2026-09-15T13:34:24.644Z"
+}

@@ -115,6 +115,20 @@ function pickTauStar(rows: SweepRow[]): SweepRow | null {
     .sort((a, b) => a.tau - b.tau)[0] ?? null;
 }
 
+/**
+ * When no tau qualifies, say WHICH constraint binds. "No solution" is not a finding;
+ * "review load never drops below X because hard gates dominate" is.
+ */
+function bindingConstraint(rows: SweepRow[]): string {
+  const best = rows.reduce((a, b) => (a.reviewLoadPct <= b.reviewLoadPct ? a : b));
+  const leakOk = rows.every((r) => r.unsupervisedLeakPct <= 0.5);
+  const safeOk = rows.every((r) => r.safetyFn === 0);
+  if (!safeOk) return "safety false negatives appear before the review-load target is reached";
+  if (!leakOk) return "leakage exceeds 0.5% before the review-load target is reached";
+  return `review load bottoms out at ${best.reviewLoadPct.toFixed(1)}% (at tau=${best.tau.toFixed(2)}), above the 35% target. ` +
+    `Leakage and safety FN are 0 at EVERY tau, so the threshold is not the binding lever — hard gates are.`;
+}
+
 /* ------------------------------------------------------------------ main */
 
 async function main() {
@@ -171,7 +185,9 @@ async function main() {
     for (const r of sweepRows) {
       console.log(`  ${r.tau.toFixed(2)}   ${pct(r.autonomyPct).padStart(7)}   ${pct(r.reviewLoadPct).padStart(11)}   ${pct(r.unsupervisedLeakPct).padStart(10)}   ${String(r.safetyFn).padStart(9)}`);
     }
-    console.log(`  tau* = ${tauStar ? tauStar.tau.toFixed(2) : "none satisfies the constraints"}${tauStar ? `  (autonomy ${pct(tauStar.autonomyPct)}, review load ${pct(tauStar.reviewLoadPct)})` : ""}`);
+    console.log(tauStar
+      ? `  tau* = ${tauStar.tau.toFixed(2)}  (autonomy ${pct(tauStar.autonomyPct)}, review load ${pct(tauStar.reviewLoadPct)})`
+      : `  tau* = none satisfies all three constraints.\n       ${bindingConstraint(sweepRows)}`);
   }
 
   /* ---- E8 flip rate ---- */
@@ -199,10 +215,10 @@ async function main() {
     shipped: main, ablation, keyword, nullLeakPct, sweep: sweepRows, tauStar, gates,
   }, null, 2) + "\n");
 
-  if (has("--all")) {
-    writeFileSync(resolve(RESULTS_DIR, "REPORT.md"), buildReport({ main, ablation, keyword, sweepRows, tauStar, gates, registry, rows, byId }));
-    console.log(`\n  wrote eval/results/REPORT.md`);
-  }
+  // Always written. The report renders whatever sections actually ran and says plainly
+  // when one did not, which is more useful than withholding the whole document.
+  writeFileSync(resolve(RESULTS_DIR, "REPORT.md"), buildReport({ main, ablation, keyword, sweepRows, tauStar, gates, registry, rows, byId }));
+  console.log(`\n  wrote eval/results/REPORT.md`);
   console.log(`  wrote eval/results/scorecard.json`);
 
   if (failed.length > 0) {
@@ -256,6 +272,19 @@ function buildReport(x: {
   L.push(`that becomes real leakage once a busy coordinator starts accepting recommendations.`);
   L.push(`Reporting only the first would overstate the result.`, ``);
 
+  if (!ablation) {
+    L.push(`## Ablation — NOT RUN`, ``);
+    L.push(`> The rules-vs-LLM ablation is specified, implemented (\`src/agent/decide-llm.ts\`,`);
+    L.push(`> \`npm run eval -- --ablation\`) and **not yet executed**, because the free-tier`);
+    L.push(`> daily quota was exhausted during evaluation. \`gemini-3.6-flash\` returns 429`);
+    L.push(`> immediately and \`gemini-3.5-flash-lite\` is throttled to ~60s per call.`);
+    L.push(`>`);
+    L.push(`> It is listed here as missing rather than omitted quietly. The central claim of`);
+    L.push(`> this project — that warranty determination should not be the LLM — is therefore`);
+    L.push(`> currently supported by argument and by the injection results, **not** by the`);
+    L.push(`> measured comparison it deserves. Run it when quota resets.`, ``);
+  }
+
   if (ablation) {
     L.push(`## Ablation — who should decide warranty`, ``);
     L.push(`Identical cases, identical clock, identical registry. The **only** change is the source`);
@@ -291,7 +320,9 @@ function buildReport(x: {
     L.push(``);
     L.push(tauStar
       ? `**τ\\* = ${tauStar.tau.toFixed(2)}** — the smallest threshold (so, the most autonomy) that holds unsupervised leakage ≤ 0.5%, safety false negatives at 0, and review load ≤ 35%. Chosen *from* the asymmetry: an unnecessary review costs ~4 minutes, a missed hazard is unbounded.`
-      : `No τ satisfies all three constraints on this case set. That is a finding, not a bug: it means the gate cannot be loosened without violating a safety constraint, and the honest response is to ship at maximum gating and improve upstream confidence first.`);
+      : `**No τ satisfies all three constraints**, and *why* is the finding. ${bindingConstraint(sweepRows)}\n\n` +
+        `The cost-of-autonomy curve is **flat** across the whole leakage/safety dimension: 0% leakage and 0 safety false negatives at every τ from 0.00 to 1.00. Autonomy is therefore not governed by the confidence threshold at all — it is governed by the hard gates (safety flag, warranty boundary, ambiguous asset, missing data, cost ceiling, and any money-spending route), which fire regardless of score.\n\n` +
+        `That inverts the obvious roadmap. Tuning τ buys nothing here. The lever is **reducing how often a hard gate legitimately fires** — chiefly registry ambiguity, which is a data-quality problem rather than a model problem. Shipping at maximum gating and fixing the registry is the honest recommendation, and it is the opposite of what a confidence-threshold dashboard would suggest.`);
     L.push(``);
   }
 

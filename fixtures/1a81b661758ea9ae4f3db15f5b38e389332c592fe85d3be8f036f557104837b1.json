@@ -1,0 +1,9 @@
+{
+  "key": "1a81b661758ea9ae4f3db15f5b38e389332c592fe85d3be8f036f557104837b1",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v2",
+  "responseText": "{\n  \"assetMentions\": [\n    {\n      \"surfaceText\": \"HOD-01\",\n      \"type\": \"HOOD_EXHAUST\",\n      \"ordinalHint\": 1,\n      \"locationHint\": \"front line\",\n      \"modelHint\": null\n    }\n  ],\n  \"symptomCodes\": [\n    \"CONTROL_BOARD_ERROR\",\n    \"THERMOSTAT_DRIFT\"\n  ],\n  \"safetyEvidence\": [],\n  \"severityHint\": null,\n  \"severityEvidenceSpan\": null,\n  \"reportedDowntime\": true\n}",
+  "tokens": 618,
+  "latencyMs": 1123,
+  "recordedAt": "2026-09-15T13:32:52.990Z"
+}

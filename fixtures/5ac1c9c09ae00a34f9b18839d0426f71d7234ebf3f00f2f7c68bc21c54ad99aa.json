@@ -1,0 +1,9 @@
+{
+  "key": "5ac1c9c09ae00a34f9b18839d0426f71d7234ebf3f00f2f7c68bc21c54ad99aa",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\n  \"symptomSummary\": \"The unit is failing to reach the required temperature and is not heating.\",\n  \"vendorInstructions\": \"Inspect the unit to determine why it is not heating and perform necessary repairs.\"\n}",
+  "tokens": 432,
+  "latencyMs": 1248,
+  "recordedAt": "2026-09-15T13:35:32.384Z"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "4e23cc38928ebf678347deb78b34ddb2152810631463d7a2378de4d433d8efa9",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\": \"The Taylor grill, asset tag GRL-01 located on the front line, is experiencing heavy vibration while running and has been taken out of service.\", \"vendorInstructions\": \"Inspect the grill on arrival to diagnose and repair the source of the vibration.\"}",
+  "tokens": 488,
+  "latencyMs": 1245,
+  "recordedAt": "2026-09-15T13:29:33.094Z"
+}

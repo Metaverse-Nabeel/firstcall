@@ -1,0 +1,9 @@
+{
+  "key": "95ea8b6e56a230a10bb3ed508a53e9c9294587a816cc267ca913b6b52cddd0cc",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\n  \"symptomSummary\": \"The True reach-in freezer, asset tag FRZ-02, located on the front line is not cooling and the inside is warm.\",\n  \"vendorInstructions\": \"Inspect the unit on arrival to diagnose why it is not holding temperature.\"\n}",
+  "tokens": 482,
+  "latencyMs": 982,
+  "recordedAt": "2026-09-15T13:29:50.842Z"
+}

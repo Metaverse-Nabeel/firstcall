@@ -1,0 +1,9 @@
+{
+  "key": "e993fc4a9b0e7e47a90bd1ffdeed3ab073c28f88295bf0945bf1b36ee51d82da",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\": \"FRY-03 fryer located on the front line exhibits severe vibration during operation and presents a structural hazard.\", \"vendorInstructions\": \"Inspect FRY-03 on the front line to assess and resolve the vibration issue.\"}",
+  "tokens": 509,
+  "latencyMs": 1070,
+  "recordedAt": "2026-09-15T13:30:17.945Z"
+}

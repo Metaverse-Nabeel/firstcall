@@ -1,0 +1,8 @@
+{
+  "key": "33d28f6f3224dcc398fb0c4a8fd44d2554ded833d65e765b0f6ef7fdf69b5c83",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\": \"The Henny Penny fryer, asset tag FRY-03, located on the front line is experiencing excessive vibration while running.\", \"vendorInstructions\": \"Inspect the unit on arrival to diagnose and repair the cause of the vibration.\"}",
+  "tokens": 496,
+  "recordedAt": "2026-09-15T13:27:47.562Z"
+}

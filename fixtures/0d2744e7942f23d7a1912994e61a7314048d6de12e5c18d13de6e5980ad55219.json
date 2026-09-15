@@ -1,0 +1,9 @@
+{
+  "key": "0d2744e7942f23d7a1912994e61a7314048d6de12e5c18d13de6e5980ad55219",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v2",
+  "responseText": "{\"assetMentions\":[{\"surfaceText\":\"GRL-03\",\"type\":\"GRILL\",\"ordinalHint\":3,\"locationHint\":null,\"modelHint\":null}],\"symptomCodes\":[\"NOT_HEATING\",\"COMPLETE_FAILURE\"],\"safetyEvidence\":[],\"severityHint\":null,\"severityEvidenceSpan\":null,\"reportedDowntime\":true}",
+  "tokens": 579,
+  "latencyMs": 1387,
+  "recordedAt": "2026-09-15T13:29:19.730Z"
+}

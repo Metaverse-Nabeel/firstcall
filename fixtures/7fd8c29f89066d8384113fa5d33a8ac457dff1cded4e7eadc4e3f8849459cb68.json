@@ -1,0 +1,9 @@
+{
+  "key": "7fd8c29f89066d8384113fa5d33a8ac457dff1cded4e7eadc4e3f8849459cb68",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\n  \"symptomSummary\": \"Asset RTU-01 on the roof is experiencing breaker trips and intermittent operation, resulting in downtime.\",\n  \"vendorInstructions\": \"Inspect RTU-01 on the roof to diagnose and resolve the breaker trips and intermittent operation.\"\n}",
+  "tokens": 494,
+  "latencyMs": 984,
+  "recordedAt": "2026-09-15T13:32:34.842Z"
+}

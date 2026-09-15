@@ -1,0 +1,9 @@
+{
+  "key": "ccec1beee5aa348c1f06bea1d82674e37e6dcbd3a26c7009031b577c79b59a18",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\": \"The control board on fryer asset FRY-02 located at the front line is displaying an error code that will not clear.\", \"vendorInstructions\": \"Inspect the control board and display on asset FRY-02 to diagnose and resolve the error.\"}",
+  "tokens": 467,
+  "latencyMs": 1362,
+  "recordedAt": "2026-09-15T13:33:48.942Z"
+}

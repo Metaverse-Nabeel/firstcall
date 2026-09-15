@@ -1,0 +1,8 @@
+{
+  "key": "359e038750e18ead31dac9baf59802d5de1a8df12baf1e008e70d1eab119fcd0",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\n  \"symptomSummary\": \"Dishwasher DSH-01 located in back prep has experienced a complete failure and keeps tripping the breaker when attempting to run a rack.\",\n  \"vendorInstructions\": \"Inspect dishwasher DSH-01 in back prep to diagnose and repair the electrical breaker tripping and complete failure issue.\"\n}",
+  "tokens": 505,
+  "recordedAt": "2026-09-15T13:28:05.140Z"
+}

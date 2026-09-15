@@ -1,0 +1,9 @@
+{
+  "key": "32b29b67c3c05323460e854ec7e6f5ada6ae8e66806ce9b3fa495033a0896932",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\": \"POS terminal POS-02 at the front counter trips the breaker when attempting to ring up transactions.\", \"vendorInstructions\": \"Inspect POS-02 and the associated power connection at the front counter to diagnose the breaker tripping issue.\"}",
+  "tokens": 481,
+  "latencyMs": 979,
+  "recordedAt": "2026-09-15T13:32:12.328Z"
+}

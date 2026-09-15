@@ -1,0 +1,9 @@
+{
+  "key": "1f5a60e0bf99921ee8bec6207814ac7326728f1d4aad1b19ebbad93ccd5cebd8",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\": \"The Hobart dishwasher, asset tag DSH-01, located in the back prep area is not heating and the thermostat reading is drifting.\", \"vendorInstructions\": \"Inspect dishwasher DSH-01 in the back prep area to diagnose and repair the heating issue and thermostat discrepancy.\"}",
+  "tokens": 526,
+  "latencyMs": 1150,
+  "recordedAt": "2026-09-15T13:31:43.558Z"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "6ba5d92903a8b62749a3969df03c55ac9785438d2cadcb182a25b29948722a8e",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v2",
+  "responseText": "{\n  \"assetMentions\": [\n    {\n      \"surfaceText\": \"DSH-01\",\n      \"type\": \"DISHWASHER\",\n      \"ordinalHint\": 1,\n      \"locationHint\": null,\n      \"modelHint\": null\n    }\n  ],\n  \"symptomCodes\": [\n    \"NOT_HEATING\",\n    \"THERMOSTAT_DRIFT\"\n  ],\n  \"safetyEvidence\": [],\n  \"severityHint\": null,\n  \"severityEvidenceSpan\": null,\n  \"reportedDowntime\": false\n}",
+  "tokens": 653,
+  "latencyMs": 1300,
+  "recordedAt": "2026-09-15T13:31:39.207Z"
+}

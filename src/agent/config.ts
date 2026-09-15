@@ -14,9 +14,17 @@ import type { PipelineConfig } from "./contracts";
 export const MODELS = {
   /** Shipped path. Measured: 0 thought tokens, 71 total, 1.2s. */
   primary: "gemini-3.5-flash-lite",
-  /** Ablation only — the LLM-decides-warranty variant runs on the STRONGEST config so
-   *  that beating it is evidence rather than a strawman. */
-  ablation: "gemini-3.6-flash",
+  /**
+   * Ablation only — the LLM-decides-warranty variant runs on the STRONGEST config so that
+   * beating it is evidence rather than a strawman.
+   *
+   * `gemini-3.6-flash` is the intended choice and remains the default. It carries its own
+   * per-model daily free-tier quota, which the evaluation exhausted (429 on every request).
+   * Set ABLATION_MODEL=gemini-3.5-flash-lite to run the comparison against the strongest
+   * config still reachable; that is a weaker opponent and the report must say so, because
+   * an ablation against a hobbled model proves nothing.
+   */
+  ablation: process.env.ABLATION_MODEL ?? "gemini-3.6-flash",
 } as const;
 
 export const DEFAULT_CONFIG: PipelineConfig = {

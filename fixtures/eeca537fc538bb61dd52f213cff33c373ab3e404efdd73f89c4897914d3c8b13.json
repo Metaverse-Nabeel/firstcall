@@ -1,0 +1,8 @@
+{
+  "key": "eeca537fc538bb61dd52f213cff33c373ab3e404efdd73f89c4897914d3c8b13",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\n  \"symptomSummary\": \"The Bunn coffee brewer asset BRW-02 located at the front counter has experienced a complete failure with no power and thermostat drift.\",\n  \"vendorInstructions\": \"Inspect the coffee brewer at the front counter to diagnose the power failure and thermostat issue.\"\n}",
+  "tokens": 537,
+  "recordedAt": "2026-09-15T13:26:02.467Z"
+}

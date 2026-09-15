@@ -1,0 +1,9 @@
+{
+  "key": "402128191f8d9f7f1ca25db1e5cc5d02a03569e706d7b60515d37defc62c0eb9",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\": \"The Taylor grill, asset tag GRL-01 located on the front line, is not heating.\", \"vendorInstructions\": \"Inspect asset GRL-01 on arrival and diagnose the heating issue.\"}",
+  "tokens": 492,
+  "latencyMs": 879,
+  "recordedAt": "2026-09-15T13:34:56.002Z"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "3754a37690197f7e53db720707a2358a02da50d0acbd9736b7f2377350c53405",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\": \"The reach-in freezer, asset tag FRZ-02, located in the back prep area is not cooling properly and is running warmer than normal.\", \"vendorInstructions\": \"Inspect reach-in freezer FRZ-02 in the back prep area to diagnose and repair the cooling issue.\"}",
+  "tokens": 484,
+  "latencyMs": 944,
+  "recordedAt": "2026-09-15T13:33:12.507Z"
+}

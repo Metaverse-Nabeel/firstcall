@@ -1,0 +1,9 @@
+{
+  "key": "075736bb18cc587b9dc422a157710b79c919d663bff1a629d178858abdf3a7ce",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v2",
+  "responseText": "{\"assetMentions\":[{\"surfaceText\":\"ICE-02\",\"type\":\"ICE_MACHINE\",\"ordinalHint\":2,\"locationHint\":\"drive-thru\",\"modelHint\":null}],\"symptomCodes\":[\"NO_POWER\",\"DISPLAY_ERROR\",\"COMPLETE_FAILURE\"],\"safetyEvidence\":[],\"severityHint\":null,\"severityEvidenceSpan\":null,\"reportedDowntime\":true}",
+  "tokens": 560,
+  "latencyMs": 1023,
+  "recordedAt": "2026-09-15T13:29:59.890Z"
+}

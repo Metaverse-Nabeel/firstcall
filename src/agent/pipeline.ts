@@ -19,6 +19,7 @@ export async function runPipeline(report: BreakdownReport, deps: Deps): Promise<
   const started = Date.now();
   const callsBefore = callCount(deps);
   const hitsBefore = hitCount(deps);
+  const latencyBefore = latencySum(deps);
 
   const extraction = await extract(report, deps.llm);
   const resolution = retrieve(extraction, report, deps.registry);
@@ -74,6 +75,7 @@ export async function runPipeline(report: BreakdownReport, deps: Deps): Promise<
       clockNow: deps.clock.now().toISOString(),
       registrySha256: deps.registry.sha256,
       llmCalls: callCount(deps) - callsBefore,
+      modelLatencyMs: latencySum(deps) - latencyBefore,
       cacheHits: hitCount(deps) - hitsBefore,
       latencyMs: Date.now() - started,
     },
@@ -85,4 +87,7 @@ function callCount(deps: Deps): number {
 }
 function hitCount(deps: Deps): number {
   return (deps.llm as { stats?: { cacheHits: number } }).stats?.cacheHits ?? 0;
+}
+function latencySum(deps: Deps): number {
+  return (deps.llm as { stats?: { latencyMs: number } }).stats?.latencyMs ?? 0;
 }

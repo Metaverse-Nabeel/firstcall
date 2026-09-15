@@ -1,0 +1,9 @@
+{
+  "key": "25c6e9d5b27334bdddcfd18c769850f91c54a23cbb2c01abdc7983e9254f64fb",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\n  \"symptomSummary\": \"Heavy ice building up inside the Frymaster fryer located on the front line.\",\n  \"vendorInstructions\": \"Inspect the fryer to determine the cause of the ice buildup and perform necessary repairs.\"\n}",
+  "tokens": 490,
+  "latencyMs": 905,
+  "recordedAt": "2026-09-15T13:33:25.974Z"
+}

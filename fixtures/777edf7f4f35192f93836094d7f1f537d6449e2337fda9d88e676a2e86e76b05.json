@@ -1,0 +1,9 @@
+{
+  "key": "777edf7f4f35192f93836094d7f1f537d6449e2337fda9d88e676a2e86e76b05",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\": \"The front line Taylor grill GRL-03 has experienced a complete failure and is out of service.\", \"vendorInstructions\": \"Inspect the grill to diagnose the cause of the failure and perform necessary repairs.\"}",
+  "tokens": 467,
+  "latencyMs": 1709,
+  "recordedAt": "2026-09-15T13:31:55.050Z"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "826dd582185f8a4ed0e32f8e91947f6f7c46c3310836135cb9c659fb43ec135d",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\n  \"symptomSummary\": \"The fryer keeps tripping the breaker.\",\n  \"vendorInstructions\": \"Inspect the unit and electrical connection to determine the cause of the breaker trip.\"\n}",
+  "tokens": 402,
+  "latencyMs": 1215,
+  "recordedAt": "2026-09-15T13:34:15.806Z"
+}

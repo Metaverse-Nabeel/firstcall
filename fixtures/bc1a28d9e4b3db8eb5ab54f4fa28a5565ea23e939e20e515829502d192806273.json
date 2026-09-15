@@ -1,0 +1,8 @@
+{
+  "key": "bc1a28d9e4b3db8eb5ab54f4fa28a5565ea23e939e20e515829502d192806273",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\": \"The reach-in freezer designated as FRZ-03 in the back prep area is experiencing a control board error and a display error.\", \"vendorInstructions\": \"Inspect the control board and display on asset FRZ-03 and resolve the errors.\"}",
+  "tokens": 483,
+  "recordedAt": "2026-09-15T13:25:53.368Z"
+}

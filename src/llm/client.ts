@@ -19,6 +19,8 @@ export interface ClientStats {
   cacheHits: number;
   liveCalls: number;
   tokens: number;
+  /** Sum of real model latencies (recorded or live), never replay's ~0. */
+  latencyMs: number;
 }
 
 export function createLLMClient(opts: {
@@ -27,7 +29,7 @@ export function createLLMClient(opts: {
   defaultModelId: string;
   defaultThinkingLevel: "low" | "high";
 }): LLMClient & { stats: ClientStats } {
-  const stats: ClientStats = { calls: 0, cacheHits: 0, liveCalls: 0, tokens: 0 };
+  const stats: ClientStats = { calls: 0, cacheHits: 0, liveCalls: 0, tokens: 0, latencyMs: 0 };
 
   const client: LLMClient & { stats: ClientStats } = {
     stats,
@@ -58,10 +60,14 @@ export function createLLMClient(opts: {
         if (hit) {
           stats.cacheHits++;
           stats.tokens += hit.tokens;
+          stats.latencyMs += hit.latencyMs ?? 0;
           return {
             value: parseOrThrow(args.schema, hit.responseText, args.promptVersion),
             cached: true,
-            latencyMs: 0,
+            // The RECORDED latency, not 0. Replay skips the network, so a 0 here would
+            // make E7 look spectacular and mean nothing. Older fixtures predate this
+            // field and contribute 0, which is visible rather than silently flattering.
+            latencyMs: hit.latencyMs ?? 0,
             tokens: hit.tokens,
           };
         }
@@ -85,6 +91,7 @@ export function createLLMClient(opts: {
       });
       stats.liveCalls++;
       stats.tokens += res.tokens;
+      stats.latencyMs += res.latencyMs;
 
       // Parse BEFORE persisting: a fixture that fails its own schema is a landmine for
       // the next replay run, and the error would surface far from its cause.
@@ -96,6 +103,7 @@ export function createLLMClient(opts: {
           promptVersion: args.promptVersion,
           responseText: res.text,
           tokens: res.tokens,
+          latencyMs: res.latencyMs,
           recordedAt: new Date().toISOString(),
         });
       }

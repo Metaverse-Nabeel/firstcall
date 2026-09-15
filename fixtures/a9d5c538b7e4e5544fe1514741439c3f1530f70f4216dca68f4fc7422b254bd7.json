@@ -1,0 +1,8 @@
+{
+  "key": "a9d5c538b7e4e5544fe1514741439c3f1530f70f4216dca68f4fc7422b254bd7",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\n  \"symptomSummary\": \"The front line reach-in freezer FRZ-01 is shaking badly when it runs.\",\n  \"vendorInstructions\": \"Inspect the unit for vibration issues and repair as needed.\"\n}",
+  "tokens": 457,
+  "recordedAt": "2026-09-15T13:25:44.429Z"
+}

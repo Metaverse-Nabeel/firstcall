@@ -1,0 +1,9 @@
+{
+  "key": "f280f61e88c7abbdf5cae0a5ffd6010b0e3da9e250c50ff34edf1788e29a4c64",
+  "modelId": "gemini-3.6-flash",
+  "promptVersion": "decide-llm/v1",
+  "responseText": "{\"verdict\":\"VOIDED_NO_PM\",\"expiresOn\":\"2028-10-19\",\"reasoning\":\"The warranty for this walk-in cooler is voided because the preventive maintenance log is incomplete.\"}",
+  "tokens": 937,
+  "latencyMs": 4499,
+  "recordedAt": "2026-09-15T13:41:13.773Z"
+}

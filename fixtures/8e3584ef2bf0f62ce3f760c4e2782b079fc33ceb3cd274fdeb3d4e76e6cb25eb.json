@@ -1,0 +1,8 @@
+{
+  "key": "8e3584ef2bf0f62ce3f760c4e2782b079fc33ceb3cd274fdeb3d4e76e6cb25eb",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\": \"The unit is reported as not heating.\", \"vendorInstructions\": \"Inspect the unit to determine the cause of the heating failure and perform necessary repairs.\"}",
+  "tokens": 421,
+  "recordedAt": "2026-09-15T13:25:17.775Z"
+}

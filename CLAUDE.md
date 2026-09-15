@@ -14,8 +14,10 @@ here; `AGENT.md` specifies what the agent itself does.
    `docs/plans/sprint-plan.md`; never silently descope the graded spine.
 2. **The repo is public and holds deliverables only.** Prototype, docs, eval, config.
    Nothing else. See "Two-tree rule" below.
-3. **The Gemini key is free-tier.** Requests/day is the binding constraint, not tokens.
-   Never burn a live call the fixture cache could serve.
+3. **The Gemini key is free-tier.** The binding constraint is **requests per minute**, not
+   per day and not tokens — measured by exhausting quota at call 49 with token usage nowhere
+   near any limit. The client throttles to ~13 rpm. Never burn a live call the fixture cache
+   could serve.
 4. **55% of the grade is framing, judgment, evaluation and communication. 20% is the
    prototype.** Build is capped at ~13h. When tempted to polish the UI, go write the
    cost-of-error table instead.
@@ -49,8 +51,12 @@ prototype, docs, eval or config, it does not belong here. See the `repo-hygiene`
 - **Thinking is on by default and costs ~20x.** Default 3.6-flash spent 521 thought tokens
   on a 16-token prompt. Always set `thinkingConfig.thinkingLevel`.
 - **Retry 429 AND 503.** The free tier returns `503 "currently experiencing high demand"`,
-  not only rate-limit errors. Exponential backoff plus a client-side limiter, from the
-  first commit.
+  not only rate-limit errors. Exponential backoff honouring the server's own `retryDelay`,
+  plus a ~13 rpm client-side limiter (`GEMINI_MIN_INTERVAL_MS`).
+- **Changing a prompt invalidates its fixtures, by design.** The cache key covers the
+  generation config and the full user prompt, so editing an upstream stage's output changes
+  the downstream stage's key too. A deterministic-only change is therefore not always free
+  to re-evaluate — budget for it.
 - **Ablation fairness:** the LLM-decides-warranty variant runs on the *strongest* config
   (`gemini-3.6-flash`, `thinkingLevel: "high"`). Beating a deliberately weakened model is
   a strawman and a grader will notice.
