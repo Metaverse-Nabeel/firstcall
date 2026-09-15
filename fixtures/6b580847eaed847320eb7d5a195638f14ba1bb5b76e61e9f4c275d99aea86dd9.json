@@ -1,0 +1,9 @@
+{
+  "key": "6b580847eaed847320eb7d5a195638f14ba1bb5b76e61e9f4c275d99aea86dd9",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\":\"The Bally walk-in cooler, asset WIC-02, located in the back of house is not cooling.\",\"vendorInstructions\":\"Inspect the back of house Bally walk-in cooler, asset WIC-02, to diagnose and resolve the cooling issue.\"}",
+  "tokens": 1591,
+  "latencyMs": 4289,
+  "recordedAt": "2026-09-15T15:36:26.818Z"
+}

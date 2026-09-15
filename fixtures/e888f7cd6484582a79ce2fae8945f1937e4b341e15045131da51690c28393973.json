@@ -1,0 +1,9 @@
+{
+  "key": "e888f7cd6484582a79ce2fae8945f1937e4b341e15045131da51690c28393973",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\":\"The NCR TT-300 POS terminal located at the drive-thru, asset tag POS-03, has no power and is producing an unusual noise.\",\"vendorInstructions\":\"Inspect the unit upon arrival to diagnose the power failure and unusual noise.\"}",
+  "tokens": 1321,
+  "latencyMs": 32122,
+  "recordedAt": "2026-09-15T15:37:46.022Z"
+}

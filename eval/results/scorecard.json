@@ -50,7 +50,10 @@
       "unsupervisedLeaks": 0,
       "unsupervisedPct": 0,
       "recommendedLeaks": 1,
-      "recommendedPct": 4.166666666666666
+      "recommendedPct": 4.166666666666666,
+      "safetyDrivenPaid": 1,
+      "adjustedLeaks": 0,
+      "adjustedPct": 0
     },
     "e5": {
       "recall": 1,
@@ -121,7 +124,10 @@
       "unsupervisedLeaks": 0,
       "unsupervisedPct": 0,
       "recommendedLeaks": 1,
-      "recommendedPct": 4.166666666666666
+      "recommendedPct": 4.166666666666666,
+      "safetyDrivenPaid": 1,
+      "adjustedLeaks": 0,
+      "adjustedPct": 0
     },
     "e5": {
       "recall": 1,

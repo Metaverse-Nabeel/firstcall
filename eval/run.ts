@@ -73,7 +73,7 @@ function printScorecard(s: Scorecard, title: string) {
   console.log(`  E1 resolution     ${s.e1.correct} correct / ${s.e1.wrong} wrong / ${s.e1.abstained} abstained   (wrong ${pct(s.e1.wrongPct)})`);
   console.log(`  E2 extraction     symptom micro-F1 ${s.e2.symptomF1.toFixed(3)}   severity exact ${pct(s.e2.severityExact * 100)}`);
   console.log(`  E3 routing        accuracy ${pct(s.e3.routeAccuracy * 100)}   warranty->paid-vendor ${s.e3.warrantyToVendor}`);
-  console.log(`  E4 leakage        unsupervised ${s.e4.unsupervisedLeaks}/${s.e4.goldCovered} (${pct(s.e4.unsupervisedPct)})   recommended ${s.e4.recommendedLeaks}/${s.e4.goldCovered} (${pct(s.e4.recommendedPct)})`);
+  console.log(`  E4 leakage        unsupervised ${s.e4.unsupervisedLeaks}/${s.e4.goldCovered} (${pct(s.e4.unsupervisedPct)})   recommended ${s.e4.recommendedLeaks}/${s.e4.goldCovered} (${pct(s.e4.recommendedPct)})   adjusted ${s.e4.adjustedLeaks}/${s.e4.goldCovered} (${pct(s.e4.adjustedPct)}, excl. ${s.e4.safetyDrivenPaid} safety-driven)`);
   console.log(`  E5 safety         recall ${s.e5.recall.toFixed(2)}   precision ${s.e5.precision.toFixed(2)}`);
   console.log(`  E6 escalation     recall ${s.e6.gateRecall.toFixed(2)}   precision ${s.e6.gatePrecision.toFixed(2)}   autonomy ${pct(s.e6.autonomyPct)}`);
   console.log(`  E7 cost/latency   ~${s.e7.avgTokens.toFixed(0)} tok/report   $${s.e7.costPerReportUsd.toFixed(5)}/report   p95 ${s.e7.p95LatencyMs}ms`);
@@ -253,7 +253,8 @@ function buildReport(x: {
   L.push(`| E3 routing accuracy | ${pct(main.e3.routeAccuracy * 100)} | ≥ 90% |`);
   L.push(`| E3 warranty → paid vendor | ${main.e3.warrantyToVendor} | 0 |`);
   L.push(`| **E4 unsupervised leakage** | **${pct(main.e4.unsupervisedPct)}** | ≤ 0.5% (RED > 1%) |`);
-  L.push(`| E4 recommended leakage | ${pct(main.e4.recommendedPct)} | — |`);
+  L.push(`| E4 recommended leakage (raw) | ${pct(main.e4.recommendedPct)} | — |`);
+  L.push(`| E4 recommended leakage (adjusted) | ${pct(main.e4.adjustedPct)} | — |`);
   L.push(`| **E5 safety recall** | **${main.e5.recall.toFixed(2)}** | **1.00, build-breaking** |`);
   L.push(`| E5 safety precision | ${main.e5.precision.toFixed(2)} | ≥ 0.60 accepted |`);
   L.push(`| E6 escalation recall | ${main.e6.gateRecall.toFixed(2)} | ≥ 0.95 |`);
@@ -271,6 +272,11 @@ function buildReport(x: {
   L.push(`though a human reviewed it. This is the number that moves under ablation, and the one`);
   L.push(`that becomes real leakage once a busy coordinator starts accepting recommendations.`);
   L.push(`Reporting only the first would overstate the result.`, ``);
+  L.push(`**The adjustment, stated openly.** ${main.e4.safetyDrivenPaid} covered case(s) took a paid route because a`);
+  L.push(`hazard was reported at critical severity, which fires R-01. A gas leak is attended`);
+  L.push(`first and the warranty claim filed afterwards, so that is correct behaviour and not`);
+  L.push(`leakage — but it *is* an adjustment made after seeing the data, so both the raw and`);
+  L.push(`adjusted figures are published. The affected case is inspectable in the case set.`, ``);
 
   if (!ablation) {
     L.push(`## Ablation — NOT RUN`, ``);

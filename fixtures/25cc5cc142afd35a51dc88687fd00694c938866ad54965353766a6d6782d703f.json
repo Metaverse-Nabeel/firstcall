@@ -1,0 +1,9 @@
+{
+  "key": "25cc5cc142afd35a51dc88687fd00694c938866ad54965353766a6d6782d703f",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\": \"Asset FRY-03, a fryer located on the front line, is experiencing vibration.\", \"vendorInstructions\": \"Inspect the fryer at the front line to diagnose and repair the vibration issue.\"}",
+  "tokens": 1216,
+  "latencyMs": 2897,
+  "recordedAt": "2026-09-15T15:38:30.452Z"
+}

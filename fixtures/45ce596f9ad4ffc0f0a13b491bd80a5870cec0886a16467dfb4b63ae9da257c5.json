@@ -1,0 +1,9 @@
+{
+  "key": "45ce596f9ad4ffc0f0a13b491bd80a5870cec0886a16467dfb4b63ae9da257c5",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v2",
+  "responseText": "{\"assetMentions\":[{\"surfaceText\":\"WIC-02\",\"type\":\"WALK_IN_COOLER\",\"ordinalHint\":2,\"locationHint\":\"back of house\",\"modelHint\":null}],\"symptomCodes\":[\"NOT_COOLING\"],\"safetyEvidence\":[],\"severityHint\":null,\"severityEvidenceSpan\":null,\"reportedDowntime\":false}",
+  "tokens": 2085,
+  "latencyMs": 5586,
+  "recordedAt": "2026-09-15T15:36:18.025Z"
+}

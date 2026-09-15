@@ -1,0 +1,9 @@
+{
+  "key": "aeaafa077b7d3321ac0edffc809b31cec1dcef4ee5865018b8e7e3f146a91e27",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "decide-llm/v1",
+  "responseText": "{\n  \"verdict\": \"COVERED\",\n  \"expiresOn\": \"2027-09-19\",\n  \"reasoning\": \"The grill failed within its 36-month warranty period and the reported vibration is not classified as a wear or consumable item.\"\n}",
+  "tokens": 1274,
+  "latencyMs": 3327,
+  "recordedAt": "2026-09-15T15:36:06.764Z"
+}

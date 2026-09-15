@@ -1,0 +1,9 @@
+{
+  "key": "ac1f356c7ee4029bd3fe707eb764f45956df3615842e25ac17f62a848132cd30",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v2",
+  "responseText": "{\"assetMentions\":[{\"surfaceText\":\"FRY-03\",\"type\":\"FRYER\",\"ordinalHint\":3,\"locationHint\":\"front line\",\"modelHint\":null}],\"symptomCodes\":[\"VIBRATION\"],\"safetyEvidence\":[],\"severityHint\":null,\"severityEvidenceSpan\":null,\"reportedDowntime\":false}",
+  "tokens": 2158,
+  "latencyMs": 5479,
+  "recordedAt": "2026-09-15T15:38:23.047Z"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "400f48101751a2e20b0e59848dc667727b0ccd3c5277426789f4d5cdb9657996",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\":\"The Hoshizaki ice machine, model IYT0500A, located in the drive-thru (asset ICE-02) has suffered a complete failure and a display error.\",\"vendorInstructions\":\"Inspect the Hoshizaki ice machine, model IYT0500A, at asset ICE-02 in the drive-thru to diagnose the display error and complete failure.\"}",
+  "tokens": 1851,
+  "latencyMs": 4481,
+  "recordedAt": "2026-09-15T15:38:00.632Z"
+}

@@ -34,7 +34,12 @@ export interface Scorecard {
   e1: { correct: number; wrong: number; abstained: number; wrongPct: number };
   e2: { symptomF1: number; severityExact: number };
   e3: { routeAccuracy: number; confusion: Record<string, Record<string, number>>; warrantyToVendor: number };
-  e4: { goldCovered: number; unsupervisedLeaks: number; unsupervisedPct: number; recommendedLeaks: number; recommendedPct: number };
+  e4: {
+    goldCovered: number;
+    unsupervisedLeaks: number; unsupervisedPct: number;
+    recommendedLeaks: number; recommendedPct: number;
+    safetyDrivenPaid: number; adjustedLeaks: number; adjustedPct: number;
+  };
   e5: { recall: number; precision: number; falseNegatives: string[] };
   e6: { gateRecall: number; gatePrecision: number; autonomyPct: number };
   e7: { avgTokens: number; p95LatencyMs: number; costPerReportUsd: number };
@@ -97,6 +102,16 @@ export function score(rows: Scored[], cases: Map<string, EvalCase>): Scorecard {
   ).length;
   const recommendedLeaks = goldCoveredRows.filter((r) => PAID_ROUTES.has(r.result.decision.route)).length;
 
+  /* Not every paid route on a covered asset is leakage.
+     R-01 dispatches an emergency when a hazard is reported at critical severity -- a gas
+     leak is attended first and the warranty claim filed afterwards. Counting that as
+     leakage would penalise the system for the single behaviour it most needs to get right.
+     Both numbers are reported so the adjustment is visible rather than assumed. */
+  const safetyDrivenPaid = goldCoveredRows.filter(
+    (r) => PAID_ROUTES.has(r.result.decision.route) && r.result.extraction.safetyIndicators.length > 0,
+  ).length;
+  const adjustedLeaks = recommendedLeaks - safetyDrivenPaid;
+
   /* E5 — safety recall. Build-breaking. */
   let sTp = 0, sFp = 0, sFn = 0;
   const falseNegatives: string[] = [];
@@ -144,6 +159,8 @@ export function score(rows: Scored[], cases: Map<string, EvalCase>): Scorecard {
       goldCovered: goldCoveredRows.length,
       unsupervisedLeaks, unsupervisedPct: goldCoveredRows.length ? (unsupervisedLeaks / goldCoveredRows.length) * 100 : 0,
       recommendedLeaks, recommendedPct: goldCoveredRows.length ? (recommendedLeaks / goldCoveredRows.length) * 100 : 0,
+      safetyDrivenPaid, adjustedLeaks,
+      adjustedPct: goldCoveredRows.length ? (adjustedLeaks / goldCoveredRows.length) * 100 : 0,
     },
     e5: { recall: sTp + sFn === 0 ? 1 : sTp / (sTp + sFn), precision: sTp + sFp === 0 ? 1 : sTp / (sTp + sFp), falseNegatives },
     e6: {

@@ -21,7 +21,8 @@ clean clone with no API key: `npm ci && npm run eval`.
 | E3 routing accuracy | 90.0% | ≥ 90% |
 | E3 warranty → paid vendor | 0 | 0 |
 | **E4 unsupervised leakage** | **0.0%** | ≤ 0.5% (RED > 1%) |
-| E4 recommended leakage | 4.2% | — |
+| E4 recommended leakage (raw) | 4.2% | — |
+| E4 recommended leakage (adjusted) | 0.0% | — |
 | **E5 safety recall** | **1.00** | **1.00, build-breaking** |
 | E5 safety precision | 0.33 | ≥ 0.60 accepted |
 | E6 escalation recall | 1.00 | ≥ 0.95 |
@@ -41,6 +42,12 @@ reported to prove the property holds, not as an achievement.
 though a human reviewed it. This is the number that moves under ablation, and the one
 that becomes real leakage once a busy coordinator starts accepting recommendations.
 Reporting only the first would overstate the result.
+
+**The adjustment, stated openly.** 1 covered case(s) took a paid route because a
+hazard was reported at critical severity, which fires R-01. A gas leak is attended
+first and the warranty claim filed afterwards, so that is correct behaviour and not
+leakage — but it *is* an adjustment made after seeing the data, so both the raw and
+adjusted figures are published. The affected case is inspectable in the case set.
 
 ## Ablation — NOT RUN
 
