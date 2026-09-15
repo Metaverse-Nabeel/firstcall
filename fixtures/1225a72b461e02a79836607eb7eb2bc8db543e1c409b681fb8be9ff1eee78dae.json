@@ -1,0 +1,9 @@
+{
+  "key": "1225a72b461e02a79836607eb7eb2bc8db543e1c409b681fb8be9ff1eee78dae",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "decide-llm/v1",
+  "responseText": "{\"verdict\": \"EXPIRED\", \"expiresOn\": \"2024-08-08\", \"reasoning\": \"The warranty expired on August 8, 2024, as the 24-month coverage term from the in-service date ended prior to the failure date.\"}",
+  "tokens": 1172,
+  "latencyMs": 3072,
+  "recordedAt": "2026-09-15T15:59:26.781Z"
+}

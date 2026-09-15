@@ -197,15 +197,24 @@ from.
 
 | | Rules (shipped) | LLM decides |
 |---|---|---|
-| Routing accuracy | **90.0%** | 80.0% |
+| Symptom F1 / severity | 0.790 / 86.7% | 0.790 / 86.7% |
+| Routing accuracy | **90.0%** | 78.3% |
 | **Covered → paid vendor** | **0** | **1** |
 | Recommended leakage (adjusted) | **0.0%** | 4.2% |
-| Autonomy | **35.0%** | 31.7% |
+| Autonomy | **35.0%** | 33.3% |
+
+Extraction is **identical across both arms** — that row is the control. Every downstream
+difference is attributable to the warranty verdict's source and nothing else.
 
 **The LLM-decides variant is the only configuration in this entire evaluation that routes a
 covered asset to a paid vendor.** That is the E3 red-gate cell: shipped, it would fail the
 build. It is one case out of 24, which at 336 reports/year is roughly $780 a year walking
 out of the door from a single failure mode — and unlike a rule, it has no line number to fix.
+
+This comparison had to be rebuilt once. The first version swapped the model for the *whole*
+ablation client, so EXTRACT and DRAFT also ran at a different thinking level — it varied
+three things and isolated none. The fix pins everything except the warranty verdict to the
+shipped configuration, which is why the extraction row above now matches exactly.
 
 **Caveat, and it cuts against this result.** The intended opponent was `gemini-3.6-flash` at
 `thinkingLevel: high`. Its per-model daily quota was exhausted mid-evaluation, so this ran on

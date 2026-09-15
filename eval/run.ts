@@ -38,8 +38,12 @@ function makeDeps(registry: Registry, config = DEFAULT_CONFIG, llm?: LLMClient):
     llm: llm ?? createLLMClient({
       mode: readEvalMode(),
       apiKey: process.env.GOOGLE_API_KEY,
-      defaultModelId: config.modelId,
-      defaultThinkingLevel: config.thinkingLevel,
+      // ALWAYS the primary model, even under ablation. The client default drives EXTRACT
+      // and DRAFT; config.modelId is consumed only by decide-llm, which passes it
+      // explicitly. Using config.modelId here silently swapped the DRAFT model too, which
+      // meant the ablation was varying two things at once and isolating neither.
+      defaultModelId: DEFAULT_CONFIG.modelId,
+      defaultThinkingLevel: DEFAULT_CONFIG.thinkingLevel,
     }),
     registry,
     // Frozen, always. A live clock silently flips boundary cases months after authoring.

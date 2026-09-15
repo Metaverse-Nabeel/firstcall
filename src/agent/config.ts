@@ -18,13 +18,19 @@ export const MODELS = {
    * Ablation only — the LLM-decides-warranty variant runs on the STRONGEST config so that
    * beating it is evidence rather than a strawman.
    *
-   * `gemini-3.6-flash` is the intended choice and remains the default. It carries its own
-   * per-model daily free-tier quota, which the evaluation exhausted (429 on every request).
-   * Set ABLATION_MODEL=gemini-3.5-flash-lite to run the comparison against the strongest
-   * config still reachable; that is a weaker opponent and the report must say so, because
-   * an ablation against a hobbled model proves nothing.
+   * `gemini-3.6-flash` is the PREFERRED opponent and carries its own per-model daily
+   * free-tier quota, which this evaluation exhausted (429 on every request). The committed
+   * fixtures were therefore recorded against `gemini-3.5-flash-lite` at thinkingLevel
+   * "high" — still thinking-enabled and still stronger than the shipped config, but weaker
+   * than intended, which flatters the rules and is declared in the report.
+   *
+   * The default matches what is RECORDED, not what is preferred, so that
+   * `npm run eval -- --ablation` reproduces offline on a clean clone. To re-run against the
+   * stronger opponent once quota resets:
+   *
+   *   ABLATION_MODEL=gemini-3.6-flash EVAL_MODE=record npm run eval -- --ablation
    */
-  ablation: process.env.ABLATION_MODEL ?? "gemini-3.6-flash",
+  ablation: process.env.ABLATION_MODEL ?? "gemini-3.5-flash-lite",
 } as const;
 
 export const DEFAULT_CONFIG: PipelineConfig = {

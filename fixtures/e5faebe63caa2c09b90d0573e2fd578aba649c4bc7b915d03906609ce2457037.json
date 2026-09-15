@@ -1,0 +1,9 @@
+{
+  "key": "e5faebe63caa2c09b90d0573e2fd578aba649c4bc7b915d03906609ce2457037",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "decide-llm/v1",
+  "responseText": "{\"verdict\": \"COVERED\", \"expiresOn\": \"2027-01-02\", \"reasoning\": \"The dishwasher failed within the 24-month warranty term and the heating issues are not classified as wear or consumable items.\"}",
+  "tokens": 962,
+  "latencyMs": 2651,
+  "recordedAt": "2026-09-15T15:58:58.579Z"
+}

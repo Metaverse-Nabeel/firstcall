@@ -70,9 +70,9 @@ record the rules engine sees. Beating a weakened model would be a strawman.
 | | Rules (shipped) | LLM decides |
 |---|---|---|
 | Recommended leakage | **4.2%** | 8.3% |
-| Routing accuracy | 90.0% | 80.0% |
+| Routing accuracy | 90.0% | 78.3% |
 | Warranty → paid vendor | 0 | 1 |
-| Autonomy | 35.0% | 31.7% |
+| Autonomy | 35.0% | 33.3% |
 
 ## Baselines
 

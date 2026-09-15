@@ -1,0 +1,9 @@
+{
+  "key": "30af41140be092cc2d9923fbc5b734a656b1ce467b50e9d2dd3880d73efe3e5e",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "decide-llm/v1",
+  "responseText": "{\n  \"verdict\": \"COVERED\",\n  \"expiresOn\": \"2028-05-06\",\n  \"reasoning\": \"The grill failed within the 24-month warranty period and the heating issue is not a wear or consumable item.\"\n}",
+  "tokens": 1046,
+  "latencyMs": 3900,
+  "recordedAt": "2026-09-15T15:59:41.115Z"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "83b5aaab8db3f6a489d485463a132b2d9f05a6bf563161773f95e5b45c049239",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "decide-llm/v1",
+  "responseText": "{\"verdict\":\"NOT_COVERED\",\"expiresOn\":\"2028-06-12\",\"reasoning\":\"The failure date occurs before the in-service date, so coverage has not yet commenced.\"}",
+  "tokens": 1546,
+  "latencyMs": 4214,
+  "recordedAt": "2026-09-15T15:58:42.138Z"
+}
