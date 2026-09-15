@@ -1,0 +1,52 @@
+#!/usr/bin/env bash
+# FirstCall pre-commit hook. Install with: npm run setup:hooks
+#
+# This repo is PUBLIC. A secret committed here is leaked the moment it is pushed,
+# and removing it in a later commit does not unleak it. This hook is a backstop,
+# not a substitute for reading `git status --short` before every commit.
+set -uo pipefail
+
+fail=0
+staged=$(git diff --cached --name-only --diff-filter=ACM)
+[ -z "$staged" ] && exit 0
+
+# 1. Filenames that must never be committed.
+while IFS= read -r f; do
+  case "$(basename "$f")" in
+    .env|.env.local|.env.production|.env.development)
+      echo "BLOCKED: $f — env files are never committed. Use .env.example." >&2
+      fail=1 ;;
+  esac
+  case "$f" in
+    *.mp4|*.mov|*.webm|*.key|*.pem)
+      echo "BLOCKED: $f — media/keys stay in ../MUST-work/. Link the video, do not commit it." >&2
+      fail=1 ;;
+  esac
+done <<< "$staged"
+
+# 2. Secret patterns in staged CONTENT.
+#    .env.example is scanned too — a real key pasted there is the classic accident.
+patterns='AIza[0-9A-Za-z_-]{30,}|sk-ant-[A-Za-z0-9_-]{20,}|gh[pousr]_[A-Za-z0-9]{36}|-----BEGIN [A-Z ]*PRIVATE KEY-----|AKIA[0-9A-Z]{16}'
+if git diff --cached -U0 | grep -nE "$patterns" >/dev/null 2>&1; then
+  echo "BLOCKED: a staged change matches a secret pattern:" >&2
+  git diff --cached -U0 | grep -nE "$patterns" | sed 's/^/    /' >&2
+  echo "  If this is a real key, it is now in your working tree only — rotate it anyway if unsure." >&2
+  fail=1
+fi
+
+# 3. Large files. The repo holds deliverables; nothing here is legitimately >5MB.
+while IFS= read -r f; do
+  [ -f "$f" ] || continue
+  size=$(wc -c < "$f" | tr -d ' ')
+  if [ "$size" -gt 5242880 ]; then
+    echo "BLOCKED: $f is $((size / 1048576))MB (limit 5MB)." >&2
+    fail=1
+  fi
+done <<< "$staged"
+
+if [ "$fail" -ne 0 ]; then
+  echo "" >&2
+  echo "Commit rejected. Override only if you are certain: git commit --no-verify" >&2
+  exit 1
+fi
+exit 0

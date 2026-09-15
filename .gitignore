@@ -1,0 +1,34 @@
+# --- secrets: never commit ---
+.env
+.env.*
+!.env.example
+
+# --- dependencies / build ---
+node_modules/
+.next/
+out/
+dist/
+*.tsbuildinfo
+
+# --- media: the demo video lives on Loom, only the link enters the README ---
+*.mp4
+*.mov
+*.webm
+*.wav
+
+# --- keys / certs ---
+*.key
+*.pem
+*.p12
+*.pfx
+
+# --- local noise ---
+.DS_Store
+.vercel
+*.log
+npm-debug.log*
+coverage/
+
+# --- scratch. Real working files belong in ../MUST-work/, a sibling of this repo. ---
+_work/
+scratch/

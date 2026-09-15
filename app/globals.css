@@ -1,0 +1,19 @@
+/* Deliberately minimal. The rubric weights the prototype at 20% and framing/evaluation
+   at 55% — one 20-minute styling pass belongs on Day 5, and never before. */
+:root {
+  --bg: #fbfbfa; --fg: #1a1a18; --muted: #6b6b66;
+  --line: #e2e1dd; --card: #ffffff;
+  --ok: #1f7a4d; --warn: #9a6b00; --stop: #a52222;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--bg); color: var(--fg);
+  font: 15px/1.55 ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+.topbar {
+  display: flex; gap: .6rem; align-items: baseline;
+  padding: .9rem 1.4rem; border-bottom: 1px solid var(--line); background: var(--card);
+}
+.muted { color: var(--muted); }
+main { max-width: 900px; margin: 0 auto; padding: 1.6rem 1.4rem 4rem; }
+h1 { font-size: 1.35rem; margin: 0 0 .4rem; }
