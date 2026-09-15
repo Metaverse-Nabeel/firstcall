@@ -1,0 +1,9 @@
+{
+  "key": "376451125af3673e9f95e15068a67c094916e9773042cd6f89069d186cae094c",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\":\"Heavy ice buildup is reported inside the Frymaster fryer, asset FRY-02, located on the front line.\",\"vendorInstructions\":\"Inspect the Frymaster model FPP-345 fryer on the front line to diagnose and resolve the ice buildup.\"}",
+  "tokens": 1711,
+  "latencyMs": 48016,
+  "recordedAt": "2026-09-15T15:47:49.959Z"
+}

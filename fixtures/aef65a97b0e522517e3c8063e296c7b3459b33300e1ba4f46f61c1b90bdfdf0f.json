@@ -1,0 +1,9 @@
+{
+  "key": "aef65a97b0e522517e3c8063e296c7b3459b33300e1ba4f46f61c1b90bdfdf0f",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v2",
+  "responseText": "{\"assetMentions\":[{\"surfaceText\":\"WTR-01\",\"type\":\"WATER_HEATER\",\"ordinalHint\":null,\"locationHint\":\"back of house\",\"modelHint\":null}],\"symptomCodes\":[\"CONTROL_BOARD_ERROR\"],\"safetyEvidence\":[],\"severityHint\":null,\"severityEvidenceSpan\":null,\"reportedDowntime\":false}",
+  "tokens": 2338,
+  "latencyMs": 6357,
+  "recordedAt": "2026-09-15T15:42:22.353Z"
+}

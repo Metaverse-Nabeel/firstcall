@@ -1,0 +1,9 @@
+{
+  "key": "58b34c44de7e055a1c6d6e2b17dfaa714e5615c941a075a9b6207adeac785dd4",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\":\"The Hobart TempStar dishwasher, asset DSH-01 located in the back prep area, is experiencing heavy vibration during cycles.\",\"vendorInstructions\":\"Inspect asset DSH-01 in the back prep area to identify and resolve the cause of the vibration.\"}",
+  "tokens": 1365,
+  "latencyMs": 3498,
+  "recordedAt": "2026-09-15T15:48:49.447Z"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "b80c4a29e667d820d93ba854f957cb7fa9ab373afb2c8ce15cd4ad7d19f678af",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\":\"The Taylor ME-24 grill, asset GRL-03 located at the front line, has suffered a complete failure.\",\"vendorInstructions\":\"Inspect the front line grill (GRL-03) to diagnose the complete failure.\"}",
+  "tokens": 1288,
+  "latencyMs": 4278,
+  "recordedAt": "2026-09-15T15:43:26.927Z"
+}

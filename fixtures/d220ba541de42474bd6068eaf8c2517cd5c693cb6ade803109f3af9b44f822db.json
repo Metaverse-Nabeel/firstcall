@@ -1,0 +1,9 @@
+{
+  "key": "d220ba541de42474bd6068eaf8c2517cd5c693cb6ade803109f3af9b44f822db",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "decide-llm/v1",
+  "responseText": "{\"verdict\":\"COVERED\",\"expiresOn\":\"2028-03-31\",\"reasoning\":\"The fryer failed within the 24-month warranty period, the preventive-maintenance log is complete, and the reported issue is not a wear or consumable item.\"}",
+  "tokens": 1510,
+  "latencyMs": 4325,
+  "recordedAt": "2026-09-15T15:47:01.768Z"
+}

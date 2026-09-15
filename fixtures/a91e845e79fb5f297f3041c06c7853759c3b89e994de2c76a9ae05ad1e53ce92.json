@@ -1,0 +1,9 @@
+{
+  "key": "a91e845e79fb5f297f3041c06c7853759c3b89e994de2c76a9ae05ad1e53ce92",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\":\"The NCR XR7 POS terminal, asset tag POS-01 located at the front counter, is experiencing intermittent operation.\",\"vendorInstructions\":\"Inspect the POS-01 terminal at the front counter to diagnose and resolve the intermittent operation issue.\"}",
+  "tokens": 1338,
+  "latencyMs": 3266,
+  "recordedAt": "2026-09-15T15:41:06.044Z"
+}

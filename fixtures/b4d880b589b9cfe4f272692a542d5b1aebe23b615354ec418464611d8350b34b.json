@@ -1,0 +1,9 @@
+{
+  "key": "b4d880b589b9cfe4f272692a542d5b1aebe23b615354ec418464611d8350b34b",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\":\"The True reach-in freezer, asset FRZ-02 located at the front line, has a reported thermostat drift issue.\",\"vendorInstructions\":\"Inspect the thermostat on asset FRZ-02 at the front line and evaluate the unit for drift.\"}",
+  "tokens": 1616,
+  "latencyMs": 4338,
+  "recordedAt": "2026-09-15T15:44:09.412Z"
+}

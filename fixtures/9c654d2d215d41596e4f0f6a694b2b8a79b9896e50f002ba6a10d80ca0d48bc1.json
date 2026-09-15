@@ -1,0 +1,9 @@
+{
+  "key": "9c654d2d215d41596e4f0f6a694b2b8a79b9896e50f002ba6a10d80ca0d48bc1",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v2",
+  "responseText": "{\n  \"assetMentions\": [\n    {\n      \"surfaceText\": \"POS-02\",\n      \"type\": \"POS_TERMINAL\",\n      \"ordinalHint\": 2,\n      \"locationHint\": null,\n      \"modelHint\": null\n    },\n    {\n      \"surfaceText\": \"FRY-01\",\n      \"type\": \"FRYER\",\n      \"ordinalHint\": 1,\n      \"locationHint\": null,\n      \"modelHint\": null\n    }\n  ],\n  \"symptomCodes\": [\n    \"BREAKER_TRIP\"\n  ],\n  \"safetyEvidence\": [],\n  \"severityHint\": null,\n  \"severityEvidenceSpan\": null,\n  \"reportedDowntime\": true\n}",
+  "tokens": 2195,
+  "latencyMs": 10415,
+  "recordedAt": "2026-09-15T15:51:54.956Z"
+}

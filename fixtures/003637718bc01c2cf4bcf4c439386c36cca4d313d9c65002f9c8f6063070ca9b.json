@@ -1,0 +1,9 @@
+{
+  "key": "003637718bc01c2cf4bcf4c439386c36cca4d313d9c65002f9c8f6063070ca9b",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\":\"The AO Smith water heater, asset tag WTR-01, located in the back of house is experiencing a display error and complete failure with a blank and unresponsive screen.\",\"vendorInstructions\":\"Inspect the unit upon arrival to diagnose the display error and complete failure.\"}",
+  "tokens": 1501,
+  "latencyMs": 3749,
+  "recordedAt": "2026-09-15T15:48:21.574Z"
+}

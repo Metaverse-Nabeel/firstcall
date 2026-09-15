@@ -1,0 +1,9 @@
+{
+  "key": "17b1861e534e44483decb041b82c419a0ea6fb40cddddb3a2f9cba6c8f3bae3c",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\n  \"symptomSummary\": \"The unit is experiencing intermittent operation.\",\n  \"vendorInstructions\": \"Inspect the unit upon arrival to diagnose the reported issue.\"\n}",
+  "tokens": 2237,
+  "latencyMs": 6651,
+  "recordedAt": "2026-09-15T15:49:17.606Z"
+}

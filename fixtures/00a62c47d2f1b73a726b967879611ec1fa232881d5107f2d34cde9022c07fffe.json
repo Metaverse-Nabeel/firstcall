@@ -1,0 +1,9 @@
+{
+  "key": "00a62c47d2f1b73a726b967879611ec1fa232881d5107f2d34cde9022c07fffe",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v2",
+  "responseText": "{\"assetMentions\":[{\"surfaceText\":\"FRZ-02\",\"type\":\"REACH_IN_FREEZER\",\"ordinalHint\":null,\"locationHint\":\"front line\",\"modelHint\":null}],\"symptomCodes\":[\"NOT_COOLING\",\"SMOKE\"],\"safetyEvidence\":[{\"indicator\":\"SMOKE_OR_FIRE\",\"span\":\"There is a tiny bit of smoke coming from the unit\"}],\"severityHint\":\"HIGH\",\"severityEvidenceSpan\":\"There is a tiny bit of smoke coming from the unit\",\"reportedDowntime\":false}",
+  "tokens": 2540,
+  "latencyMs": 6270,
+  "recordedAt": "2026-09-15T15:51:19.383Z"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "15791a206c32fbec84c60627cb7c9e1904d19ab7986f304bef9f2cb350f85732",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\": \"The Hoshizaki ice machine model IYT0500A, asset tag ICE-02 in the drive-thru, is reporting an unusual noise.\", \"vendorInstructions\": \"Inspect the Hoshizaki ice machine at the drive-thru location to diagnose and repair the unusual noise.\"}",
+  "tokens": 1485,
+  "latencyMs": 4428,
+  "recordedAt": "2026-09-15T15:52:18.989Z"
+}

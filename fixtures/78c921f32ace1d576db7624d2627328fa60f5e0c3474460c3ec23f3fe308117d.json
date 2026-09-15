@@ -1,0 +1,9 @@
+{
+  "key": "78c921f32ace1d576db7624d2627328fa60f5e0c3474460c3ec23f3fe308117d",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\":\"The Hobart AM15 dishwasher, asset tag DSH-01, located in the back prep area is tripping the breaker.\",\"vendorInstructions\":\"Inspect the unit in the back prep area to diagnose and repair the cause of the breaker tripping.\"}",
+  "tokens": 1425,
+  "latencyMs": 8784,
+  "recordedAt": "2026-09-15T15:46:22.153Z"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "d02cc9fa7aeee719c42e1e65f3b94eb82d6b3e325b2f5ea53297fd3de524317e",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "decide-llm/v1",
+  "responseText": "{\"verdict\":\"BOUNDARY_REVIEW\",\"expiresOn\":\"2026-06-01\",\"reasoning\":\"The failure date coincides with the exact warranty expiration date, requiring a boundary review.\"}",
+  "tokens": 1887,
+  "latencyMs": 5506,
+  "recordedAt": "2026-09-15T15:49:01.934Z"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "af150ad54847baa0435ed8a2f492d3b38a60ba26ac0700dedb17e526c157c847",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v2",
+  "responseText": "{\"assetMentions\":[{\"surfaceText\":\"GRL-01\",\"type\":\"GRILL\",\"ordinalHint\":null,\"locationHint\":\"front line\",\"modelHint\":null}],\"symptomCodes\":[\"ICE_BUILDUP\",\"NOT_HEATING\"],\"safetyEvidence\":[],\"severityHint\":\"HIGH\",\"severityEvidenceSpan\":\"major issue with heavy ice building up inside the unit. We had to shut it down and stop using it during the morning rush\",\"reportedDowntime\":true}",
+  "tokens": 2253,
+  "latencyMs": 5680,
+  "recordedAt": "2026-09-15T15:41:12.958Z"
+}

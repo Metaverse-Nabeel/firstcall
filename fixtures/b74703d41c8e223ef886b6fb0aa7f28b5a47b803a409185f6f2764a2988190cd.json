@@ -1,0 +1,9 @@
+{
+  "key": "b74703d41c8e223ef886b6fb0aa7f28b5a47b803a409185f6f2764a2988190cd",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\":\"The unit is experiencing a complete lack of power and intermittent operation. This issue has resulted in reported downtime.\",\"vendorInstructions\":\"Inspect the unit to diagnose the cause of the power failures and restore normal operation.\"}",
+  "tokens": 1353,
+  "latencyMs": 3368,
+  "recordedAt": "2026-09-15T15:41:46.813Z"
+}

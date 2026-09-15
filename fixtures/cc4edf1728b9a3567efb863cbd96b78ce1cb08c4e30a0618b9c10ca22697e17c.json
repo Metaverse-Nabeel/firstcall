@@ -1,0 +1,9 @@
+{
+  "key": "cc4edf1728b9a3567efb863cbd96b78ce1cb08c4e30a0618b9c10ca22697e17c",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v2",
+  "responseText": "{\"assetMentions\":[{\"surfaceText\":\"POS-01\",\"type\":\"POS_TERMINAL\",\"ordinalHint\":null,\"locationHint\":\"drive-thru\",\"modelHint\":null}],\"symptomCodes\":[\"OVERHEATING\",\"BREAKER_TRIP\"],\"safetyEvidence\":[],\"severityHint\":null,\"severityEvidenceSpan\":null,\"reportedDowntime\":false}",
+  "tokens": 3049,
+  "latencyMs": 8129,
+  "recordedAt": "2026-09-15T15:42:39.490Z"
+}

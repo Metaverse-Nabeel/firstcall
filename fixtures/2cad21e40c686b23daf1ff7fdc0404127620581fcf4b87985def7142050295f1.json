@@ -1,0 +1,9 @@
+{
+  "key": "2cad21e40c686b23daf1ff7fdc0404127620581fcf4b87985def7142050295f1",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\":\"Asset FRY-03 on the front line is leaking water, creating a slip hazard.\",\"vendorInstructions\":\"Inspect fryer FRY-03 on the front line to locate and repair the leak.\"}",
+  "tokens": 1445,
+  "latencyMs": 3815,
+  "recordedAt": "2026-09-15T15:53:41.806Z"
+}

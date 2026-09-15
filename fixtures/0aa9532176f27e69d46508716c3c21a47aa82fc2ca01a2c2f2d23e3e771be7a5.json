@@ -1,0 +1,9 @@
+{
+  "key": "0aa9532176f27e69d46508716c3c21a47aa82fc2ca01a2c2f2d23e3e771be7a5",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\":\"The Manitowoc ice machine, asset tag ICE-02, located in the drive-thru is not cooling.\",\"vendorInstructions\":\"Inspect the Manitowoc ice machine, asset tag ICE-02, model KM-660MAJ, to diagnose and repair the cooling issue.\"}",
+  "tokens": 1273,
+  "latencyMs": 2980,
+  "recordedAt": "2026-09-15T15:44:28.756Z"
+}

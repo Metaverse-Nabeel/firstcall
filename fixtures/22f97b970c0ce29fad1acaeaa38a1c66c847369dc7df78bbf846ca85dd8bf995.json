@@ -1,0 +1,9 @@
+{
+  "key": "22f97b970c0ce29fad1acaeaa38a1c66c847369dc7df78bbf846ca85dd8bf995",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\": \"The Bunn coffee brewer, model G4TP2S, located at the front counter (asset tag BRW-02) is experiencing thermostat drift.\", \"vendorInstructions\": \"Inspect the unit upon arrival and calibrate or repair the thermostat as needed.\"}",
+  "tokens": 1338,
+  "latencyMs": 3276,
+  "recordedAt": "2026-09-15T15:54:28.418Z"
+}

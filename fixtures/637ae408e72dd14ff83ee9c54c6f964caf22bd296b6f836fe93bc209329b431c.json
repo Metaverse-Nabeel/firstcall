@@ -1,0 +1,9 @@
+{
+  "key": "637ae408e72dd14ff83ee9c54c6f964caf22bd296b6f836fe93bc209329b431c",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\n  \"symptomSummary\": \"The Bunn ICB-DV coffee brewer, asset BRW-02 located at the front counter, is experiencing an overheating condition.\",\n  \"vendorInstructions\": \"Inspect the front counter coffee brewer to diagnose the overheating issue and verify proper operation.\"\n}",
+  "tokens": 1467,
+  "latencyMs": 3828,
+  "recordedAt": "2026-09-15T15:49:05.764Z"
+}

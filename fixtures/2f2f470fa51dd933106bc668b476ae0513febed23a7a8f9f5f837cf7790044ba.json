@@ -1,0 +1,9 @@
+{
+  "key": "2f2f470fa51dd933106bc668b476ae0513febed23a7a8f9f5f837cf7790044ba",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\": \"The Pitco SG14-S fryer, asset FRY-03 located on the front line, is experiencing thermostat drift. The reported fault indicates the thermostat reading is incorrect.\", \"vendorInstructions\": \"Inspect asset FRY-03 on the front line to diagnose and repair the thermostat drift on the Pitco SG14-S fryer.\"}",
+  "tokens": 1496,
+  "latencyMs": 3957,
+  "recordedAt": "2026-09-15T15:42:15.450Z"
+}

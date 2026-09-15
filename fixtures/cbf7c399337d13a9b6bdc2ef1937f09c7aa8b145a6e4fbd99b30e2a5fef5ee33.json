@@ -1,0 +1,9 @@
+{
+  "key": "cbf7c399337d13a9b6bdc2ef1937f09c7aa8b145a6e4fbd99b30e2a5fef5ee33",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\":\"The roof-mounted Carrier HVAC unit model YSC072, asset RTU-01, is experiencing intermittent operation and tripping the breaker.\",\"vendorInstructions\":\"Inspect unit RTU-01 on the roof to diagnose the intermittent operation and breaker trip.\"}",
+  "tokens": 1833,
+  "latencyMs": 5945,
+  "recordedAt": "2026-09-15T15:45:01.244Z"
+}

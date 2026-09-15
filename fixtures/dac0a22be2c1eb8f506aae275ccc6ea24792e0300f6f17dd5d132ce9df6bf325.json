@@ -1,0 +1,9 @@
+{
+  "key": "dac0a22be2c1eb8f506aae275ccc6ea24792e0300f6f17dd5d132ce9df6bf325",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\":\"The front line CaptiveAire ND2-40 hood exhaust, asset HOD-01, has a control board error and thermostat drift. The unit is reported down.\",\"vendorInstructions\":\"Inspect the control board and thermostat on the front line CaptiveAire ND2-40 hood exhaust, asset HOD-01. Diagnose and repair the reported error codes.\"}",
+  "tokens": 1684,
+  "latencyMs": 4790,
+  "recordedAt": "2026-09-15T15:45:46.813Z"
+}

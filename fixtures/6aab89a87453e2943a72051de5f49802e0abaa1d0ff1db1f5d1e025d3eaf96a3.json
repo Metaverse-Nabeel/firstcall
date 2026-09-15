@@ -1,0 +1,9 @@
+{
+  "key": "6aab89a87453e2943a72051de5f49802e0abaa1d0ff1db1f5d1e025d3eaf96a3",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\":\"The Taylor ME-24 grill (GRL-01) located at the front line is experiencing thermostat drift and overheating.\",\"vendorInstructions\":\"Inspect the grill to diagnose and repair the thermostat and overheating issues.\"}",
+  "tokens": 1554,
+  "latencyMs": 3936,
+  "recordedAt": "2026-09-15T15:51:43.976Z"
+}

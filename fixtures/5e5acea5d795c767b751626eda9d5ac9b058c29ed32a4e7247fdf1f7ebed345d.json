@@ -1,0 +1,9 @@
+{
+  "key": "5e5acea5d795c767b751626eda9d5ac9b058c29ed32a4e7247fdf1f7ebed345d",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\n  \"symptomSummary\": \"The Manitowoc ice machine model IYT0500A, asset ICE-02, located at the drive-thru is reporting a control board error.\",\n  \"vendorInstructions\": \"Inspect the control board on the Manitowoc ice machine at the drive-thru location and diagnose the reported error.\"\n}",
+  "tokens": 1574,
+  "latencyMs": 4280,
+  "recordedAt": "2026-09-15T15:52:34.705Z"
+}

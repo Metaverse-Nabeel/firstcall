@@ -1,0 +1,9 @@
+{
+  "key": "5f513de1b238cfa903276b2edbd0d7bb91da3f73734c710a10eca9aede212c38",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "decide-llm/v1",
+  "responseText": "{\"verdict\":\"COVERED\",\"expiresOn\":\"2028-08-04\",\"reasoning\":\"The ice machine failed within the 36-month warranty period, the preventive-maintenance log is complete, and the reported symptom is not a wear or consumable item.\"}",
+  "tokens": 1161,
+  "latencyMs": 3239,
+  "recordedAt": "2026-09-15T15:52:13.298Z"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "bc5cdfc4a6e5699c820f493e5f572f6469e993002dc22731118ab67050e5bc7c",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\":\"The unit is experiencing a breaker trip accompanied by electrical arcing. The condition is classified as critical severity.\",\"vendorInstructions\":\"Inspect the electrical connection to resolve the breaker trip and arcing. Verify system safety immediately upon arrival.\"}",
+  "tokens": 1852,
+  "latencyMs": 5233,
+  "recordedAt": "2026-09-15T15:51:13.112Z"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "ba9505cfd0be4debb37e75338f3bc1539958008eccce0cfd5c01d893f84d49a8",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "decide-llm/v1",
+  "responseText": "{\"verdict\": \"COVERED\", \"expiresOn\": \"2027-08-29\", \"reasoning\": \"The hood exhaust failed within its twenty-four-month warranty term, the preventive-maintenance log is complete, and the reported symptoms are not classified as wear or consumable items.\"}",
+  "tokens": 1192,
+  "latencyMs": 3349,
+  "recordedAt": "2026-09-15T15:45:40.871Z"
+}

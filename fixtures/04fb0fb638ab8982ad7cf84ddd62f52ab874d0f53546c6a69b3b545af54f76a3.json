@@ -1,0 +1,9 @@
+{
+  "key": "04fb0fb638ab8982ad7cf84ddd62f52ab874d0f53546c6a69b3b545af54f76a3",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v2",
+  "responseText": "{\"assetMentions\":[{\"surfaceText\":\"XZY-91\",\"type\":\"UNKNOWN_TYPE\",\"ordinalHint\":null,\"locationHint\":null,\"modelHint\":null}],\"symptomCodes\":[\"NOT_HEATING\"],\"safetyEvidence\":[],\"severityHint\":null,\"severityEvidenceSpan\":null,\"reportedDowntime\":false}",
+  "tokens": 2512,
+  "latencyMs": 6677,
+  "recordedAt": "2026-09-15T15:53:08.082Z"
+}

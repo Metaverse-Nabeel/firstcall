@@ -1,0 +1,9 @@
+{
+  "key": "bcb8bda3330f331df346385eb62d784de17ada671f13e16705fcb13bd5ff253b",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "decide-llm/v1",
+  "responseText": "{\"verdict\":\"COVERED\",\"expiresOn\":\"2027-07-17\",\"reasoning\":\"The POS terminal failed within its 24-month warranty period and the reported symptoms are not classified as wear items.\"}",
+  "tokens": 1371,
+  "latencyMs": 3654,
+  "recordedAt": "2026-09-15T15:42:43.146Z"
+}

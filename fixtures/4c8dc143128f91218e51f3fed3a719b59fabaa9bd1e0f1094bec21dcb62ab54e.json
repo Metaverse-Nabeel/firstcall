@@ -1,0 +1,9 @@
+{
+  "key": "4c8dc143128f91218e51f3fed3a719b59fabaa9bd1e0f1094bec21dcb62ab54e",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v2",
+  "responseText": "{\"assetMentions\":[{\"surfaceText\":\"FRY-03\",\"type\":\"FRYER\",\"ordinalHint\":3,\"locationHint\":\"front line\",\"modelHint\":null}],\"symptomCodes\":[\"THERMOSTAT_DRIFT\"],\"safetyEvidence\":[],\"severityHint\":null,\"severityEvidenceSpan\":null,\"reportedDowntime\":false}",
+  "tokens": 1452,
+  "latencyMs": 3460,
+  "recordedAt": "2026-09-15T15:42:05.951Z"
+}

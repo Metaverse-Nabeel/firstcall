@@ -1,0 +1,9 @@
+{
+  "key": "d6e1cf25e55be22323509c0a84308ffe646fee0705a6bec4116cd867b086fa1f",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v2",
+  "responseText": "{\"assetMentions\":[{\"surfaceText\":\"WIC-01\",\"type\":\"WALK_IN_COOLER\",\"ordinalHint\":1,\"locationHint\":\"back of house\",\"modelHint\":null}],\"symptomCodes\":[\"BREAKER_TRIP\",\"INTERMITTENT_OPERATION\"],\"safetyEvidence\":[],\"severityHint\":\"HIGH\",\"severityEvidenceSpan\":\"We had to stop using it completely\",\"reportedDowntime\":true}",
+  "tokens": 1878,
+  "latencyMs": 4969,
+  "recordedAt": "2026-09-15T15:45:21.665Z"
+}

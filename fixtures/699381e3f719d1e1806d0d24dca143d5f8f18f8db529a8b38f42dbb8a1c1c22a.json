@@ -1,0 +1,9 @@
+{
+  "key": "699381e3f719d1e1806d0d24dca143d5f8f18f8db529a8b38f42dbb8a1c1c22a",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\":\"The Garland L810 grill, asset tag GRL-02, located on the front line is reporting a display error.\",\"vendorInstructions\":\"Inspect the grill display on arrival to resolve the error.\"}",
+  "tokens": 2013,
+  "latencyMs": 5565,
+  "recordedAt": "2026-09-15T15:45:16.694Z"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "6c73b119919d4c3f1caddfe581761364a04108d7c67e97281e4420d7c2be4ff5",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\":\"The front line Garland grill, asset GRL-01 (model L810), is experiencing ice buildup and is not heating.\",\"vendorInstructions\":\"Inspect grill GRL-01 on the front line to diagnose and resolve the ice buildup and heating issues.\"}",
+  "tokens": 1521,
+  "latencyMs": 3880,
+  "recordedAt": "2026-09-15T15:41:21.341Z"
+}

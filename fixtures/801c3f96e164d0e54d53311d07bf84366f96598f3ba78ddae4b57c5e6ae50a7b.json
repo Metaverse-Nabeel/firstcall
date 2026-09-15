@@ -1,0 +1,9 @@
+{
+  "key": "801c3f96e164d0e54d53311d07bf84366f96598f3ba78ddae4b57c5e6ae50a7b",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\": \"The True reach-in freezer, asset tag FRZ-01, located in the front line is experiencing vibration.\", \"vendorInstructions\": \"Inspect asset FRZ-01 to identify and resolve the source of the vibration.\"}",
+  "tokens": 1521,
+  "latencyMs": 3876,
+  "recordedAt": "2026-09-15T15:53:56.804Z"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "cebb281ab2705b44bbc289c55d48175d059528294124cd0a529c47dd2e01e58d",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v2",
+  "responseText": "{\"assetMentions\":[{\"surfaceText\":\"back walk in cooler\",\"type\":\"WALK_IN_COOLER\",\"ordinalHint\":null,\"locationHint\":\"back\",\"modelHint\":null}],\"symptomCodes\":[\"NOT_COOLING\",\"GAS_ODOR\"],\"safetyEvidence\":[{\"indicator\":\"GAS_SMELL\",\"span\":\"there is a bit of a gas smell back there, though it's probably nothing and just smells weird\"}],\"severityHint\":\"CRITICAL\",\"severityEvidenceSpan\":\"there is a bit of a gas smell back there, though it's probably nothing and just smells weird\",\"reportedDowntime\":false}",
+  "tokens": 2067,
+  "latencyMs": 8212,
+  "recordedAt": "2026-09-15T15:50:51.460Z"
+}

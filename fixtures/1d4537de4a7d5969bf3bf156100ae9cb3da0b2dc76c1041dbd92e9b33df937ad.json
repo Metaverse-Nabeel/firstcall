@@ -1,0 +1,9 @@
+{
+  "key": "1d4537de4a7d5969bf3bf156100ae9cb3da0b2dc76c1041dbd92e9b33df937ad",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\":\"The Garland L810 grill, asset GRL-01 located on the front line, is producing an unusual noise and showing a control board error.\",\"vendorInstructions\":\"Inspect the front line grill to diagnose the control board error and investigate the unusual noise.\"}",
+  "tokens": 1471,
+  "latencyMs": 3796,
+  "recordedAt": "2026-09-15T15:44:44.564Z"
+}

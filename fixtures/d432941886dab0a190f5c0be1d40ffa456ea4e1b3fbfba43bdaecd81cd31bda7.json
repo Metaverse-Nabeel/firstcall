@@ -1,0 +1,9 @@
+{
+  "key": "d432941886dab0a190f5c0be1d40ffa456ea4e1b3fbfba43bdaecd81cd31bda7",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v2",
+  "responseText": "{\"assetMentions\":[{\"surfaceText\":\"pos 01\",\"type\":\"POS_TERMINAL\",\"ordinalHint\":1,\"locationHint\":null,\"modelHint\":null}],\"symptomCodes\":[],\"safetyEvidence\":[],\"severityHint\":null,\"severityEvidenceSpan\":null,\"reportedDowntime\":false}",
+  "tokens": 1362,
+  "latencyMs": 3792,
+  "recordedAt": "2026-09-15T15:54:33.435Z"
+}

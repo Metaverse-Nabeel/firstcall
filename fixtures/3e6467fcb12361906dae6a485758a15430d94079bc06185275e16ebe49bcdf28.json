@@ -1,0 +1,9 @@
+{
+  "key": "3e6467fcb12361906dae6a485758a15430d94079bc06185275e16ebe49bcdf28",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\":\"The Rheem water heater, model BTH-199 with asset tag WTR-01 located in the back of house, is experiencing a control board error.\",\"vendorInstructions\":\"Proceed to the back of house to inspect the water heater and address the control board error.\"}",
+  "tokens": 1639,
+  "latencyMs": 4152,
+  "recordedAt": "2026-09-15T15:42:31.014Z"
+}

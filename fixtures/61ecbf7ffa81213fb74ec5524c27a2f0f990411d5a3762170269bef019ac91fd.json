@@ -1,0 +1,9 @@
+{
+  "key": "61ecbf7ffa81213fb74ec5524c27a2f0f990411d5a3762170269bef019ac91fd",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "decide-llm/v1",
+  "responseText": "{\"verdict\":\"COVERED\",\"expiresOn\":\"2027-07-02\",\"reasoning\":\"The reach-in freezer failed within its 24-month warranty period, the preventive-maintenance log is complete, and thermostat drift is not a wear or consumable item.\"}",
+  "tokens": 1274,
+  "latencyMs": 3211,
+  "recordedAt": "2026-09-15T15:44:03.782Z"
+}

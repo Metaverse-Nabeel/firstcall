@@ -1,0 +1,9 @@
+{
+  "key": "969c3127a999e9560067e54de2441f2e60ac47981a613945103ad0e232ba5e5c",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v2",
+  "responseText": "{\"assetMentions\":[{\"surfaceText\":\"GRL-01\",\"type\":\"GRILL\",\"ordinalHint\":1,\"locationHint\":null,\"modelHint\":null},{\"surfaceText\":\"FRY-01\",\"type\":\"FRYER\",\"ordinalHint\":1,\"locationHint\":null,\"modelHint\":null}],\"symptomCodes\":[\"THERMOSTAT_DRIFT\",\"OVERHEATING\"],\"safetyEvidence\":[],\"severityHint\":null,\"severityEvidenceSpan\":null,\"reportedDowntime\":false}",
+  "tokens": 2775,
+  "latencyMs": 7146,
+  "recordedAt": "2026-09-15T15:51:35.534Z"
+}

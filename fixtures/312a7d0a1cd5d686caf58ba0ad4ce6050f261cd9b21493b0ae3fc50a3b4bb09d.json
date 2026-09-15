@@ -1,0 +1,9 @@
+{
+  "key": "312a7d0a1cd5d686caf58ba0ad4ce6050f261cd9b21493b0ae3fc50a3b4bb09d",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\":\"The front line Taylor grill, asset GRL-02, is experiencing intermittent operation, overheating, and a water leak that poses a slip hazard.\",\"vendorInstructions\":\"Inspect grill GRL-02 at the front line to diagnose and repair the overheating, intermittent operation, and water leak.\"}",
+  "tokens": 1635,
+  "latencyMs": 5447,
+  "recordedAt": "2026-09-15T15:40:38.805Z"
+}

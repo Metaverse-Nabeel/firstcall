@@ -1,0 +1,9 @@
+{
+  "key": "2ceb30fca605390f5cf17711a9543605a53858a64e38f08c31f7d57dc3985d0c",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "decide-llm/v1",
+  "responseText": "{\"verdict\":\"COVERED\",\"expiresOn\":\"2026-06-27\",\"reasoning\":\"The water heater failed within the 36-month warranty period which expires on 2026-06-27.\"}",
+  "tokens": 1228,
+  "latencyMs": 3167,
+  "recordedAt": "2026-09-15T15:48:16.490Z"
+}

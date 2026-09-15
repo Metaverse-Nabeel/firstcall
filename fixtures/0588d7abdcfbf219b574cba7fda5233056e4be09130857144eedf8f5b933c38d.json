@@ -1,0 +1,9 @@
+{
+  "key": "0588d7abdcfbf219b574cba7fda5233056e4be09130857144eedf8f5b933c38d",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v2",
+  "responseText": "{\"assetMentions\":[{\"surfaceText\":\"coffee brewer\",\"type\":\"COFFEE_BREWER\",\"ordinalHint\":null,\"locationHint\":null,\"modelHint\":null}],\"symptomCodes\":[\"INTERMITTENT_OPERATION\"],\"safetyEvidence\":[],\"severityHint\":null,\"severityEvidenceSpan\":null,\"reportedDowntime\":false}",
+  "tokens": 1678,
+  "latencyMs": 4518,
+  "recordedAt": "2026-09-15T15:49:10.953Z"
+}

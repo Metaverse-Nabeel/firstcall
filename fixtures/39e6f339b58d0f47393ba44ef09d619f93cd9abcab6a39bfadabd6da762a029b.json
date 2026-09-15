@@ -1,0 +1,9 @@
+{
+  "key": "39e6f339b58d0f47393ba44ef09d619f93cd9abcab6a39bfadabd6da762a029b",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\":\"POS-02, a Toast XR7 POS terminal located at the front counter, is experiencing breaker trips.\",\"vendorInstructions\":\"Inspect POS-02 at the front counter to diagnose and resolve the breaker trip issue.\"}",
+  "tokens": 1346,
+  "latencyMs": 3398,
+  "recordedAt": "2026-09-15T15:43:54.967Z"
+}

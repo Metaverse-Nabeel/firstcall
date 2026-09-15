@@ -1,0 +1,9 @@
+{
+  "key": "336e7aaf17dd977bc3522a31cc685322f855ea3ea4924b31595b5991a8f581d7",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v2",
+  "responseText": "{\"assetMentions\":[{\"surfaceText\":\"FRZ-01\",\"type\":\"REACH_IN_FREEZER\",\"ordinalHint\":null,\"locationHint\":\"front line\",\"modelHint\":null}],\"symptomCodes\":[\"VIBRATION\"],\"safetyEvidence\":[],\"severityHint\":null,\"severityEvidenceSpan\":null,\"reportedDowntime\":false}",
+  "tokens": 2033,
+  "latencyMs": 5330,
+  "recordedAt": "2026-09-15T15:53:47.822Z"
+}

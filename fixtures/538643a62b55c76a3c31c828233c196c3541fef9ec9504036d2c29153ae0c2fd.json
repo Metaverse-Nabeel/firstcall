@@ -1,0 +1,9 @@
+{
+  "key": "538643a62b55c76a3c31c828233c196c3541fef9ec9504036d2c29153ae0c2fd",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "decide-llm/v1",
+  "responseText": "{\n  \"verdict\": \"VOIDED_NO_PM\",\n  \"expiresOn\": \"2026-08-28\",\n  \"reasoning\": \"The warranty is voided because the reach-in freezer has an incomplete preventive-maintenance log despite failing within the 24-month term.\"\n}",
+  "tokens": 1097,
+  "latencyMs": 2964,
+  "recordedAt": "2026-09-15T15:51:22.349Z"
+}

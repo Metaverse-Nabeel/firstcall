@@ -1,0 +1,9 @@
+{
+  "key": "b5c3b008785b6afcb83601d3d124cf45b7fbdd8227d8ce649dfc0b122321be0a",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\": \"The True reach-in freezer FRZ-02, model T-49F, located in the back prep area is not cooling.\", \"vendorInstructions\": \"Inspect reach-in freezer FRZ-02 in back prep to diagnose and repair the cooling issue.\"}",
+  "tokens": 1390,
+  "latencyMs": 3354,
+  "recordedAt": "2026-09-15T15:46:01.347Z"
+}

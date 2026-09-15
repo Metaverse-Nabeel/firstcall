@@ -1,0 +1,9 @@
+{
+  "key": "0ce4bf0df83a74332b812bf956d3d3a01553e2e071ba55da61cb9fb83a9d4b61",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "decide-llm/v1",
+  "responseText": "{\"verdict\": \"COVERED\", \"expiresOn\": \"2028-11-17\", \"reasoning\": \"The fryer failed within the 36-month warranty period, the preventive-maintenance log is complete, and the reported thermostat drift is not a wear or consumable item.\"}",
+  "tokens": 1075,
+  "latencyMs": 3250,
+  "recordedAt": "2026-09-15T15:42:10.242Z"
+}

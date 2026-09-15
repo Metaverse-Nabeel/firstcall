@@ -1,0 +1,9 @@
+{
+  "key": "d02bb608c78cf62534038d1f9a60deb3663d636e6618e4187e8ce5a624f4ae54",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\":\"The True reach-in freezer, model G22010, asset tag FRZ-03, located in the back prep area is experiencing a control board error.\",\"vendorInstructions\":\"Inspect the control board on the True reach-in freezer in the back prep area to diagnose the reported error.\"}",
+  "tokens": 1855,
+  "latencyMs": 4877,
+  "recordedAt": "2026-09-15T15:54:13.517Z"
+}

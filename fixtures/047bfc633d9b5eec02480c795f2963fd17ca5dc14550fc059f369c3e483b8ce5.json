@@ -1,0 +1,9 @@
+{
+  "key": "047bfc633d9b5eec02480c795f2963fd17ca5dc14550fc059f369c3e483b8ce5",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\":\"The Pitco EVO-8000 fryer, asset tag FRY-03 located on the front line, is experiencing intermittent operation.\",\"vendorInstructions\":\"Inspect the front line Pitco EVO-8000 fryer, asset tag FRY-03, to diagnose and resolve the intermittent operation issue.\"}",
+  "tokens": 1234,
+  "latencyMs": 3058,
+  "recordedAt": "2026-09-15T15:48:05.187Z"
+}

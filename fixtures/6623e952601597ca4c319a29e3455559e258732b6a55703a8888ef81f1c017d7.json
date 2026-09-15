@@ -1,0 +1,9 @@
+{
+  "key": "6623e952601597ca4c319a29e3455559e258732b6a55703a8888ef81f1c017d7",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "decide-llm/v1",
+  "responseText": "{\n  \"verdict\": \"COVERED\",\n  \"expiresOn\": \"2028-05-06\",\n  \"reasoning\": \"The repair is covered because the failure occurred within the 24-month warranty term and the reported symptoms involve a non-consumable component.\"\n}",
+  "tokens": 1116,
+  "latencyMs": 2838,
+  "recordedAt": "2026-09-15T15:51:38.376Z"
+}

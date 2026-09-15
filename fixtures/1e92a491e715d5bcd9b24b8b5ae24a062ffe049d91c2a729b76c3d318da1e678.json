@@ -1,0 +1,9 @@
+{
+  "key": "1e92a491e715d5bcd9b24b8b5ae24a062ffe049d91c2a729b76c3d318da1e678",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v2",
+  "responseText": "{\"assetMentions\":[{\"surfaceText\":\"unit XZY-92\",\"type\":\"UNKNOWN_TYPE\",\"ordinalHint\":null,\"locationHint\":null,\"modelHint\":null}],\"symptomCodes\":[\"NOT_COOLING\",\"INTERMITTENT_OPERATION\"],\"safetyEvidence\":[{\"indicator\":\"FOOD_SAFETY_TEMP_BREACH\",\"span\":\"we have stock inside that is going to spoil\"}],\"severityHint\":null,\"severityEvidenceSpan\":null,\"reportedDowntime\":false}",
+  "tokens": 2993,
+  "latencyMs": 9106,
+  "recordedAt": "2026-09-15T15:53:21.690Z"
+}

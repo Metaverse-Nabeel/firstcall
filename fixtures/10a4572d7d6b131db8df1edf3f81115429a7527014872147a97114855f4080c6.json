@@ -1,0 +1,9 @@
+{
+  "key": "10a4572d7d6b131db8df1edf3f81115429a7527014872147a97114855f4080c6",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\":\"The Toast TT-300 POS terminal with asset tag POS-01 in the drive-thru has been reported for service.\",\"vendorInstructions\":\"Inspect the Toast TT-300 POS terminal at the drive-thru location upon arrival.\"}",
+  "tokens": 2001,
+  "latencyMs": 5427,
+  "recordedAt": "2026-09-15T15:54:44.072Z"
+}

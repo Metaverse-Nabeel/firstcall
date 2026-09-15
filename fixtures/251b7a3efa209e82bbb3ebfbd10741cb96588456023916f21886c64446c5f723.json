@@ -1,0 +1,9 @@
+{
+  "key": "251b7a3efa209e82bbb3ebfbd10741cb96588456023916f21886c64446c5f723",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "decide-llm/v1",
+  "responseText": "{\n  \"verdict\": \"NOT_COVERED\",\n  \"expiresOn\": \"2022-01-21\",\n  \"reasoning\": \"The asset was sold with a warranty term of zero months, meaning it has no warranty coverage.\"\n}",
+  "tokens": 941,
+  "latencyMs": 2496,
+  "recordedAt": "2026-09-15T15:41:00.773Z"
+}

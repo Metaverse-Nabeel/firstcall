@@ -1,0 +1,9 @@
+{
+  "key": "7aef0ba597eff891810da6a7c9b9f31443542ffd6d03c94724d49a9224733b71",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\":\"POS-02, an NCR TT-300 POS terminal located in the drive-thru, is experiencing a breaker trip.\",\"vendorInstructions\":\"Inspect the unit and check the electrical connections to diagnose the breaker trip issue.\"}",
+  "tokens": 1650,
+  "latencyMs": 4924,
+  "recordedAt": "2026-09-15T15:52:04.382Z"
+}

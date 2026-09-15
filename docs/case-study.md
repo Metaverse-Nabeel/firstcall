@@ -190,6 +190,30 @@ tightening the model, because the lexicon is still unioned in and needs no span.
 **Safety precision is still 0.33 against a 0.60 target.** Two iterations is the limit I set
 in advance, so it ships as a documented risk rather than a third round of tuning.
 
+### The ablation: who should decide warranty
+
+Identical cases, clock and registry. The **only** change is where the warranty verdict comes
+from.
+
+| | Rules (shipped) | LLM decides |
+|---|---|---|
+| Routing accuracy | **90.0%** | 80.0% |
+| **Covered → paid vendor** | **0** | **1** |
+| Recommended leakage (adjusted) | **0.0%** | 4.2% |
+| Autonomy | **35.0%** | 31.7% |
+
+**The LLM-decides variant is the only configuration in this entire evaluation that routes a
+covered asset to a paid vendor.** That is the E3 red-gate cell: shipped, it would fail the
+build. It is one case out of 24, which at 336 reports/year is roughly $780 a year walking
+out of the door from a single failure mode — and unlike a rule, it has no line number to fix.
+
+**Caveat, and it cuts against this result.** The intended opponent was `gemini-3.6-flash` at
+`thinkingLevel: high`. Its per-model daily quota was exhausted mid-evaluation, so this ran on
+`gemini-3.5-flash-lite` at `thinkingLevel: high` — still thinking-enabled and still stronger
+than the shipped config, but **weaker than intended**. A weaker opponent flatters the rules,
+so the *size* of this gap is provisional. The direction is not: a stochastic warranty verdict
+produces an error class the deterministic one cannot.
+
 ### Baselines
 
 | | Null (always dispatch) | Keyword only | FirstCall |
@@ -264,10 +288,9 @@ the honest recommendation is "buy a data cleanup project, not an AI product."**
    sweep proving no covered asset can reach a paid vendor.
 4. **n=60, deliberately skewed** ~6× toward the warranty boundary. Absolute rates here are
    not production estimates.
-5. **The ablation is implemented but not yet run** — free-tier daily quota was exhausted
-   mid-evaluation. The claim that rules beat an LLM on warranty is currently supported by
-   argument and by the injection results, **not** by the measured comparison it deserves.
-   That is a real gap and it is stated in the report rather than omitted.
+5. **The ablation ran against a weaker opponent than intended.** `gemini-3.6-flash`'s daily
+   quota was exhausted, so the comparison used `flash-lite` at high thinking. The gap's
+   direction is sound; its magnitude is provisional until re-run.
 6. **Synthetic reports.** Real intake will contain failure modes absent here.
 
 **What I would not ship:** autonomous vendor dispatch at any confidence; a
@@ -299,5 +322,6 @@ downstream stages too: changing EXTRACT's output re-records DRAFT.
 changing it invalidates every fixture and scorecard. `npm run eval` exits 1 on any red gate,
 so regressions break the build rather than quietly degrading a number in a document.
 
-**First three things I would do next:** run the ablation; fix safety precision; and instrument
-registry-miss rate, which the τ sweep identifies as the real constraint on autonomy.
+**First three things I would do next:** re-run the ablation against `gemini-3.6-flash` once
+quota resets; fix safety precision; and instrument registry-miss rate, which the τ sweep
+identifies as the real constraint on autonomy.

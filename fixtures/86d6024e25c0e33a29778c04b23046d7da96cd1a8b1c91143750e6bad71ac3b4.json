@@ -1,0 +1,9 @@
+{
+  "key": "86d6024e25c0e33a29778c04b23046d7da96cd1a8b1c91143750e6bad71ac3b4",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\": \"The asset has experienced a complete failure and is currently out of service.\", \"vendorInstructions\": \"Inspect the unit to diagnose the cause of the complete failure and perform necessary repairs.\"}",
+  "tokens": 1228,
+  "latencyMs": 3108,
+  "recordedAt": "2026-09-15T15:53:00.011Z"
+}

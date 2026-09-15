@@ -1,0 +1,9 @@
+{
+  "key": "2e8f1e1c1383da6bb3d030e8c572122802b6adc932e01628048f86d78e701a9d",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\":\"The equipment is experiencing a breaker trip resulting in reported downtime.\",\"vendorInstructions\":\"Inspect the electrical breaker and circuit to diagnose and resolve the fault.\"}",
+  "tokens": 2249,
+  "latencyMs": 6919,
+  "recordedAt": "2026-09-15T15:50:32.536Z"
+}

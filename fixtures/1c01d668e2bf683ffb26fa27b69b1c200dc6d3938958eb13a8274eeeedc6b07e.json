@@ -1,0 +1,9 @@
+{
+  "key": "1c01d668e2bf683ffb26fa27b69b1c200dc6d3938958eb13a8274eeeedc6b07e",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\":\"Bally walk-in cooler WIC-02 in the back of house was reported.\",\"vendorInstructions\":\"Inspect Bally walk-in cooler WIC-02 in the back of house.\"}",
+  "tokens": 2297,
+  "latencyMs": 6346,
+  "recordedAt": "2026-09-15T15:52:50.289Z"
+}

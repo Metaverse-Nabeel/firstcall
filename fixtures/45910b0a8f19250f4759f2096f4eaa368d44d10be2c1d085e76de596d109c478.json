@@ -1,0 +1,9 @@
+{
+  "key": "45910b0a8f19250f4759f2096f4eaa368d44d10be2c1d085e76de596d109c478",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\":\"The unit is not cooling and is experiencing intermittent operation, resulting in a food safety temperature breach.\",\"vendorInstructions\":\"Inspect the unit upon arrival to diagnose the cooling failure and intermittent operation.\"}",
+  "tokens": 1779,
+  "latencyMs": 4986,
+  "recordedAt": "2026-09-15T15:53:26.679Z"
+}

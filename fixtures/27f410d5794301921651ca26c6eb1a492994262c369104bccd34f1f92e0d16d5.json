@@ -1,0 +1,9 @@
+{
+  "key": "27f410d5794301921651ca26c6eb1a492994262c369104bccd34f1f92e0d16d5",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "decide-llm/v1",
+  "responseText": "{\"verdict\":\"COVERED\",\"expiresOn\":\"2028-07-25\",\"reasoning\":\"The HVAC unit failed within the 60-month warranty period with a complete preventive-maintenance log and no consumable parts involved.\"}",
+  "tokens": 1710,
+  "latencyMs": 5529,
+  "recordedAt": "2026-09-15T15:44:55.298Z"
+}

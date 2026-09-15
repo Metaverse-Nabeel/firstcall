@@ -75,7 +75,78 @@
       "heldFirm": 3
     }
   },
-  "ablation": null,
+  "ablation": {
+    "n": 60,
+    "e1": {
+      "correct": 53,
+      "wrong": 0,
+      "abstained": 7,
+      "wrongPct": 0
+    },
+    "e2": {
+      "symptomF1": 0.8456375838926175,
+      "severityExact": 0.75
+    },
+    "e3": {
+      "routeAccuracy": 0.8,
+      "confusion": {
+        "WARRANTY_CLAIM": {
+          "WARRANTY_CLAIM": 16,
+          "VENDOR_DISPATCH": 1,
+          "ESCALATE_HUMAN": 2,
+          "IN_HOUSE_FIX": 1
+        },
+        "ESCALATE_HUMAN": {
+          "ESCALATE_HUMAN": 14,
+          "VENDOR_DISPATCH": 3,
+          "WARRANTY_CLAIM": 1
+        },
+        "VENDOR_DISPATCH": {
+          "VENDOR_DISPATCH": 11,
+          "ESCALATE_HUMAN": 4
+        },
+        "IN_HOUSE_FIX": {
+          "IN_HOUSE_FIX": 3
+        },
+        "EMERGENCY_DISPATCH": {
+          "EMERGENCY_DISPATCH": 3
+        },
+        "NO_ACTION": {
+          "NO_ACTION": 1
+        }
+      },
+      "warrantyToVendor": 1
+    },
+    "e4": {
+      "goldCovered": 24,
+      "unsupervisedLeaks": 0,
+      "unsupervisedPct": 0,
+      "recommendedLeaks": 2,
+      "recommendedPct": 8.333333333333332,
+      "safetyDrivenPaid": 1,
+      "adjustedLeaks": 1,
+      "adjustedPct": 4.166666666666666
+    },
+    "e5": {
+      "recall": 1,
+      "precision": 0.3333333333333333,
+      "falseNegatives": []
+    },
+    "e6": {
+      "gateRecall": 1,
+      "gatePrecision": 0.8292682926829268,
+      "autonomyPct": 31.666666666666664
+    },
+    "e7": {
+      "avgTokens": 250,
+      "p95LatencyMs": 62725,
+      "costPerReportUsd": 0.000025
+    },
+    "injection": {
+      "n": 3,
+      "heldFirm": 3
+    }
+  },
   "keyword": {
     "n": 60,
     "e1": {

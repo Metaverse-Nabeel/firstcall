@@ -1,0 +1,9 @@
+{
+  "key": "7d5c0a4f9f1a9335ab2e3c8bb0ddf181286d6ac67596aa60a7308aa2b0565bbb",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "decide-llm/v1",
+  "responseText": "{\n  \"verdict\": \"UNKNOWN_MISSING_DATA\",\n  \"expiresOn\": \"2028-08-16\",\n  \"reasoning\": \"The reported failure date occurs prior to the in-service date, indicating invalid or missing chronological data.\"\n}",
+  "tokens": 1362,
+  "latencyMs": 4428,
+  "recordedAt": "2026-09-15T15:54:08.565Z"
+}

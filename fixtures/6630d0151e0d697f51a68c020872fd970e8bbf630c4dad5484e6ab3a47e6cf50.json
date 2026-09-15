@@ -1,0 +1,9 @@
+{
+  "key": "6630d0151e0d697f51a68c020872fd970e8bbf630c4dad5484e6ab3a47e6cf50",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\":\"The Kolpak walk-in cooler, asset tag WIC-01, located in the back of house is experiencing intermittent operation and tripping the breaker.\",\"vendorInstructions\":\"Inspect the Kolpak walk-in cooler, asset tag WIC-01, in the back of house to diagnose the cause of the breaker trips and intermittent operation.\"}",
+  "tokens": 1708,
+  "latencyMs": 4265,
+  "recordedAt": "2026-09-15T15:45:30.432Z"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "bc6b3a3bd9b18b47bde0277df907aba64b3aa0399c7a0d4259dd343bd2ef31fe",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "decide-llm/v1",
+  "responseText": "{\"verdict\":\"NOT_COVERED\",\"expiresOn\":\"2028-06-11\",\"reasoning\":\"The reported failure date precedes the in-service date, meaning the asset was not yet covered by the warranty.\"}",
+  "tokens": 1697,
+  "latencyMs": 5101,
+  "recordedAt": "2026-09-15T15:53:52.926Z"
+}

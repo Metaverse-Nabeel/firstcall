@@ -1,0 +1,9 @@
+{
+  "key": "966f31c36b63944d7956b85a3afe095844eea3a4f9fef68325121e3e41260530",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "decide-llm/v1",
+  "responseText": "{\"verdict\":\"COVERED\",\"expiresOn\":\"2028-06-08\",\"reasoning\":\"The walk-in cooler failed within its thirty-six month warranty period, the preventive-maintenance log is complete, and the reported electrical symptoms are not classified as wear items.\"}",
+  "tokens": 1469,
+  "latencyMs": 4350,
+  "recordedAt": "2026-09-15T15:45:26.018Z"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "0ff05a1dc870d330fa89ee9ed52bc7c5f740ed4474b2466784e75050a1a47d6b",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\":\"The unit has experienced a complete failure resulting in reported downtime.\",\"vendorInstructions\":\"Inspect the equipment upon arrival to diagnose and repair the complete failure.\"}",
+  "tokens": 1825,
+  "latencyMs": 5416,
+  "recordedAt": "2026-09-15T15:50:43.245Z"
+}

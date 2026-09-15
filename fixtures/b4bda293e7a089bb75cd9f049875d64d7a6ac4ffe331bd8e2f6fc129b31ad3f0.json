@@ -1,0 +1,9 @@
+{
+  "key": "b4bda293e7a089bb75cd9f049875d64d7a6ac4ffe331bd8e2f6fc129b31ad3f0",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "decide-llm/v1",
+  "responseText": "{\n  \"verdict\": \"BOUNDARY_REVIEW\",\n  \"expiresOn\": \"2027-12-24\",\n  \"reasoning\": \"The failure date precedes the in-service date, requiring boundary review of the asset records.\"\n}",
+  "tokens": 1418,
+  "latencyMs": 4243,
+  "recordedAt": "2026-09-15T15:53:37.734Z"
+}

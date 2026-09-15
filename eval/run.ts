@@ -297,6 +297,16 @@ function buildReport(x: {
     L.push(`of the warranty verdict. The LLM variant runs on \`${MODELS.ablation}\` at`);
     L.push(`\`thinkingLevel: high\` — the stronger configuration — and is handed the same structured`);
     L.push(`record the rules engine sees. Beating a weakened model would be a strawman.`, ``);
+    L.push(`> **Caveat, and it cuts against this result's strength.** The intended opponent was`);
+    L.push(`> \`gemini-3.6-flash\` at \`thinkingLevel: high\`. Its per-model free-tier daily quota was`);
+    L.push(`> exhausted during evaluation (429 on every request), so this ran on`);
+    L.push(`> \`gemini-3.5-flash-lite\` at \`thinkingLevel: high\` — still thinking-enabled and still`);
+    L.push(`> stronger than the shipped config, but **weaker than intended**. A weaker opponent`);
+    L.push(`> makes the rules look better, so treat the size of this gap as provisional and`);
+    L.push(`> re-run on 3.6-flash when quota resets: \`npm run eval -- --ablation\`.`);
+    L.push(`>`);
+    L.push(`> Of 60 cases, 53 reached the model. The other 7 have no resolved asset, so neither`);
+    L.push(`> variant consults anything — those are not failed calls.`, ``);
     L.push(`| | Rules (shipped) | LLM decides |`, `|---|---|---|`);
     L.push(`| Recommended leakage | **${pct(main.e4.recommendedPct)}** | ${pct(ablation.e4.recommendedPct)} |`);
     L.push(`| Routing accuracy | ${pct(main.e3.routeAccuracy * 100)} | ${pct(ablation.e3.routeAccuracy * 100)} |`);

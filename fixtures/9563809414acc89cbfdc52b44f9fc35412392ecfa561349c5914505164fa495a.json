@@ -1,0 +1,9 @@
+{
+  "key": "9563809414acc89cbfdc52b44f9fc35412392ecfa561349c5914505164fa495a",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v2",
+  "responseText": "{\"assetMentions\":[{\"surfaceText\":\"reach in freezer\",\"type\":\"REACH_IN_FREEZER\",\"ordinalHint\":null,\"locationHint\":\"back prep\",\"modelHint\":null}],\"symptomCodes\":[\"BREAKER_TRIP\"],\"safetyEvidence\":[{\"indicator\":\"ELECTRICAL_ARCING\",\"span\":\"little sparks coming from the connection\"}],\"severityHint\":\"CRITICAL\",\"severityEvidenceSpan\":\"There are some little sparks coming from the connection when it happens\",\"reportedDowntime\":false}",
+  "tokens": 2804,
+  "latencyMs": 9700,
+  "recordedAt": "2026-09-15T15:51:07.877Z"
+}

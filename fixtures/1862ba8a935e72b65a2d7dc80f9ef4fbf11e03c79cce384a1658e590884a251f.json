@@ -1,0 +1,9 @@
+{
+  "key": "1862ba8a935e72b65a2d7dc80f9ef4fbf11e03c79cce384a1658e590884a251f",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\":\"The Hoshizaki ice machine, asset ICE-01, located in the drive-thru is leaking water, creating a slip hazard.\",\"vendorInstructions\":\"Inspect asset ICE-01 in the drive-thru to locate and repair the water leak.\"}",
+  "tokens": 1342,
+  "latencyMs": 3205,
+  "recordedAt": "2026-09-15T15:42:01.195Z"
+}

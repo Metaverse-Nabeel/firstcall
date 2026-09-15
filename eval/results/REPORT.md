@@ -6,7 +6,7 @@ clean clone with no API key: `npm ci && npm run eval`.
 | | |
 |---|---|
 | Model | `gemini-3.5-flash-lite` @ `thinkingLevel: low` |
-| Ablation model | `gemini-3.6-flash` @ `thinkingLevel: high` (deliberately stronger) |
+| Ablation model | `gemini-3.5-flash-lite` @ `thinkingLevel: high` (deliberately stronger) |
 | Clock | `2026-06-01T00:00:00Z` frozen |
 | Registry | sha256 `a2fcfbea85434409f66b293d1ffcc68ce1c40c204f607a84705a46764ffcc548`, 236 assets, seed 20260601 |
 | Cases | 60 (35 normal / 17 edge / 8 failure) |
@@ -49,17 +49,30 @@ first and the warranty claim filed afterwards, so that is correct behaviour and 
 leakage — but it *is* an adjustment made after seeing the data, so both the raw and
 adjusted figures are published. The affected case is inspectable in the case set.
 
-## Ablation — NOT RUN
+## Ablation — who should decide warranty
 
-> The rules-vs-LLM ablation is specified, implemented (`src/agent/decide-llm.ts`,
-> `npm run eval -- --ablation`) and **not yet executed**, because the free-tier
-> daily quota was exhausted during evaluation. `gemini-3.6-flash` returns 429
-> immediately and `gemini-3.5-flash-lite` is throttled to ~60s per call.
+Identical cases, identical clock, identical registry. The **only** change is the source
+of the warranty verdict. The LLM variant runs on `gemini-3.5-flash-lite` at
+`thinkingLevel: high` — the stronger configuration — and is handed the same structured
+record the rules engine sees. Beating a weakened model would be a strawman.
+
+> **Caveat, and it cuts against this result's strength.** The intended opponent was
+> `gemini-3.6-flash` at `thinkingLevel: high`. Its per-model free-tier daily quota was
+> exhausted during evaluation (429 on every request), so this ran on
+> `gemini-3.5-flash-lite` at `thinkingLevel: high` — still thinking-enabled and still
+> stronger than the shipped config, but **weaker than intended**. A weaker opponent
+> makes the rules look better, so treat the size of this gap as provisional and
+> re-run on 3.6-flash when quota resets: `npm run eval -- --ablation`.
 >
-> It is listed here as missing rather than omitted quietly. The central claim of
-> this project — that warranty determination should not be the LLM — is therefore
-> currently supported by argument and by the injection results, **not** by the
-> measured comparison it deserves. Run it when quota resets.
+> Of 60 cases, 53 reached the model. The other 7 have no resolved asset, so neither
+> variant consults anything — those are not failed calls.
+
+| | Rules (shipped) | LLM decides |
+|---|---|---|
+| Recommended leakage | **4.2%** | 8.3% |
+| Routing accuracy | 90.0% | 80.0% |
+| Warranty → paid vendor | 0 | 1 |
+| Autonomy | 35.0% | 31.7% |
 
 ## Baselines
 

@@ -1,0 +1,9 @@
+{
+  "key": "f64388c3219ff78b426a82f78ca3cc2b0e5c8ae5e806146cb93dda5c625d23c2",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\":\"The front line fryer, asset FRY-02, is displaying a control board error.\",\"vendorInstructions\":\"Inspect the control board on fryer FRY-02 to diagnose the reported error.\"}",
+  "tokens": 1174,
+  "latencyMs": 2870,
+  "recordedAt": "2026-09-15T15:48:34.468Z"
+}
