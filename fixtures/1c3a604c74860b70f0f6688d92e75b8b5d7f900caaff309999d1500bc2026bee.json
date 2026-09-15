@@ -1,0 +1,8 @@
+{
+  "key": "1c3a604c74860b70f0f6688d92e75b8b5d7f900caaff309999d1500bc2026bee",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\n  \"symptomSummary\": \"Heavy ice is building up inside FRY-02 on the front line.\",\n  \"vendorInstructions\": \"Inspect the fryer on arrival to diagnose the cause of the ice buildup.\"\n}",
+  "tokens": 489,
+  "recordedAt": "2026-09-15T13:22:26.510Z"
+}

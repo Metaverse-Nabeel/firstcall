@@ -1,0 +1,8 @@
+{
+  "key": "d0f5c927b5edd054d7048697b0c4cca23d4db3fcfb8c3c04761d1122ff3fcd42",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\n  \"symptomSummary\": \"The unit has experienced a complete failure and has no power.\",\n  \"vendorInstructions\": \"Inspect the unit to diagnose the cause of the power loss and complete necessary repairs.\"\n}",
+  "tokens": 414,
+  "recordedAt": "2026-09-15T13:23:47.368Z"
+}

@@ -1,0 +1,8 @@
+{
+  "key": "7042bcbe2e76282d00f7a501d4a92349394eac46323a42029a10dcb4c6768e7c",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\n  \"symptomSummary\": \"The Bunn coffee brewer, asset tag BRW-02 located at the front counter, is overheating and presenting a burn hazard.\",\n  \"vendorInstructions\": \"Inspect asset BRW-02 at the front counter to diagnose and repair the overheating issue.\"\n}",
+  "tokens": 470,
+  "recordedAt": "2026-09-15T13:23:11.589Z"
+}

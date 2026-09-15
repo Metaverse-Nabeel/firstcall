@@ -1,0 +1,8 @@
+{
+  "key": "fbdb041a0d0a1c0c2470af04587d4be2de5e8632b4022e8e204161e04af4bb5e",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\n  \"symptomSummary\": \"The unit is not cooling and there is a reported gas odor.\",\n  \"vendorInstructions\": \"Inspect the equipment for cooling failure and investigate the source of the gas smell.\"\n}",
+  "tokens": 465,
+  "recordedAt": "2026-09-15T13:23:56.244Z"
+}

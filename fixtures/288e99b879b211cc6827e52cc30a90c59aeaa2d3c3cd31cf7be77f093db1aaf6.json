@@ -1,0 +1,8 @@
+{
+  "key": "288e99b879b211cc6827e52cc30a90c59aeaa2d3c3cd31cf7be77f093db1aaf6",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v1",
+  "responseText": "{\n  \"assetMentions\": [\n    {\n      \"surfaceText\": \"XZY-90\",\n      \"type\": \"UNKNOWN_TYPE\",\n      \"ordinalHint\": null,\n      \"locationHint\": null,\n      \"modelHint\": null\n    }\n  ],\n  \"symptomCodes\": [\n    \"COMPLETE_FAILURE\",\n    \"NO_POWER\"\n  ],\n  \"safetyIndicators\": [],\n  \"severityHint\": \"HIGH\",\n  \"severityEvidenceSpan\": \"completely dead and out of service\",\n  \"reportedDowntime\": true\n}",
+  "tokens": 542,
+  "recordedAt": "2026-09-15T13:25:04.113Z"
+}

@@ -1,0 +1,8 @@
+{
+  "key": "10b226118aea3607ed6a342aa825ad1989e4dd7fad48b0436125d0b9429ed611",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\": \"The grill is causing the breaker to trip repeatedly.\", \"vendorInstructions\": \"Inspect the grill and electrical connection to diagnose and resolve the tripping breaker.\"}",
+  "tokens": 397,
+  "recordedAt": "2026-09-15T13:23:38.454Z"
+}

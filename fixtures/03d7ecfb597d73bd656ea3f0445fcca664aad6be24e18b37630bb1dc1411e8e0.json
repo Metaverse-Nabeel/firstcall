@@ -1,0 +1,8 @@
+{
+  "key": "03d7ecfb597d73bd656ea3f0445fcca664aad6be24e18b37630bb1dc1411e8e0",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v1",
+  "responseText": "{\n  \"assetMentions\": [\n    {\n      \"surfaceText\": \"BRW-02\",\n      \"type\": \"COFFEE_BREWER\",\n      \"ordinalHint\": 2,\n      \"locationHint\": \"front counter\",\n      \"modelHint\": null\n    }\n  ],\n  \"symptomCodes\": [\n    \"OVERHEATING\"\n  ],\n  \"safetyIndicators\": [\n    \"BURN_HAZARD\"\n  ],\n  \"severityHint\": \"MEDIUM\",\n  \"severityEvidenceSpan\": \"running much hotter than normal\",\n  \"reportedDowntime\": false\n}",
+  "tokens": 546,
+  "recordedAt": "2026-09-15T13:23:07.008Z"
+}

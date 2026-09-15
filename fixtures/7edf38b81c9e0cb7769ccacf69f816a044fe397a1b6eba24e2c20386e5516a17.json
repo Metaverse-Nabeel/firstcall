@@ -1,0 +1,8 @@
+{
+  "key": "7edf38b81c9e0cb7769ccacf69f816a044fe397a1b6eba24e2c20386e5516a17",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\n  \"symptomSummary\": \"POS terminal POS-02 is experiencing breaker trips and a clogged drain.\",\n  \"vendorInstructions\": \"Inspect POS-02 at the drive-thru location to diagnose and repair the breaker trip and clogged drain issues.\"\n}",
+  "tokens": 508,
+  "recordedAt": "2026-09-15T13:24:32.549Z"
+}

@@ -1,0 +1,8 @@
+{
+  "key": "95c864f96704c9a13cc9faa121cf2ee0516d500889673be2e3768a59033b153e",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\n  \"symptomSummary\": \"The equipment experiences intermittent operation and cuts out during use.\",\n  \"vendorInstructions\": \"Inspect the unit to diagnose the cause of the intermittent power loss and repair as needed.\"\n}",
+  "tokens": 412,
+  "recordedAt": "2026-09-15T13:23:20.288Z"
+}

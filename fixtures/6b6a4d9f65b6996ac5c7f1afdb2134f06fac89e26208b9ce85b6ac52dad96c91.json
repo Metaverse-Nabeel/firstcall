@@ -1,0 +1,8 @@
+{
+  "key": "6b6a4d9f65b6996ac5c7f1afdb2134f06fac89e26208b9ce85b6ac52dad96c91",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\n  \"symptomSummary\": \"The unit experiences intermittent operation and keeps tripping the breaker.\",\n  \"vendorInstructions\": \"Inspect the electrical connections and breaker status upon arrival.\"\n}",
+  "tokens": 411,
+  "recordedAt": "2026-09-15T13:23:29.326Z"
+}

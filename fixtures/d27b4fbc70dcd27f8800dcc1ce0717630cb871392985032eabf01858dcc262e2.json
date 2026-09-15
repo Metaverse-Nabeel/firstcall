@@ -1,0 +1,8 @@
+{
+  "key": "d27b4fbc70dcd27f8800dcc1ce0717630cb871392985032eabf01858dcc262e2",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v1",
+  "responseText": "{\n  \"assetMentions\": [\n    {\n      \"surfaceText\": \"fryer\",\n      \"type\": \"FRYER\",\n      \"ordinalHint\": null,\n      \"locationHint\": null,\n      \"modelHint\": null\n    }\n  ],\n  \"symptomCodes\": [\n    \"BREAKER_TRIP\",\n    \"INTERMITTENT_OPERATION\"\n  ],\n  \"safetyIndicators\": [],\n  \"severityHint\": \"MEDIUM\",\n  \"severityEvidenceSpan\": \"keeps tripping the breaker\",\n  \"reportedDowntime\": false\n}",
+  "tokens": 515,
+  "recordedAt": "2026-09-15T13:23:25.005Z"
+}

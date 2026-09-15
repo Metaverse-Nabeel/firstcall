@@ -1,0 +1,8 @@
+{
+  "key": "bc5a2dc69796f7ee0135aacccab17203a0e466b39e8f4f58242635b3c38d60c4",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\n  \"symptomSummary\": \"Walk-in cooler asset WIC-02 located in the back of house requires inspection.\",\n  \"vendorInstructions\": \"Inspect asset WIC-02 in the back of house to verify operational status.\"\n}",
+  "tokens": 470,
+  "recordedAt": "2026-09-15T13:24:59.339Z"
+}

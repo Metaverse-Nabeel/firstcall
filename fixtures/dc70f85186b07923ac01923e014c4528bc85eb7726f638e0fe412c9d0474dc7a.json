@@ -1,0 +1,8 @@
+{
+  "key": "dc70f85186b07923ac01923e014c4528bc85eb7726f638e0fe412c9d0474dc7a",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\n  \"symptomSummary\": \"The Pitco fryer, asset tag FRY-03 located on the front line, is experiencing intermittent operation.\",\n  \"vendorInstructions\": \"Inspect fryer FRY-03 on the front line to diagnose the intermittent operation issue.\"\n}",
+  "tokens": 471,
+  "recordedAt": "2026-09-15T13:22:35.464Z"
+}

@@ -1,0 +1,8 @@
+{
+  "key": "a56fecd86fe6a2ba725afa9c46d3e79f88eaa595c48955a3b7f9873e3c176f87",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v1",
+  "responseText": "{\n  \"assetMentions\": [\n    {\n      \"surfaceText\": \"WIC-02\",\n      \"type\": \"WALK_IN_COOLER\",\n      \"ordinalHint\": 2,\n      \"locationHint\": \"back of house\",\n      \"modelHint\": null\n    }\n  ],\n  \"symptomCodes\": [],\n  \"safetyIndicators\": [],\n  \"severityHint\": null,\n  \"severityEvidenceSpan\": null,\n  \"reportedDowntime\": false\n}",
+  "tokens": 547,
+  "recordedAt": "2026-09-15T13:24:55.167Z"
+}

@@ -1,0 +1,8 @@
+{
+  "key": "d85728f6def3c51da228dce5d9c82a3caf91c53ca4a926d60ec3689af5ca228d",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\": \"The Garland grill GRL-01 located on the front line is making an unusual noise and displaying a control board error.\", \"vendorInstructions\": \"Inspect the grill for the reported noise and diagnose the control board error upon arrival.\"}",
+  "tokens": 469,
+  "recordedAt": "2026-09-15T13:21:23.480Z"
+}

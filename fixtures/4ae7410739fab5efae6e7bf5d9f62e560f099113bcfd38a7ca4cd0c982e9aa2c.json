@@ -1,0 +1,8 @@
+{
+  "key": "4ae7410739fab5efae6e7bf5d9f62e560f099113bcfd38a7ca4cd0c982e9aa2c",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v1",
+  "responseText": "{\n  \"assetMentions\": [\n    {\n      \"surfaceText\": \"fryer\",\n      \"type\": \"FRYER\",\n      \"ordinalHint\": null,\n      \"locationHint\": null,\n      \"modelHint\": null\n    }\n  ],\n  \"symptomCodes\": [\n    \"COMPLETE_FAILURE\",\n    \"NO_POWER\"\n  ],\n  \"safetyIndicators\": [],\n  \"severityHint\": \"HIGH\",\n  \"severityEvidenceSpan\": \"fryer is dead down cant use it\",\n  \"reportedDowntime\": true\n}",
+  "tokens": 514,
+  "recordedAt": "2026-09-15T13:23:42.896Z"
+}

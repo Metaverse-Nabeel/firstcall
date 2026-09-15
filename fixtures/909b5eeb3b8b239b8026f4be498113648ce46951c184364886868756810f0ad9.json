@@ -1,0 +1,8 @@
+{
+  "key": "909b5eeb3b8b239b8026f4be498113648ce46951c184364886868756810f0ad9",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v1",
+  "responseText": "{\n  \"assetMentions\": [\n    {\n      \"surfaceText\": \"DSH-01\",\n      \"type\": \"DISHWASHER\",\n      \"ordinalHint\": 1,\n      \"locationHint\": \"back prep\",\n      \"modelHint\": null\n    }\n  ],\n  \"symptomCodes\": [\n    \"VIBRATION\"\n  ],\n  \"safetyIndicators\": [],\n  \"severityHint\": \"MEDIUM\",\n  \"severityEvidenceSpan\": \"as soon as possible\",\n  \"reportedDowntime\": false\n}",
+  "tokens": 537,
+  "recordedAt": "2026-09-15T13:22:57.882Z"
+}

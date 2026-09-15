@@ -1,0 +1,8 @@
+{
+  "key": "d480c98c695f25a5a5137e3e17e838644c25769cac111bdda32e55ab39fead66",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v1",
+  "responseText": "{\n  \"assetMentions\": [\n    {\n      \"surfaceText\": \"DSH-01\",\n      \"type\": \"DISHWASHER\",\n      \"ordinalHint\": 1,\n      \"locationHint\": \"back prep area\",\n      \"modelHint\": null\n    }\n  ],\n  \"symptomCodes\": [\n    \"BREAKER_TRIP\",\n    \"COMPLETE_FAILURE\"\n  ],\n  \"safetyIndicators\": [],\n  \"severityHint\": \"HIGH\",\n  \"severityEvidenceSpan\": \"keeps tripping the breaker again. Every time we try to run a rack it just dies on us\",\n  \"reportedDowntime\": true\n}",
+  "tokens": 591,
+  "recordedAt": "2026-09-15T13:22:12.931Z"
+}

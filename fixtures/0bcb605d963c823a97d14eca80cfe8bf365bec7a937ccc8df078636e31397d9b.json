@@ -1,0 +1,8 @@
+{
+  "key": "0bcb605d963c823a97d14eca80cfe8bf365bec7a937ccc8df078636e31397d9b",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\n  \"symptomSummary\": \"Hobart dishwasher DSH-01 in back prep is experiencing a complete failure, clogged drain, and keeps tripping the breaker when running a rack.\",\n  \"vendorInstructions\": \"Inspect dishwasher DSH-01 in back prep to diagnose and repair the electrical, drainage, and power failure issues.\"\n}",
+  "tokens": 518,
+  "recordedAt": "2026-09-15T13:22:17.374Z"
+}

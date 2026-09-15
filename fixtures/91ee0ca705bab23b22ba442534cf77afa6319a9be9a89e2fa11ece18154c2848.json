@@ -1,0 +1,8 @@
+{
+  "key": "91ee0ca705bab23b22ba442534cf77afa6319a9be9a89e2fa11ece18154c2848",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v1",
+  "responseText": "{\n  \"assetMentions\": [\n    {\n      \"surfaceText\": \"FRY-02\",\n      \"type\": \"FRYER\",\n      \"ordinalHint\": 2,\n      \"locationHint\": \"front line\",\n      \"modelHint\": null\n    }\n  ],\n  \"symptomCodes\": [\n    \"ICE_BUILDUP\"\n  ],\n  \"safetyIndicators\": [],\n  \"severityHint\": \"LOW\",\n  \"severityEvidenceSpan\": \"we need someone to take a look when they get a chance\",\n  \"reportedDowntime\": false\n}",
+  "tokens": 585,
+  "recordedAt": "2026-09-15T13:22:22.016Z"
+}

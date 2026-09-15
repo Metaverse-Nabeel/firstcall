@@ -1,0 +1,8 @@
+{
+  "key": "1964aee232711e4e99cfa0d07bd783ebd567c0b88c768f89a100e6696e0be217",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\": \"The CaptiveAire ND2-40 hood exhaust at the front line has experienced a complete failure with a control board error and thermostat drift.\", \"vendorInstructions\": \"Inspect the control board error and thermostat drift on the hood exhaust unit.\"}",
+  "tokens": 492,
+  "recordedAt": "2026-09-15T13:21:59.294Z"
+}

@@ -1,0 +1,8 @@
+{
+  "key": "53c449f3ff9497e2d8d29b0ec5c4fe5879463188731abe5215300d086e36eced",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\": \"The Manitowoc ice machine model IYT0500A located at the drive-thru with asset tag ICE-02 has a control board error, display error, and ice buildup. The control board is throwing an error code that will not clear.\", \"vendorInstructions\": \"Inspect the control board and display on asset ICE-02 at the drive-thru to diagnose and clear the error codes and ice buildup.\"}",
+  "tokens": 524,
+  "recordedAt": "2026-09-15T13:24:50.587Z"
+}

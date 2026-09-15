@@ -1,0 +1,8 @@
+{
+  "key": "8e2462df1a48c948d441e13403babfa3248e4c103a420e8a053a4bce8a5ea207",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\n  \"symptomSummary\": \"The front line reach in freezer FRZ-02 is not cooling, is overheating, and is emitting smoke.\",\n  \"vendorInstructions\": \"Arrive on site to inspect and service the reach in freezer.\"\n}",
+  "tokens": 506,
+  "recordedAt": "2026-09-15T13:24:14.405Z"
+}

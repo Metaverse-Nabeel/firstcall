@@ -1,0 +1,8 @@
+{
+  "key": "59f59cd3825fc91462e112afc1127b8c7c9c7ab598210894f91d054ca3715e7d",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v1",
+  "responseText": "{\n  \"assetMentions\": [\n    {\n      \"surfaceText\": \"FRY-03\",\n      \"type\": \"FRYER\",\n      \"ordinalHint\": 3,\n      \"locationHint\": \"front line\",\n      \"modelHint\": null\n    }\n  ],\n  \"symptomCodes\": [\n    \"INTERMITTENT_OPERATION\"\n  ],\n  \"safetyIndicators\": [],\n  \"severityHint\": \"MEDIUM\",\n  \"severityEvidenceSpan\": \"It works fine sometimes and then just cuts out randomly in the middle of the rush.\",\n  \"reportedDowntime\": false\n}",
+  "tokens": 559,
+  "recordedAt": "2026-09-15T13:22:31.320Z"
+}

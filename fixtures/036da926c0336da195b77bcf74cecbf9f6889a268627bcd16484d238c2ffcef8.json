@@ -1,0 +1,8 @@
+{
+  "key": "036da926c0336da195b77bcf74cecbf9f6889a268627bcd16484d238c2ffcef8",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v1",
+  "responseText": "{\"assetMentions\":[{\"surfaceText\":\"GRL-01\",\"type\":\"GRILL\",\"ordinalHint\":null,\"locationHint\":null,\"modelHint\":null},{\"surfaceText\":\"FRY-01\",\"type\":\"FRYER\",\"ordinalHint\":null,\"locationHint\":null,\"modelHint\":null}],\"symptomCodes\":[\"NOT_HEATING\",\"OVERHEATING\"],\"safetyIndicators\":[\"FOOD_SAFETY_TEMP_BREACH\"],\"severityHint\":\"MEDIUM\",\"severityEvidenceSpan\":\"neither one of them is holding temperature properly and when you open them up the inside is really warm\",\"reportedDowntime\":false}",
+  "tokens": 585,
+  "recordedAt": "2026-09-15T13:24:19.018Z"
+}

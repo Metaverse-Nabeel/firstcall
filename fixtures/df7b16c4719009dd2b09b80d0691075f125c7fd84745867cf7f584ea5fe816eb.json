@@ -1,0 +1,8 @@
+{
+  "key": "df7b16c4719009dd2b09b80d0691075f125c7fd84745867cf7f584ea5fe816eb",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\n  \"symptomSummary\": \"Walk-in cooler WIC-01 at the back of house has experienced a complete failure after repeatedly tripping the breaker and operating intermittently.\",\n  \"vendorInstructions\": \"Inspect walk-in cooler WIC-01 in the back of house to diagnose the electrical breaker tripping and restore operation.\"\n}",
+  "tokens": 520,
+  "recordedAt": "2026-09-15T13:21:50.282Z"
+}

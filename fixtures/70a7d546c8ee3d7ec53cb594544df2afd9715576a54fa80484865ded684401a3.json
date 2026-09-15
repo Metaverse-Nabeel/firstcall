@@ -1,0 +1,8 @@
+{
+  "key": "70a7d546c8ee3d7ec53cb594544df2afd9715576a54fa80484865ded684401a3",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\": \"The Garland grill, asset tag GRL-02, located on the front line has experienced a complete failure with a display error.\", \"vendorInstructions\": \"Inspect the unit upon arrival to diagnose the display and power issues.\"}",
+  "tokens": 489,
+  "recordedAt": "2026-09-15T13:21:41.221Z"
+}

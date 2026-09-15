@@ -11,8 +11,20 @@ that costs money to get wrong.**
 The money metric is **warranty leakage**: paying a vendor to repair an asset still under
 manufacturer warranty. Baseline ≈ **$16.5k/yr** for an 80-store chain.
 
-> Built as a 5-day, 40-hour-capped product sprint. Full reasoning in
-> [`docs/case-study.md`](docs/case-study.md); the agent contract is in [`AGENT.md`](AGENT.md).
+> Built as a 5-day, 40-hour-capped product sprint.
+
+| | |
+|---|---|
+| **Case study + handoff** | [`docs/case-study.md`](docs/case-study.md) |
+| Problem, baseline, decision rights | [`docs/problem.md`](docs/problem.md) |
+| Solution design | [`docs/design.md`](docs/design.md) |
+| Warranty & routing policy | [`docs/warranty-policy.md`](docs/warranty-policy.md) |
+| Evaluation report | [`eval/results/REPORT.md`](eval/results/REPORT.md) |
+| 60-day validation plan | [`docs/validation-plan.md`](docs/validation-plan.md) |
+| AI & tool-use note | [`docs/ai-tool-use.md`](docs/ai-tool-use.md) |
+| Prior-work disclosure | [`docs/prior-work-disclosure.md`](docs/prior-work-disclosure.md) |
+| Agent contract | [`AGENT.md`](AGENT.md) |
+| Daily process notes | [`docs/process/`](docs/process/) |
 
 ---
 
@@ -83,6 +95,18 @@ cannot exercise headlessly.
 All data is **synthetic** and produced by committed generators (`npm run gen:registry`,
 `npm run gen:cases`) from a pinned seed whose SHA-256 is printed in every report. No real
 or employer data appears anywhere in this repository.
+
+## Reproducing the evaluation
+
+```bash
+npm run eval -- --all     # scorecard + ablation + tau sweep + baselines -> eval/results/
+npm test                  # 33 unit tests of the rules engine against the policy document
+```
+
+Determinism rests on `temperature: 0`, `topK: 1`, a pinned model version, versioned prompt
+strings, a frozen clock at `2026-06-01T00:00:00Z`, and a content-addressed fixture cache. The
+residual is **measured, not assumed** — `EVAL_MODE=live npm run eval -- --repeat 3` reports
+the flip rate.
 
 ## License
 

@@ -1,0 +1,8 @@
+{
+  "key": "98b678df13521de40d6190a4349b4064f5ab2657f9a24c467dbf7348962749fd",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\n  \"symptomSummary\": \"The Taylor grill, asset tag GRL-01 located on the front line, is not heating properly and is overheating, resulting in a food safety temperature breach.\",\n  \"vendorInstructions\": \"Inspect grill GRL-01 on the front line to diagnose and resolve the heating and temperature regulation issues.\"\n}",
+  "tokens": 539,
+  "recordedAt": "2026-09-15T13:24:23.449Z"
+}

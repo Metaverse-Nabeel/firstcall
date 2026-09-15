@@ -1,0 +1,8 @@
+{
+  "key": "d8441c7d1724d7ddd1ee00869385edcc584317d735d552b3b81bc4314977a512",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\": \"The Henny Penny fryer FRY-02 located on the front line is displaying a control board error code that will not clear.\", \"vendorInstructions\": \"Inspect the control board and diagnose the display error on arrival.\"}",
+  "tokens": 460,
+  "recordedAt": "2026-09-15T13:22:53.294Z"
+}

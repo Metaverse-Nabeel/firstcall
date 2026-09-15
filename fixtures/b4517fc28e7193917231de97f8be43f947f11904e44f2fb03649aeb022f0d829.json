@@ -1,0 +1,8 @@
+{
+  "key": "b4517fc28e7193917231de97f8be43f947f11904e44f2fb03649aeb022f0d829",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\": \"The back prep dishwasher asset tag DSH-01 is experiencing excessive vibration during operation cycles.\", \"vendorInstructions\": \"Inspect the Hobart dishwasher on arrival to diagnose the source of the vibration.\"}",
+  "tokens": 442,
+  "recordedAt": "2026-09-15T13:23:02.315Z"
+}

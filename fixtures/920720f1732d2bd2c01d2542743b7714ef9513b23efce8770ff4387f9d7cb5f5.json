@@ -1,0 +1,8 @@
+{
+  "key": "920720f1732d2bd2c01d2542743b7714ef9513b23efce8770ff4387f9d7cb5f5",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v1",
+  "responseText": "{\n  \"assetMentions\": [\n    {\n      \"surfaceText\": \"GRL-01\",\n      \"type\": \"GRILL\",\n      \"ordinalHint\": 1,\n      \"locationHint\": \"front line\",\n      \"modelHint\": null\n    }\n  ],\n  \"symptomCodes\": [\n    \"UNUSUAL_NOISE\",\n    \"CONTROL_BOARD_ERROR\"\n  ],\n  \"safetyIndicators\": [],\n  \"severityHint\": null,\n  \"severityEvidenceSpan\": null,\n  \"reportedDowntime\": false\n}",
+  "tokens": 549,
+  "recordedAt": "2026-09-15T13:21:18.930Z"
+}

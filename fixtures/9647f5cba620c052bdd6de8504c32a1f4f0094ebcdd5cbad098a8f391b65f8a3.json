@@ -1,0 +1,8 @@
+{
+  "key": "9647f5cba620c052bdd6de8504c32a1f4f0094ebcdd5cbad098a8f391b65f8a3",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\": \"Ice machine ICE-02 located in the drive-thru is making an unusual noise during operation.\", \"vendorInstructions\": \"Inspect the ice machine on arrival to diagnose and repair the noise issue.\"}",
+  "tokens": 460,
+  "recordedAt": "2026-09-15T13:24:41.700Z"
+}

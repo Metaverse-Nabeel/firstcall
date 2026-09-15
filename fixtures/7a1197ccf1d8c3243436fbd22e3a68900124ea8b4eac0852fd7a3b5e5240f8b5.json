@@ -1,0 +1,8 @@
+{
+  "key": "7a1197ccf1d8c3243436fbd22e3a68900124ea8b4eac0852fd7a3b5e5240f8b5",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\n  \"symptomSummary\": \"The unit is experiencing breaker trips and intermittent operation accompanied by electrical arcing.\",\n  \"vendorInstructions\": \"Inspect the electrical connection and breaker to address the arcing and tripping issues.\"\n}",
+  "tokens": 468,
+  "recordedAt": "2026-09-15T13:24:05.299Z"
+}

@@ -1,0 +1,8 @@
+{
+  "key": "77bf76ba160c7b814615fd756e63f765f477b5c17eebd26bf7fac67eb3c1052e",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\n  \"symptomSummary\": \"The True reach-in freezer, asset tag FRZ-02 in the back prep area, is not cooling and is overheating, resulting in a food safety temperature breach.\",\n  \"vendorInstructions\": \"Inspect the True reach-in freezer, asset tag FRZ-02, to diagnose the cooling failure and overheating issues.\"\n}",
+  "tokens": 518,
+  "recordedAt": "2026-09-15T13:22:08.473Z"
+}

@@ -1,0 +1,8 @@
+{
+  "key": "2b78051518f38d67be69f820534ddc922bcf440d8c06fc993f51d5c18ceeb91b",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "extract/v1",
+  "responseText": "{\n  \"assetMentions\": [\n    {\n      \"surfaceText\": \"RTU-01\",\n      \"type\": \"HVAC_RTU\",\n      \"ordinalHint\": 1,\n      \"locationHint\": \"roof\",\n      \"modelHint\": null\n    }\n  ],\n  \"symptomCodes\": [\n    \"BREAKER_TRIP\",\n    \"INTERMITTENT_OPERATION\"\n  ],\n  \"safetyIndicators\": [],\n  \"severityHint\": \"MEDIUM\",\n  \"severityEvidenceSpan\": \"We had to stop using it for now.\",\n  \"reportedDowntime\": true\n}",
+  "tokens": 577,
+  "recordedAt": "2026-09-15T13:21:28.038Z"
+}
