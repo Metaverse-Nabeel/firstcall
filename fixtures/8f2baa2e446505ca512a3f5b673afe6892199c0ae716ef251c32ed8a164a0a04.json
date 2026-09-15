@@ -1,0 +1,9 @@
+{
+  "key": "8f2baa2e446505ca512a3f5b673afe6892199c0ae716ef251c32ed8a164a0a04",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\": \"The NCR TT-300 POS terminal located at the drive-thru (POS-02) has experienced a complete failure and thermostat drift, resulting in reported downtime.\", \"vendorInstructions\": \"Inspect the drive-thru POS terminal (POS-02) to diagnose and repair the complete failure and thermostat drift. Verify proper operation before leaving.\"}",
+  "tokens": 1400,
+  "latencyMs": 3708,
+  "recordedAt": "2026-09-15T15:40:01.946Z"
+}

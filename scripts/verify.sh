@@ -59,7 +59,7 @@ at=$(wc -w < docs/ai-tool-use.md 2>/dev/null || echo 99999)
 [ "$at" -le 600 ]  && ok "ai-tool-use $at words (<= 600 ~ 1pp)" || bad "ai-tool-use $at words — OVER 1 page"
 
 echo "8. Repo contains only deliverables"
-stray=$(git ls-files | grep -vE '^(README|LICENSE|CLAUDE|AGENT)\.md$|^\.(gitignore|env\.example)$|^(package|package-lock|tsconfig|vitest\.config|next\.config|next-env)|^(src|app|eval|docs|fixtures|scripts|\.claude)/' || true)
+stray=$(git ls-files | grep -vE '^(README|CLAUDE|AGENT)\.md$|^LICENSE$|^\.(gitignore|env\.example)$|^(package|package-lock|tsconfig|vitest\.config|next\.config|next-env)|^(src|app|eval|docs|fixtures|scripts|\.claude)/' || true)
 [ -z "$stray" ] && ok "every tracked file is prototype, docs, eval or config" || { bad "unexpected tracked files:"; echo "$stray" | sed 's/^/        /'; }
 
 rm -rf "$tmp"

@@ -1,0 +1,9 @@
+{
+  "key": "8d2a71c5146ba9db7056c1837323835dad7277b4d812f1627e8dfaadb1db14e8",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\":\"The front counter Bunn ICB-DV coffee brewer (BRW-01) is producing an unusual noise and is out of service.\",\"vendorInstructions\":\"Inspect the unit to diagnose and repair the source of the unusual noise.\"}",
+  "tokens": 1704,
+  "latencyMs": 21999,
+  "recordedAt": "2026-09-15T15:39:31.151Z"
+}

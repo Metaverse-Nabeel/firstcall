@@ -1,0 +1,9 @@
+{
+  "key": "de9daef947946934822396e88bcc6b4acfc2cebf5e34a42ed10221352d45c5ca",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "decide-llm/v1",
+  "responseText": "{\"verdict\":\"COVERED\",\"expiresOn\":\"2027-01-15\",\"reasoning\":\"The coffee brewer failure on 2026-06-01 occurred well within the 12-month warranty period expiring on 2027-01-15.\"}",
+  "tokens": 1298,
+  "latencyMs": 3641,
+  "recordedAt": "2026-09-15T15:39:08.291Z"
+}

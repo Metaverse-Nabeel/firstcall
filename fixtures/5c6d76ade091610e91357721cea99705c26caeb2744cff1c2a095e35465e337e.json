@@ -1,0 +1,9 @@
+{
+  "key": "5c6d76ade091610e91357721cea99705c26caeb2744cff1c2a095e35465e337e",
+  "modelId": "gemini-3.5-flash-lite",
+  "promptVersion": "draft/v1",
+  "responseText": "{\"symptomSummary\":\"Dishwasher DSH-01 in the back prep area has suffered a complete failure, showing a display error and experiencing a total loss of power.\",\"vendorInstructions\":\"Inspect dishwasher DSH-01 to diagnose the complete failure, display error, and lack of power.\"}",
+  "tokens": 1696,
+  "latencyMs": 4373,
+  "recordedAt": "2026-09-15T15:40:19.770Z"
+}
