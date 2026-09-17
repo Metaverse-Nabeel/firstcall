@@ -32,3 +32,4 @@ coverage/
 # --- scratch. Real working files belong in ../MUST-work/, a sibling of this repo. ---
 _work/
 scratch/
+.env*
