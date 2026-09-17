@@ -1,8 +1,22 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getResult } from "@/app/deps";
+import type { Route } from "@/src/agent/contracts";
 
 const TONE: Record<string, string> = { AUTONOMOUS: "ok", REVIEW: "warn", ESCALATE: "stop" };
+
+/**
+ * The button names the action the route actually takes. "Approve and dispatch" on a
+ * warranty claim or an escalation promises a dispatch that never happens.
+ */
+const APPROVE_LABEL: Record<Route, string> = {
+  NO_ACTION:          "Confirm",
+  IN_HOUSE_FIX:       "Approve in-house fix",
+  WARRANTY_CLAIM:     "Approve claim",
+  VENDOR_DISPATCH:    "Approve and dispatch",
+  EMERGENCY_DISPATCH: "Approve and dispatch",
+  ESCALATE_HUMAN:     "Acknowledge escalation",
+};
 
 export default async function Review({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
@@ -108,7 +122,7 @@ export default async function Review({ params }: { params: Promise<{ id: string 
 
       <div className="actions">
         <Link href={`/dispatch/${encodeURIComponent(r.reportId)}`} className="button">
-          {g.decision === "AUTONOMOUS" ? "Confirm" : "Approve and dispatch"}
+          {g.decision === "AUTONOMOUS" ? "Confirm" : APPROVE_LABEL[d.route]}
         </Link>
         <Link href="/" className="muted">Back to intake</Link>
       </div>
