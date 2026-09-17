@@ -1,0 +1,21 @@
+# Explicit upload denylist. The CLI also honours .gitignore, but the API key is not
+# something to protect by relying on a default — state it here too.
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+
+node_modules/
+.next/
+out/
+coverage/
+
+# Not needed to serve the app; keeps the upload small.
+docs/
+eval/results/
+*.mp4
+*.mov
+*.webm
